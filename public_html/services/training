@@ -1,0 +1,276 @@
+<?php
+   $inc_dir = $_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR . 'include' . DIRECTORY_SEPARATOR;
+   include $inc_dir . 'signature.php'; 
+?>
+
+<!-- Head section -->
+
+<head>
+
+<?php
+   include $inc_dir . 'head.html';
+ 
+?>
+
+<title>dot-art | Services for Artists | Training for Artists | Artists Workshops | Courses for Visual Artists | Art Courses Liverpool </title>
+
+
+<meta name="keywords" lang="en" content="training for artists, artists workshops, courses for visual artists, art courses liverpool, artists events, skills for artists" />
+<meta name="description" content="Liverpool based art consultants and gallery which operates unique membership systems to help artists sell art online and through exhibitions and other promotional opportunities.
+" />
+
+<link rel="stylesheet" href="/styles/lightwindow.css" type="text/css" />
+<script type="text/javascript" src="/scripts/lightwindow.js"></script>
+<script type="text/javascript" src="/scripts/popup.js"></script>
+
+
+</head>
+
+<body class="light">
+
+<div id="container">
+
+<?php
+  include $inc_dir . 'menunav.html';
+?>
+
+<div id="content">
+
+<h1>training</h1>
+
+<h3>professional development & skills for visual artists</h3>
+
+<p>We take pride in offering excellent training in a range of relavent subjects, for visual artists around the North West.
+But don't take our word for it, here are some comments from partipants on past courses:</p>
+
+<p><i>“I found this workshop the most useful I have ever attended...the time just flew by.”</i></p>
+<p><i>“This was a very useful, information dense workshop, filled with knowledge gained from experience and good suggestions of how to apply it.”</i></p>
+<p><i>“Exceeded all expectations”</i></p>
+
+
+<h3>current</h3>
+
+<ul>
+
+<p>More sessions coming soon. 
+To receive details of new courses, or to suggest new subjects, <a href="mailto:artists@dot-art.co.uk">send us an email.</a></p>
+
+
+</ul>
+
+
+<h3>past</h3>
+
+<p><b>2013</b></p>
+
+<ul>
+
+<li><p><b>Build Your Own Website <i><br>LED BY – Matthew Thomas</i><br>
+Tuesday evenings, 6.45-9.30pm, starts 16th April 2013.</b></p>
+<p>Using free software, you will learn to design, build optimise and publish your own website. 
+Suitable for complete beginners (no coding experience necessary), participants will need to bring a laptop.
+</p>
+<p><b>PRICE- £75 (5 sessions)</b></p> 
+</li>
+
+
+<li><p><b>Design Your Own Marketing Materials <i><br>LED BY – Matthew Thomas</i><br>
+Tuesday evenings, 6.45-9.30pm, starts 21st May 2013.</b></p>
+<p>Using free software, you will learn to design, and create your own Posters, Flyers, Letterheads, Business cards and more. 
+Suitable for complete beginners, participants will need to bring a laptop.
+</p>
+<p><b>PRICE- £75 (5 sessions)</b></p>
+</li>
+
+<li><b>BOOK BOTH THE ABOVE COURSES TOGETHER FOR JUST £135: Click BUY TICKETS above.</b>
+</li>
+
+</ul>
+
+<p><b>2012</b></p>
+
+<ul>
+
+<li><p><b>1-2-1 PR Feedback Sessions <i><br>LED BY – Laura Brown</i> (Part of the Liverpool Biennial Program)<br>
+Saturday 15th September 2012, 11am-4pm</b></p>
+<p>Book a ½ hour slot for individual feedback from PR professional Laura on your publicity strategy, press releases or other promo 
+materials for your arts project or event.
+</p>
+<p><b>PRICE- £10</b></p>
+<p>For more information, and to book, see 
+<a href="http://prfeedback.eventbrite.com/">prfeedback.eventbrite.com/</a><br>
+
+
+<li><p><b>DIY PR for Artists + Creatives <i><br>LED BY – Laura Brown</i> (Part of the Liverpool Biennial Program)<br>
+Thursday 13th September 2012, 4-6pm</b></p>
+<p>This short, practical, session will introduce you to wide range of ways of engaging with the media and 
+spreading the word about what you do. It will also include the opportunity to ask Laura any specific PR or marketing questions you may have.
+</p>
+<p><b>PRICE- £19</b></p>
+<p>For more information, and to book, see 
+<a href="http://creativepr12b.eventbrite.com/">creativepr12.eventbrite.com/</a><br>
+
+
+
+<li><p><b>The Opportunity of the Biennial <i><br>LED BY – Laura Brown</i> (Part of the Liverpool Biennial Program)<br>
+Thursday 13th September 2012, 12-3pm</b></p>
+<p>Make sure you take advantage of the opportunities created by the Biennial to raise the profile of your arts project / organisation / 
+event / work. This workshop examines the tools and techniques for profile raising including SEO, blog writing, social media, building 
+a database and audience, developing media relationships and much more.
+</p>
+<p><b>PRICE- £25</b></p>
+<p>For more information, and to book, see 
+<a href="http://opportunityofbiennial.eventbrite.com/">opportunityofbiennial.eventbrite.com</a><br>
+
+
+<li><p><b>Practical Social Media for Artists + Creatives <i><br>LED BY – Amanda Daniels, Koogar Digital Marketing</i> (Part of the Liverpool Biennial Program)<br>
+Saturday 8th September 2012, 9.30-5.30pm</b></p>
+<p>This practical, hands on day will introduce you to the basics of using a range of social media platforms to promote your 
+work / services / business as a creative. There are individual, two hour sessions on; FACEBOOK, TWITTER & YOUTUBE AND FLICKR, 
+which can be booked individually or as a set..</p>
+<p><b>PRICE- £19 each / £49 for set of 3</b></p>
+<p>For more information, and to book, see 
+<a href="http://creativesocialmedia12.eventbrite.com/">creativesocialmedia12.eventbrite.com/</a><br>
+
+
+<li><p><b>DIY PR for Artists + Creatives <i><br>LED BY – Laura Brown</i><br>
+Wednesday 27th June, 4-6pm</b></p>
+<p>This short, practical, session will introduce you to wide range of ways of engaging with the media and 
+spreading the word about what you do. It will also include the opportunity to ask Laura any specific PR or marketing questions you may have.
+</p>
+<p><b>PRICE- £19</b></p>
+<p>For more information, and to book, see 
+<a href="http://creativepr12.eventbrite.com/">creativepr12.eventbrite.com/</a><br>
+
+</ul>
+
+<p><b>2011</b></p>
+
+<ul>
+
+<li><p><b>Social Media for Artists <i><br>LED BY – Amanda Daniels, Koogar Digital Marketing</i><br>
+Friday 4th November, 9am-5pm</b></p>
+<p>This session will introduce artists to a range of social media platforms and how to make best use of them, 
+including; blogging, Facebook, Twitter, Flickr, You Tube, top tips, useful tools and much much more…</p>
+<p><b>PRICE- £25 (includes lunch and refreshments)</b></p>
+<p>For more information, and to book, see 
+<a href="http://www.eventbrite.com/event/2348137342">socialmediaforartists2.eventbrite.com</a></p> 
+</li>
+
+<li><p><b>How to Photograph Your Art Work – Individual Training <i><br>LED BY – Elaine Stapleton, Insight Photography</i><br>
+Friday 28th October, 1-7pm</b></p>
+<p>Artists and craftspeople working in any media can book a one hour, 1 to 1 session with professional photographer Elaine, in which she will use your own camera to photograph one of your works, and teach you how to repeat the process yourself.</p>
+<p><b>PRICE- £25 dot-art members / £30 non-members</b></p>
+<p>For more information, and to book, see <a href="http://photographingyourworksessions2.eventbrite.com/">photographingyourworksessions.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Community Engagement through the Arts - Practicalities and Funding <i><br>LED BY – Brian Dawe, SAFE Productions (Supporting Arts for Everyone)</i><br>
+Friday 7th October, 10am-4pm</b></p>
+<p>This practical workshop will introduce artists and practitioners to identifying appropriate funding streams to finance the delivery of your creative projects. </p>
+<p><b>PRICE- £25 (includes lunch and refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://communityartsfunding.eventbrite.com/">communityartsfunding.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Working with Young People and the Arts <i><br>LED BY – Brian Dawe, SAFE Productions (Supporting Arts for Everyone)</i><br>
+Wednesday 28th September, 10am-1pm</b></p>
+<p>This introductory session will give an insight into the tools, methods and approaches to delivering projects  and sessions with young people and the arts.</p>
+<p><b>PRICE- £15 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://youngpeopleandarts.eventbrite.com/">youngpeopleandarts.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Introduction to Setting up as a Self Employed Artist <i><br>LED BY – David Parrish, International Business Advisor for Creative People</i><br>
+Tuesday 13th September, 10am-1pm</b></p>
+<p>By the end of the workshop, participants will be confident about setting up in business and understanding the practicalities of registering 
+as self-employed, dealing with tax, and other administrative matters involved in making a business from creativity.</p>
+<p><b>PRICE- £15 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://selfemployedartist.eventbrite.com/">selfemployedartist.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Meet the Buyer - <i>Diana Hamilton, The Hamilton Project</i><br>
+Thursday 1st September, 6-8pm</b></p>
+<p>Diana is a co-founder of The Hamilton Project, a creative agency which specialises in two main areas – 
+the management, strategy, feasibility and delivery of public art; and capacity building, management, and delivery 
+within the cultural industries.</p>
+<p><b>PRICE- £10 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://meetthebuyer3.eventbrite.com/">meetthebuyer3.eventbrite.com</a></p>
+</li>
+
+<li><p><b>How to Photograph Your Art Work – Individual Training <i><br>LED BY – Elaine Stapleton, Insight Photography</i><br>
+Friday 19th August, 10am-7pm</b></p>
+<p>Artists and craftspeople working in any media can book a one hour, 1 to 1 session with professional photographer Elaine, in which she will use your own camera to photograph one of your works, and teach you how to repeat the process yourself.</p>
+<p><b>PRICE- £25 dot-art members / £30 non-members</b></p>
+<p>For more information, and to book, see <a href="http://photographingyourworksessions.eventbrite.com/">photographingyourworksessions.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Introduction to Digital Photography <i><br>LED BY – Jazamin Sinclair (Capture Photographers) and Jackie Stevens</i><br>
+Friday 22nd July, 10am-4pm</b></p>
+<p>This course will give participants an overview of what can be achieved with a digital camera, from basic to advanced; 
+including settings, techniques, functions, composition, editing and printing. </p>
+<p><b>PRICE- £25 (includes lunch and refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://digitalphotographyintroduction.eventbrite.com/">digitalphotographyintroduction.eventbrite.com</a></p>
+</li>
+
+
+<li><p><b>Meet the Buyer - <i>Vicki Charnock,  Alder Hey Hospital</i><br>
+Thursday 7th July, 6-8pm</b></p>
+<p>Vicky has been Arts Coordinator at Alder Hey Children’s NHS Foundation Trust since 2006 and is responsible for managing the Trust’s 
+ambitious Arts for Health programme. As part of this, she manages and commissions artists from around the North West to 
+develop arts for health programmes within the hospital.</p>
+<p><b>PRICE- £10 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://meetthebuyer2.eventbrite.com/">meetthebuyer2.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Introduction to Life Drawing <i><br>LED BY – Roy Munday</i><br>
+Thursday 30th June, 10am-4pm</b></p>
+<p>Designed for those new to life drawing or returning after a break, this session will give a basic introduction to the 
+skills needed for successful and productive life drawing, including how to measure in order to achieve correct proportions 
+and accurate drawing skills. </p>
+<p><b>PRICE- £25 (includes lunch and refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://lifedrawing.eventbrite.com/">lifedrawing.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Social Media for Artists <i><br>LED BY – Amanda Daniels, Koogar Digital Marketing</i><br>
+Friday 10th June, 9am-5pm</b></p>
+<p>This session will introduce artists to a range of social media platforms and how to make best use of them, 
+including; blogging, Facebook, Twitter, Flickr, You Tube, top tips, useful tools and much much more…</p>
+<p><b>PRICE- £25 (includes lunch and refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://socialmediaforartists.eventbrite.com/">socialmediaforartists.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Meet the Buyer - <i>Janet Dunnett, Inside Out Creative</i><br>
+Thursday 9th June, 6-8pm</b></p>
+<p>Janet has worked for many years delivering public art projects and commissions, both through Inside Out Creative, 
+and previous roles at the Piccadilly Partnership and Arts and Business. She has worked directly with artists 
+on many occasions and will outline what she looks for in a good partnership with an artist.</p>
+<p><b>PRICE- £10 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://meetthebuyer1.eventbrite.com/">meetthebuyer1.eventbrite.com</a></p>
+</li>
+
+<li><p><b>Introduction to Photographing your Work <i><br>LED BY – Elaine Stapleton, Insight Photography</i><br>
+Wednesday 8th June, 10am-1pm</b></p>
+<p>The aim of this session is to provide you with an overview of the skills required to take images of Fine Art. 
+The session also supplies you with all you need to know to enable you to get started taking images of your own art work.</p>
+<p><b>PRICE- £15 (includes refreshments)</b></p>
+<p>For more information, and to book, see <a href="http://photographingyourwork.eventbrite.com/">photographingyourwork.eventbrite.com</a></p>
+</li>
+
+</ul>
+
+<p>Our training events in 2011 were generously supported by Liverpool Vision.</p>
+<img src="images/liverpool-vision.jpg" title="Liverpool Vision Logo" alt="Liverpool Vision Logo">
+ 
+<p>Want to know more? <a href="mailto:enquiries@dot-art.co.uk">Just ask...</a></p>
+
+</div>
+
+<img src="/images/orange_band.jpg" title="dot-art Services CIC branding" alt="dot-art Services CIC branding"/>
+
+</div>
+
+<?php
+  include $inc_dir . 'analytics.html';
+?>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<div id="menu">
+
+<style type="text/css">
+
+.menu1 {
+  background-image:url(/images/menu_background.jpg);
+  background-repeat: no-repeat;
+  margin-left:10px;
+  margin-top:15px;
+  padding-left:20px;
+  padding-top:2px;
+  padding-bottom: 2px;
+  display:block;
+  text-decoration: none;
+  color: #000000;
+  height: 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.submenu {
+  background-image: url(/images/menu_background.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  height: 19px;
+  margin-left: 20px;
+  margin-top:15px;
+  padding-top: 2px;
+  padding-left: 20px;
+  color: #333333;
+  font-size: 0.7em;
+}
+
+</style>
+
+<script type="text/JavaScript">
+
+
+<!--
+
+function openMenu(sub_id) {
+    var menuIds = [ 'submenu1', 'submenu2', 'submenu3', 'submenu5', 'submenu6' ];
+
+   // Open or close the clicked menu item:
+   if (!$(sub_id).visible()) {
+      Effect.BlindDown(sub_id, { duration: 0.8 });
+   } else {
+      Effect.BlindUp(sub_id, { duration: 0.8 });
+   }
+   
+   // Close all others:
+   menuIds.each(function(item) {
+      if (item != sub_id && $(item).visible()) {
+         Effect.BlindUp(item, { duration: 0.8 });
+      }
+   });
+}
+//-->
+</script>
+
+<!-- Logo -->
+
+<p class="menu">
+  <a href="/">
+    <img src="/images/dot-art_small.gif" title="return to home page" alt="small dot:art&trade; logo" />
+  </a>
+</p>
+
+
+<!-- Menu Links -->
+
+<a class="menu1" href="/" title="return to home page">home</a>
+
+<a class="menu1" href="javascript:openMenu('submenu1');" id="menu1" title="view dot-art gallery">art gallery</a>
+<div id="submenu1" style="display: none;">
+   <a href="/pages/customers/buy-art.php" class="submenu">artists</a>
+   <a href="/pages/customers/search-art.php" class="submenu">search art</a>
+    <a href="/pages/gallery.php" class="submenu">what's on</a>
+    <a href="/pages/video.php" class="submenu">video</a>
+     <a href="/pages/customers/framing.php" class="submenu">framing</a>
+     <a href="/pages/customers/valuationandrestoration.php" class="submenu">valuation</a>
+     <a href="/pages/customers/valuationandrestoration.php" class="submenu">restoration</a>
+</div>
+
+<a class="menu1" href="javascript:openMenu('submenu2');" id="menu2" title="artists click here">artist support</a>
+<div id="submenu2" style="display: none;">
+   <a href="http://services.dot-art.com/index.php" class="submenu">membership</a>
+    <a href="http://services.dot-art.com/printing.php" class="submenu">fine art printing</a>
+    <a href="http://services.dot-art.com/creative-compass.php" class="submenu">creative compass</a>
+   <a href="http://services.dot-art.com/artist-studios.php" class="submenu">artist studios</a>
+    <a href="http://services.dot-art.com/artist-websites.php" class="submenu">artist websites</a>
+ <a href="http://services.dot-art.com/artist_testamonials.php" class="submenu">artist testimonials</a>
+ <a href="http://services.dot-art.com/training" class="submenu">training</a>                                                                                                               
+    <a href="http://services.dot-art.com/about.php" class="submenu">about</a>
+   <a href="http://services.dot-art.com/faqs.php" class="submenu">faqs</a>
+   
+</div>
+   
+
+<a class="menu1" href="javascript:openMenu('submenu3');" id="menu3" title="corporate art">corporate art</a>
+<div id="submenu3" style="display: none;">
+   <a href="/pages/customers/corporate-art.php" class="submenu">why and how</a>
+   <a href="/pages/customers/case-studies.php" class="submenu">case studies</a>
+   <a href="/pages/customers/commission-art.php" class="submenu">commission art</a>
+   <a href="/pages/customers/rent-art.php" class="submenu">rent art</a> 
+</div>
+
+<a class="menu1" href="/schools.php" title="dot-art Schools">schools</a>
+
+<a class="menu1" href="/pages/customers/register.php" title="register with dot-art">mailing list</a>
+
+<a class="menu1" href="/art-classes.php" title="art classes and courses">art classes</a>
+
+<a class="menu1" href="javascript:openMenu('submenu5');" id="menu5" title="click for whats new">news</a>
+<div id="submenu5" style="display: none;">
+   <a href="/pages/news.php" class="submenu">news</a>
+   <a href="/pages/news-archive.php" class="submenu">news archive</a>
+   <a href="/pages/press.php" class="submenu">press coverage</a>
+   <a href="/pages/press-archive.php" class="submenu">press archive</a>
+   <a href="/pages/press-releases.php" class="submenu">press releases</a>
+</div>
+
+<a class="menu1" href="javascript:openMenu('submenu6');" id="menu6" title="about dot-art">about us</a>
+<div id="submenu6" style="display: none;">
+   <a href="/pages/about-us.php" class="submenu">overview</a>
+    <a href="/pages/customers/faqs2.php" class="submenu">faqs</a>
+   <a href="/pages/testamonials.php" class="submenu">testimonials</a>
+   <a href="/pages/customers/legal.php" class="submenu">legal</a>
+</div>
+
+<a class="menu1" href="/pages/contact.php" title="contact information">contact</a>
+<a class="menu1" href="/pages/links.php" title="links page">links</a>
+<a class="menu1" href="/site_map.php" title="site map">site map</a>
+
+<form name="_xclick" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_cart" />
+<input type="hidden" name="no_shipping" value="2" />
+<input type="hidden" name="business" value="lucy.byrne@dot-art.co.uk" />
+<input type="image" src="/images/cart.jpg" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" title="view the contents of your basket" />
+<input type="hidden" name="display" value="1" />
+</form>
+
+
+<!-- PayPal Logo -->
+<table border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td align="center">
+<a href="#" onclick="javascript:window.open('https://www.paypal.com/uk/cgi-bin/webscr?cmd=xpt/cps/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img src="https://www.paypal.com/en_GB/i/logo/PayPal_mark_60x38.gif" alt="Solution Graphics" /></a>
+</td>
+</tr>
+</table>
+<!-- PayPal Logo -->
+
+</div>

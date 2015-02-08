@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^artists\ work/zoe\ stockton\(.*)$ /artists-work/zoe\ stockton\$1 [R=301,L]

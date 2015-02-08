@@ -1,0 +1,14 @@
+SetEnv APPLICATION_ENVIRONMENT development
+
+#RewriteEngine On
+
+#RewriteCond %{REQUEST_FILENAME} -s [OR]
+#RewriteCond %{REQUEST_FILENAME} -l [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^.*$ - [NC,L]
+#RewriteRule ^.*$ zend.php [NC,L]
+
+# x-mapp-php4
+<Files *artist>    
+ ForceType application/x-httpd-php
+</Files>

@@ -1,0 +1,428 @@
+html {
+	height: 100%;
+}
+
+body {
+   background-color: white;
+   font-family: Helvetica, Verdana, Arial, sans-serif;
+   font-weight: normal;
+   margin-left: 5%;
+   margin-right: 10%;
+   text-align: left;
+   height: 100%;
+}
+
+body.light, body.image {
+  background-color: #216DA1;  
+}
+
+body.light div#content {
+   background-color: white;  
+}
+
+body.dark {
+   background-color: white;
+}
+
+body.dark div#content {
+   background-color: #216DA1;
+}
+
+
+body.image div#content {
+   background-image: url(/images/watermark.gif);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+p { 
+   font-size: 0.7em;
+   font-weight: normal;
+   vertical-align: super;
+   text-align: justify;
+   color: #216DA1;
+}   
+
+h1 {
+   font-size: 4em;
+   font-weight: darker;
+   color: #216DA1;
+   text-align: right;
+}
+
+h2 {
+   font-size: 2em;
+   font-weight: normal;
+   color: #0089D1;
+   padding-bottom: 0.5em		
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #216DA1;
+  text-align: left;
+}
+
+ul {
+   vertical-align: super;
+   color: #216DA1;
+}     
+
+li {
+   font-size: 0.7em;
+   font-weight: normal;
+   margin: 10pt;  
+   text-align: justify;
+}
+
+li p {
+   font-size: 1em;
+}
+
+p.date {
+    color: #0089D1;
+}
+
+/* Styles for buttons */
+
+input {
+   color: #216DA1;
+}
+
+/* Styles for links */
+
+h3.artist h2.artist, h1.artist a {
+   color: #BCE2F7;
+}
+
+a:link, a:visited, a:active {
+   color: #0089D1;
+}
+
+a.corporate {
+   color: #BCE2F7;
+   text-decoration: none; 
+}
+
+a:hover {
+	color: #FFBC09;
+	text-decoration: none;
+}
+
+a.art_prices:link, a.art_prices:visited, a.art_prices:active {
+   color: #BCE2F7;
+}
+
+a.art_prices:hover {
+   color: #FFBC09;
+   text-decoration: none;
+}
+
+a.staff:link, a.staff:visited, a.staff:active {
+   color: silver;
+}
+
+a.submenu:link, a.submenu:visited, a.submenu:active {
+   text-decoration: none
+}
+
+a img {
+   border: none;
+}
+
+/* Style for index page only */
+
+body.index
+{
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.index p
+{
+   letter-spacing: 0.4em;
+	text-align: center;
+}
+
+p.continue
+{
+   text-align: right;
+}
+
+/* Style for menu panel only */
+
+a.menu
+{
+    text-decoration: none;
+}
+
+h3.menu
+{
+   text-align: left;
+   text-decoration: none;
+   font-size: 1em;
+    font-weight: lighter;
+   margin: 12%;
+}
+
+body.menu
+{
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: #FCFDFF;
+}
+
+.menu
+{
+   margin-top: 2em;
+   text-align: center;
+}
+
+.menu2
+{
+	text-align: center;
+	font-size: 0.6em;
+}
+
+h2.menu
+{
+	font-size: 1em;
+	 color: #216DA1;
+	  font-weight: bold;
+}
+
+/* Style for content panel */
+
+.form th {
+   font-weight: bold;
+	font-size: 0.8em;
+	color: #216DA1;
+	text-align: left;
+}
+
+.form td {
+	font-size: 0.8em;
+	color: #216DA1;
+	text-align: left;
+}
+
+.search th {
+   color:#216DA1;
+   font-size:1em;
+   text-align:left;
+}
+
+table.colour-picker {
+   width: 100%;
+   border: thin solid gray;
+}
+
+table.colour-picker td {
+   cursor: pointer;
+}
+
+h1.artist {
+   color: #BCE2F7;
+}
+
+h2.artist {
+   color: #BCE2F7;
+}
+
+
+h3.artist {
+   color: #BCE2F7;
+}
+
+
+p.artist {
+   color: #BCE2F7;
+}
+
+ul.artist
+{
+  color: #BCE2F7;
+}
+
+table.art {
+	font-size: 0.7em;	
+	color: #BCE2F7;
+}
+
+.art th {
+	font-size: 1.2em;
+}
+
+.art td {
+	text-align: center;
+}
+
+img.hlink {
+   cursor: pointer;
+}
+
+/* Styles for art pricing table */
+
+p.art_title {
+   color: #BCE2F7;
+   font-weight: bold;
+   font-size: 0.8em;
+}
+
+table.art_prices {
+	font-size: 0.7em;
+	color: #BCE2F7;
+	border-collapse: collapse;
+	border-bottom: 1pt solid #BCE2F7;
+}
+
+.art_prices th {
+	font-size: 1.2em;
+	border-top: 0.5pt solid #BCE2F7;
+	border-bottom: 1pt solid #BCE2F7;
+	text-align: left;
+}
+
+.art_prices td {
+   vertical-align: middle;
+}
+
+/* Style for 'Please wait...' message */
+
+.pleasewait {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   text-align: center;
+}
+
+div#menu {
+   float: left;
+   width: 120px;
+   top: 0;
+   bottom: 0;
+   background-color: white;
+}
+
+ div#content {
+   padding-left: 3%;
+   padding-right: 3%; 
+   margin-left: 0%;
+   float: left;
+   top: 0;
+   bottom: 0;
+   width: 763px;
+   background-color: white;
+}
+ 
+div#form {
+   background-color:white;
+   bottom:0;
+   float:left;
+   margin-left:0;
+   padding-left:3%;
+   padding-right:3%;
+   top:0;
+   width:763px;
+}
+
+div#container {
+   left: 50%;
+   margin-left: -470px;
+   margin-right: auto;
+   position: absolute;
+   top: 0;
+   width: 940px;
+   background-color: white;
+}
+
+div#stretcher {
+	clear:both;
+}
+
+div#email_error {
+   font-size: 0.7em;
+   font-weight: bold;
+   vertical-align: super;
+   text-align: justify;
+   color: #FFBC09;
+}
+
+div#data_error {
+   font-size: 0.8em;
+   font-weight: bold;
+   vertical-align: super;
+   text-align: left;
+   color: #FFBC09;
+}
+
+div#processing {
+   background-color:#FFFFFF;
+   border-style: solid;
+   border-color: #878787;
+   font-size: 0.8em;
+   color: #216DA1;
+   font-weight: bold;
+   padding: 20px 50px 20px 30px;
+   height: auto; 
+}
+
+
+/* Styles for browse art table: */
+
+table.browseart, table.browseartists {
+   width: 100%;
+}
+
+table.browseartists td {
+	border-bottom: thin dotted #216DA1;
+	vertical-align: bottom;
+	height: 200px;
+	text-align: center;
+	padding: 1em 0;
+}
+
+table.browseart td {
+   border-bottom: thin dotted #BCE2F7;
+   color: #BCE2F7;
+   font-size: 0.7em; 
+   height: 250px;
+   padding: 1em 0;
+   text-align: center;
+   vertical-align: bottom;
+}
+
+/* Styles for google custom search results: */
+
+div#cse {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #216DA1;
+}
+
+div#cse a {
+
+ color: #0089D0;
+
+}
+
+div.gs-visibleUrl {
+
+ color: #0089D0;
+
+}
+
+div#cse a:hover {
+	color: #FFBC09;
+	text-decoration: none;
+}
+
+
+div#gsc-tabsArea {
+   
+   color: #FFBC09;
+}
+

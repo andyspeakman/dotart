@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    
+function changeColour(backColour, textColour) {
+    jQuery.noConflict();
+    jQuery('#content').css('backgroundColor', backColour);
+    jQuery('#content *').css('color', textColour);
+}
+
+</script>
+
+<table class="colour-picker">
+<tr>
+<td style="background-color: #851005;" onclick="changeColour('#851005', '#BCE2F7');">&nbsp;</td>
+<td style="background-color: #FFFFFF;" onclick="changeColour('#FFFFFF', '#216DA1');">&nbsp;</td>
+<td style="background-color: #FDFED7;" onclick="changeColour('#FDFED7', '#216DA1');">&nbsp;</td>
+<td style="background-color: #DBC78D;" onclick="changeColour('#DBC78D', '#216DA1');">&nbsp;</td>
+<td style="background-color: #403105;" onclick="changeColour('#403105', '#BCE2F7');">&nbsp;</td>
+<td style="background-color: #C6EEF4;" onclick="changeColour('#C6EEF4', '#216DA1');">&nbsp;</td>
+<td style="background-color: #160C45;" onclick="changeColour('#160C45', '#BCE2F7');">&nbsp;</td>
+<td style="background-color: #CBE0C5;" onclick="changeColour('#CBE0C5', '#216DA1');">&nbsp;</td>
+<td style="background-color: #153009;" onclick="changeColour('#153009', '#BCE2F7');">&nbsp;</td>
+<td style="background-color: #CCCACA;" onclick="changeColour('#CCCACA', '#216DA1');">&nbsp;</td>                            
+</tr>
+</table>
+
+<p class="artist">choose your background colour to see how the artwork would look on your wall.</p>
