@@ -6,3 +6,5 @@ public_html/.buildpath
 build.xml
 
 database/changelog/db-changelog-1.0.xml
+
+log
