@@ -3,6 +3,8 @@
 
 public_html/.buildpath
 
+images
+
 build.xml
 
 database/changelog/db-changelog-1.0.xml
