@@ -42,6 +42,8 @@
 
 </table>
 
+<!---- 
+
 <h3 class="artist">sketching in the palm house - NEW</h3>
 
 <ul class="artist">
@@ -55,6 +57,7 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 to help you draw from observation, try different materials and express what you see through drawing, 
 all in the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
 
+--->
 
 <h2 class="artist">dot-art at the Bluecoat</h2>
 
