@@ -713,7 +713,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       100,
 	       100,
 	        'flying-high',
-	       'original, &pound;1700',
+	       'not currently available',
 	       0,
 		650,
 		 650);
@@ -821,7 +821,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
          90,
 	       90,
 	       'number-1',
-	       'original, &pound;1340',
+	          'not currently available',
 	       0,
 		650,
 		 650);
@@ -878,7 +878,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
          90,
 	       90,
 	       'upside-down-smile',
-	      'original, &pound;1340',
+	         'not currently available',
 	       0,
 		650,
 		 650);
@@ -920,7 +920,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
                50,
 	       50,
 	       'dancing-on-one',
-	   	       'original, &pound;620',
+	   	    'not currently available',
 	       0,
 		650,
 		 650);
@@ -1094,7 +1094,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
                50,
 	       50,
 	       'up',
-	      'original, &pound;620',
+	        'not currently available',
 	       0,
 		650,
 		 640);
@@ -1230,18 +1230,380 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
-
 INSERT INTO artist (id, name, statement, notes, display)
 	VALUES(45, 'joe thompson',
 	'<p class="artist">Art has always been a passion for Joe. From his early days copying his fathers sketches, to his recent large scale works featuring his travel in the Goan region of India - Joe has produced works from all stages of his life and travels, reflecting on his time spent in the Scots guards as a teenager, through his working life in and around Liverpool. His influences include the Impressionists and post Impressionists, listing Monet and Van Gogh as his particular favourites. He also has a great deal of admiration for Bosch and Dali. </p>
-<p class="artist">Joe is particularly excited by new challenges. He has had pieces of work commissioned by stars of media, sport and a number of private collectors in London. He is currently retained by one of the largest accountancy firms in the world to produce works for members of their senior staff, one of whom said of Joes work-
- </p>
+<p class="artist">Joe is particularly excited by new challenges. He has had pieces of work commissioned by stars of media, sport and a number of private collectors in London. He is currently retained by one of the largest accountancy firms in the world to produce works for members of their senior staff, one of whom said of Joes work:</p>
 <p class="artist">"I appreciated the time and effort Joe took to understand, develop and produce my painting. I felt he not only met but exceeded my expectations in every way. It was, in the end, a very emotional experience."</p>
 <p class="artist">Although he has sculpted, used water colours and ventured into many areas of the arts his first love is working with oils. His versatility is demonstrated by the range of work on display, but he is also happy to work to commission.</p>',
                NULL,
 	       1);
 
 ##-----------------------------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'the chaser',
+	       'framed oil on canvas',
+	       122,
+	       89,
+	       'the-chaser',
+	       'original &pound;500',
+	       1,
+		650,
+		 501);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH160', 'original',500);
+##-----------------------------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'formby beach',
+	       'framed oil on board',
+	       46,
+	       46,
+	       'formby-beach',
+	       'original &pound;250',
+	       0,
+		650,
+		 592);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH162', 'original',250);
+
+##---------------------------------------------------------------------------------- 
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'a field in maghull morning time',
+	       'framed oil on board',
+	       36,
+	       26,
+	       'a-field-in',
+	       'original &pound;195',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH163', 'original',195);
+
+##----------------------------------------------------------------------------------  
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'across the universe',
+	       'framed oil on canvas',
+	       90,
+	       60,
+	       'across-the-universe',
+	       'original &pound;350',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH165', 'original',350);
+
+##----------------------------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'athol bridge evening',
+	       'oil on canvas',
+	       60,
+	       90,
+	       'athol-bridge-evening',
+	       'original &pound;325',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH166', 'original',325);
+
+##----------------------------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'christ the king',
+	       'oil on canvas',
+	       60,
+	       50,
+	       'christ-the-king',
+	       'original &pound;225',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH167', 'original',225);
+
+##---------------------------------------------------------------------------------- 
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'croxteth woods',
+	       'oil on canvas',
+	       50,
+	       40,
+	       'croxteth-woods',
+	       'original &pound;175',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH168', 'original',175);
+
+##---------------------------------------------------------------------------------- 
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'dockers clock 2',
+	       'oil on canvas',
+	       90,
+	       90,
+	       'dockers-clock-2',
+	       'original &pound;395',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH169', 'original',395);
+
+##----------------------------------------------------------------------------------   
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'eldonian village hall',
+	       'oil on canvas',
+	       60,
+	       45,
+	       'eldonian-village-hall',
+	       'original &pound;175',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH170', 'original',175);
+
+##----------------------------------------------------------------------------------   
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'fading memory',
+	       'framed oil on board',
+	       50,
+	       40,
+	       'fading-memory',
+	       'original &pound;195',
+	       0,
+		650,
+		 522);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH171', 'original',195);
+
+##----------------------------------------------------------------------------------    
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'for no one',
+	       'oil on canvas',
+	       76,
+	       100,
+	       'for-no-one',
+	       'original &pound;395',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH172', 'original',395);
+
+##----------------------------------------------------------------------------------     
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'formby point',
+	       'framed oil on board',
+	       24,
+	       20,
+	       'formby-point',
+	       'original &pound;175',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH173', 'original',175);
+
+##----------------------------------------------------------------------------------    
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'fort aguada',
+	       'oil on canvas',
+	       40,
+	       30,
+	       'fort-aguada',
+	       'original &pound;150',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH174', 'original',150);
+
+##----------------------------------------------------------------------------------    
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'here comes the sun',
+	       'oil on canvas',
+	       76,
+	       100,
+	       'here-comes-the',
+	       'original &pound;395',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH175', 'original',395);
+
+##----------------------------------------------------------------------------------   
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'new brighton on a windy day',
+	       'oil on canvas',
+	       90,
+	       90,
+	       'new-brighton-on',
+	       'original &pound;395',
+	       0,
+		650,
+		 646);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH176', 'original',395);
+
+##----------------------------------------------------------------------------------      
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'the dignity of reg',
+	       'framed oil on canvas',
+	       50,
+	       60,
+	       'reg',
+	       'original &pound;350',
+	       0,
+		488,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH177', 'original',350);
+
+##----------------------------------------------------------------------------------      
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'stanley dock 2',
+	       'framed oil on board',
+	       28,
+	       35,
+	       'stanley-dock-2',
+	       'original &pound;175',
+	       0,
+		488,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH178', 'original',175);
+
+##----------------------------------------------------------------------------------       
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'the three graces',
+	       'oil on canvas',
+	       90,
+	       90,
+	       'the-three-graces',
+	       'original &pound;395',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH180', 'original',395);
+
+##----------------------------------------------------------------------------------       
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'where have all the good times gone',
+	       'oil on canvas',
+	       100,
+	       76,
+	       'where-have-all',
+	       'original &pound;395',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH181', 'original',395);
+
+##----------------------------------------------------------------------------------       
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'where the canal meets the locks',
+	       'framed oil on board',
+	       60,
+	       30,
+	       'where-the-canal',
+	       'original &pound;195',
+	       0,
+		650,
+		 331);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH182', 'original',195);
+
+##----------------------------------------------------------------------------------        
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(45,
+	       'where they build big ships',
+	       'framed oil on board',
+	       80,
+	       60,
+	       'where-they-build',
+	       'original &pound;295',
+	       0,
+		650,
+		 488);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JH183', 'original',295);
+
+##----------------------------------------------------------------------------------
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -1279,7 +1641,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
 	       'spring',
-	       'oil on canvas framed',
+	       'framed oil on canvas',
 	       30,
 	       25,
 	       'spring',
@@ -1292,20 +1654,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH159', 'original',175);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the marina waterloo',
-	       'oil on canvas',
-	       92,
-	       61,
-	       'the-marina-waterloo',
-	       'sold',
-	       0,
-		650,
-		 488);
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1322,82 +1670,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH161', 'original',300);
 ##-----------------------------------------------------------------------------------
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the start of the canal',
-	       'oil on canvas',
-	       61,
-	       46,
-	       'the_start_of',
-	       'original &pound;250',
-	       0,
-		650,
-		 498);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH146', 'original', 250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'our ladys eldon street',
-	       'oil on canvas',
-	       41,
-	       30,
-	       'our_ladys_eldon',
-	       'original &pound;150',
-	       0,
-		650,
-		 468);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH147', 'original', 150);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'althol bridge L5',
-	       'oil on canvas',
-	       76,
-	       60,
-	       'althol_bridge_l5',
-	       'original &pound;350',
-	       0,
-		650,
-		 500);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH148', 'original', 350);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'clouds over crosby beach L22',
-	       'oil on canvas',
-	       76,
-	       76,
-	       'clouds_over_crosby',
-	       'sold',
-	       0,
-		650,
-		 497);
-
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'crosby beach L22',
-	       'oil on canvas',
-	       60,
-	       45,
-	       'crosby_beach_l22',
-	       'sold',
-	       0,
-		650,
-		 479);
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1415,35 +1688,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH151', 'original', 250);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'eldonian village in the morning',
-	       'oil on canvas',
-	       105,
-	       76,
-	       'eldonian_village_in',
-	       'sold',
-	       0,
-		650,
-		 483);
 
-
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'end of scotland road l5',
-	       'oil on board',
-	       90,
-	       80,
-	       'end_of_scotland',
-	       'sold',
-	       0,
-		650,
-		 572);
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1461,35 +1706,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH155', 'original', 375);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'netherfield road L5',
-	       'oil on board',
-	       103,
-	       52,
-	       'netherfield_road_L5',
-	       'sold',
-	       0,
-		650,
-		 325);
 
-
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'stanley park L4',
-	       'oil on canvas',
-	       30,
-	       30,
-	       'stanley_park_l4',
-	       'sold',
-	       0,
-		650,
-		 576);
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1524,83 +1741,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 ##----------------------------------------------------------------------------------
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'a gang outside a pub',
-	       'oil on canvas',
-	       90,
-	       63,
-	       'a_gang_outside',
-	       'original &pound;400',
-	       0,
-		650,
-		 481);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH101', 'original', 400);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'a goan wave',
-	       'oil on canvas',
-	       91,
-	       121,
-	       'a_goan_wave',
-	       'original &pound;500',
-	       0,
-		488,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH103', 'original', 500);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'a holy man',
-	       'oil on canvas',
-	       61,
-	       30,
-	       'a_holy_man',
-	       'original &pound;250',
-	       0,
-		488,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH104', 'original', 250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'boats in baga',
-	       'oil on canvas',
-	       92,
-	       57,
-	       'boats_in_baga',
-	       'original &pound;400',
-	       0,
-		650,
-		 392);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH105', 'original', 400);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'calpe rock',
-	       'oil on board',
-	       42,
-	       34,
-	       'calpe_rock',
-	       'sold',
-	       0,
-		650,
-		 503);
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1618,82 +1758,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH107', 'original', 400);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'cassim in baga',
-	       'oil on canvas',
-	       31,
-	       41,
-	       'cassim_in_baga',
-	       'original &pound;200',
-	       0,
-		477,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH108', 'original', 200);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'charles bridge prague',
-	       'oil on board',
-	       64,
-	       61,
-	       'charles_bridge_prague',
-	       'sold',
-	       0,
-		650,
-		 579);
-##-----------------------------------------------------------------------------------
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'fishing boats at calangute',
-	       'oil on canvas',
-	       91,
-	       61,
-	       'fishing_boats_at',
-	       'original &pound;400',
-	       0,
-		650,
-		 431);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH113', 'original', 400);
-##-----------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'holy man on elephant',
-	       'oil on canvas',
-	       61,
-	       30,
-	       'holy_man_on',
-	       'original &pound;250',
-	       0,
-		650,
-		 490);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH115', 'original', 250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'holy man praying',
-	       'oil on canvas',
-	       30,
-	       52,
-	       'holy_man_praying',
-	       'original &pound;150',
-	       0,
-		376,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH116', 'original', 150);
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1748,39 +1813,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
-	       'the dockers clock',
-	       'oil on canvas',
-	       61,
-	       30,
-	       'the_dockers_clock',
-	       'original &pound;250',
-	       0,
-		650,
-		 488);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH125', 'original', 250);
-##-----------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the last second of life',
-	       'oil on canvas',
-	       61,
-	       30,
-	       'the_last_second',
-	       'original &pound;250',
-	       0,
-		488,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH127', 'original', 250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
 	       'the war is over the drugs have won',
 	       'oil on canvas',
 	       92,
@@ -1811,85 +1843,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH129', 'original', 150);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'violent playground',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'violent_playground',
-	       'original &pound;500',
-	       0,
-		650,
-		 620);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH130', 'original', 500);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the birth of one white horse',
-	       'oil on canvas',
-	       91,
-	       61,
-	       'the_birth_of',
-	       'original &pound;400',
-	       0,
-		650,
-		 471);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH131', 'original', 400);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the bottom lock',
-	       'oil on canvas',
-	       66,
-	       58,
-	       'the_bottom_lock',
-	       'sold',
-	       0,
-		650,
-		 522);
-
-
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'calpe rock',
-	       'oil on canvas',
-	       61,
-	       38,
-	       'calpe_rock',
-	       'framed original &pound;350',
-	       0,
-		650,
-		 404);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH133', 'framed original', 350);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'mr moonlight',
-	       'oil on canvas',
-	       61,
-	       51,
-	       'mr_moonlight',
-	       'framed original &pound;350',
-	       0,
-		650,
-		 539);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH134', 'framed original', 350);
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -1939,37 +1892,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH137', 'original', 300);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'play it again',
-	       'oil on canvas',
-	       61,
-	       91,
-	       'play_it_again',
-	       'original &pound;400',
-	       0,
-		424,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH138', 'original', 400);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the middle lock',
-	       'oil on canvas',
-	       41,
-	       30,
-	       'the_middle_lock',
-	       'sold',
-	       0,
-		650,
-		 480);
-
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -2005,39 +1928,9 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the dignity of reg',
-	       'oil on canvas',
-	       51,
-	       61,
-	       'the_dignity_of',
-	       'framed original &pound;350',
-	       0,
-		542,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH142', 'framed original', 350);
 
-##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'lucy',
-	       'oil on canvas',
-	       61,
-	       91,
-	       'lucy',
-	       'original &pound;400',
-	       0,
-		488,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH144', 'original', 400);
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -2055,67 +1948,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH145', 'original', 400);
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'a girl with red hair',
-	       'oil on canvas framed',
-	       24,
-	       26,
-	       'a-girl-with',
-	       'original &pound;150',
-	       0,
-		488,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH146', 'original',150);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'waterloo sunset',
-	       'oil on canvas framed',
-	       50,
-	       20,
-	       'waterloo-sunset',
-	       'sold',
-	       0,
-		650,
-		 259);
-
-
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'hills behind benidorm',
-	       'oil on canvas',
-	       50,
-	       20,
-	       'hills-behind-benidorm',
-	       'original &pound; 195',
-	       0,
-		650,
-		 239);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH148', 'original',195 );
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'fading memory',
-	       'oil on canvas framed',
-	       50,
-	       40,
-	       'fading-memory',
-	       'original &pound;250',
-	       0,
-		650,
-		 516);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH149', 'original',250 );
 ##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -2134,21 +1967,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH150', 'original',500 );
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'a spliff after a hard night work',
-	       'oil on canvas framed',
-	       76,
-	       61,
-	       'a-spliff-after',
-	       'original &pound;300',
-	       0,
-		488,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH151', 'original',300);
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -2166,52 +1984,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH152', 'original',250);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'mary magdelene',
-	       'oil on canvas',
-	       41,
-	       51,
-	       'mary-magdelene',
-	       'original &pound;250',
-	       0,
-		488,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH153', 'original',250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'holy tree candolim',
-	       'oil on canvas',
-	       40,
-	       30,
-	       'holy-tree-candolim',
-	       'original &pound;195 ',
-	       0,
-		650,
-		 488);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH154', 'original',195);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'everton brow',
-	       'oil on canvas',
-	       76,
-	       76,
-	       'everton-brow',
-	       'sold',
-	       0,
-		650,
-		 493);
-
-
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -2229,37 +2002,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH156', 'original',250);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'working girl north of england way',
-	       'oil on canvas',
-	       41,
-	       51,
-	       'working-girl-north',
-	       'original &pound;250',
-	       0,
-		488,
-		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH157', 'original',250);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'bottom lock at night',
-	       'oil on canvas',
-	       61,
-	       41,
-	       'bottom-lock-at',
-	       'original &pound;350',
-	       0,
-		650,
-		 488);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH158', 'original',350);
-##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(45,
@@ -2277,54 +2020,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JH159', 'original',195);
 ##-----------------------------------------------------------------------------------
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'the chaser',
-	       'oil on canvas',
-	       122,
-	       89,
-	       'the-chaser',
-	       'original &pound;500',
-	       1,
-		650,
-		 501);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH160', 'original',500);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'formby point',
-	       'oil on board framed',
-	       25,
-	       20,
-	       'formby-point',
-	       'original &pound;175',
-	       0,
-		650,
-		 520);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH161', 'original',175);
-##-----------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(45,
-	       'formby beach',
-	       'oil on board framed',
-	       46,
-	       46,
-	       'formby-beach',
-	       'original &pound;250',
-	       0,
-		650,
-		 592);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JH162', 'original',250);
-
-##----------------------------------------------------------------------------------
 
 
 INSERT INTO artist (id, name, statement, notes, display, keywords)
@@ -4919,24 +4614,6 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 
 ##----------------------------------------------------------------------------------
 
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(66,
-	     
-               'reclining woman',
-	       'oil on canvas',
-	       76,
-	       90,
-	       'reclining_woman',
-	       'original &pound;1100',
-	       0,
-		488,
-		650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'ga157', 'original', 1100);
-
-##----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(66,
@@ -8024,1219 +7701,172 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
-
 INSERT INTO artist (id, name, statement, notes, display)
-	VALUES(111, 'stephen collett',
-	       '<p class="artist">Stephen Collett has been interested in all forms of art since he sold his first painting at the age of 5. All through his schooling years it was clear that he was destined for a career in the arts. He won several prizes for his work in school, claiming the Art prize at GCSE and A Level, not to mention several draughtsmanship and painting competitions that his teachers encouraged him to enter. At the age of 12 he studied Art with Roger Shuttler a local artist who discovered him at a regional exhibition. By the age of 14 he had stayed in France and worked alongside Kevin Pearsh for a summer, developing his own style and learning new techniques. His first larger project involved him being commissioned by the council to paint inspiring murals in his village bus shelter depicting scenes from the village in preparation for the Millennium which he completed when he was only 16. Despite his talent, his advanced ideas on what contemporary painting should be were thought too radical by some, causing him to be banned from his school''s art department thrown out of his A level art class at 17. This led Stephen to change schools in protest leaving him only one year to complete the course. After leaving his new upper school with top marks in both Art theory and practice, he studied Architecture at the University of Liverpool for 3 years before deciding to take up art full time.</p>
-
-<p class="artist">His main influences are the French impressionists, Cezanne in particular, however he finds Monet to be a little over rated. But going further back, Turner was and still is Colletts main influence. He is fascinated by his techniques and practices, being centuries before his time. Beyond that, Whistler, Rothko, Van Gogh and Da Vinci also inspire him.</p>
-
-               <p class="artist">As well as several public art projects and artist in residence schemes, the artist has recently had solo shows in Liverpool, London and New York, and is currently planning for future shows in Berlin and Paris.</p>',
-	NULL,
-	       1);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'snow angel',
-	       'giclee print on paper',
-	       38,
-	       38,
-	       'snow-angel',
-	       'limited edition print, &pound;90',
-	       0,
-		633,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC124', 'limited edition print', 90);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'day dreaming',
-	       'giclee print on paper',
-	       56,
-	       56,
-	       'day-dreaming',
-	       'limited edition print, &pound;120',
-	       0,
-		650,
-		 637);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC125', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'friday night',
-	       'giclee print on paper',
-	       56,
-	       56,
-	       'friday-night',
-	       'limited edition print, &pound;120',
-	       0,
-		641,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC126', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'girl at the met 2',
-	       'giclee print on paper',
-	       56,
-	       81,
-	       'girl-at-2',
-	       'limited edition print, &pound;160',
-	       0,
-		650,
-		 531);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC127', 'limited edition print', 160);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'girl balcony',
-	       'giclee print on paper',
-	       38,
-	       56,
-	       'girl-balcony',
-	       'limited edition print, &pound;100',
-	       0,
-		481,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC128', 'limited edition print', 100);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'girl fountain',
-	       'giclee print on paper',
-	       38,
-	       56,
-	       'girl-fountain',
-	       'limited edition print, &pound;100',
-	       0,
-		650,
-		 527);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC129', 'limited edition print', 100);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'mirror of time',
-	       'giclee print on paper',
-	       56,
-	       56,
-	       'mirror-of-time',
-	       'limited edition print, &pound;120',
-	       0,
-		640,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC130', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'ocean breeze',
-	       'giclee print on paper',
-	       38,
-	       38,
-	       'ocean-breeze',
-	       'limited edition print, &pound;90',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC131', 'limited edition print', 90);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'palm house romance',
-	       'giclee print on paper',
-	       38,
-	       38,
-	       'palm-house-romance',
-	       'limited edition print, &pound;90',
-	       0,
-		646,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC132', 'limited edition print', 90);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'ready to go ',
-	       'giclee print on paper',
-	       38,
-	       38,
-	       'ready-to-go',
-	       'limited edition print, &pound;90',
-	       0,
-		650,
-		 647);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC133', 'limited edition print', 90);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'story of rome ',
-	       'giclee print on paper',
-	       38,
-	       38,
-	       'story-of-rome',
-	       'limited edition print, &pound;90',
-	       0,
-		648,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC134', 'limited edition print', 90);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'longing',
-	       'giclee on paper',
-	       56,
-	       56,
-	       'longing',
-	       'limited edition print, &pound;120',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC124', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'venice iv',
-	       'giclee on paper',
-	       105,
-	       110,
-	       'venice-iv',
-	       'limited edition print, &pound;160',
-	       0,
-		650,
-		 325);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC125', 'limited edition print', 160);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'lisbeth',
-	       'giclee on paper',
-	       38,
-	       38,
-	       'lisbeth',
-	       'limited edition print, &pound;80',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC126', 'limited edition print', 80);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liberty',
-	       'giclee on paper',
-	       38,
-	       38,
-	       'liberty',
-	       'limited edition print, &pound;80',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC127', 'limited edition print', 80);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'parisian cafe',
-	       'giclee on paper',
-	       38,
-	       38,
-	       'parisian-cafe',
-	       'limited edition print, &pound;80',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC128', 'limited edition print', 80);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'london daydream',
-	       'giclee on paper',
-	       38,
-	       38,
-	       'london-daydream',
-	       'limited edition print, &pound;80',
-	       1,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC129', 'limited edition print', 80);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'florence',
-	       'giclee on paper',
-	       37,
-	       37,
-	       'florence',
-	       'limited edition print, &pound;85',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC127', 'limited edition print', 85);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'from 5th avenue',
-	       'giclee on paper',
-	       49,
-	       49,
-	       'from_5th_avenue',
-	       'limited edition print, &pound;120',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC128', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'new york brooklyn',
-	       'giclee on paper',
-	       49,
-	       39,
-	       'new_york_brooklyn',
-	       'limited edition print, &pound;95',
-	       0,
-		650,
-		 532);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC130', 'limited edition print', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'rialto',
-	       'giclee on paper',
-	       49,
-	       37,
-	       'rialto',
-	       'limited edition print, &pound;95',
-	       0,
-		650,
-		 505);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC131', 'limited edition print', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'southbank',
-	       'giclee on paper',
-	       49,
-	       37,
-	       'southbank',
-	       'limited edition print, &pound;95',
-	       0,
-		650,
-		 500);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC132', 'limited edition print', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'venice 2',
-	       'giclee on paper',
-	       37,
-	       37,
-	       'venice_2',
-	       'limited edition print, &pound;85',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC133', 'limited edition print', 85);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'venice 3',
-	       'giclee on paper',
-	       49,
-	       49,
-	       'venice_3',
-	       'limited edition print, &pound;120',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC134', 'limited edition print', 120);
-
-##--------------------------------------------------------------------------------------------
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'amsterdam tall ships',
-	       'giclee on paper',
-	       82,
-	       38,
-	       'amsterdam_tall_ships',
-	       'limited edition print, &pound;130',
-	       0,
-		650,
-		 322);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC124', 'limited edition print', 130);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'bruges',
-	       'giclee on paper',
-	       49,
-	       37,
-	       'bruges',
-	       'limited edition print, &pound;95',
-	       0,
-		650,
-		 505);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC125', 'limited edition print', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'dixie',
-	       'giclee on paper',
-	       38,
-	       38,
-	       'dixie',
-	       'limited edition print, &pound;50',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC126', 'limited edition print', 50);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'a top the rock',
-	       'giclee on paper',
-	       49,
-	       22,
-	       'a_top_the',
-	       'limited edition print, &pound;95',
-	       0,
-		650,
-		 296);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'SC129', 'limited edition print', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liverpool - the liver building',
-	       'oil on canvas',
-	       90,
-	       125,
-	       'liverpool_liver',
-	       'sold',
-	       0,
-		516,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'new york 1',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'new_york_1',
-	      'sold',
-	       0,
-		650,
-		 646);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'new york 2',
-	       'oil on canvas',
-	       120,
-	       95,
-	       'new_york_2',
-	         'sold',
-	       0,
-		650,
-		 513);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'shanghai',
-	       'oil on canvas',
-	       120,
-	       95,
-	       'shanghai',
-	        'sold',
-	       0,
-		650,
-		 516);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'sydney',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'sydney',
-	         'sold',
-	       0,
-		648,
-		 650);
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'amsterdam',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'amsterdam',
-	         'sold',
-	       0,
-		632,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liverpool - dawn',
-	       'oil on canvas',
-	       60,
-	       40,
-	       'liverpool_dawn',
-	        'sold',
-	       0,
-		650,
-		 439);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liverpool - evening',
-	       'oil on canvas',
-	       60,
-	       40,
-	       'liverpool_evening',
-	        'sold',
-	       0,
-		650,
-		 494);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liverpool',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'liverpool',
-	       'sold',
-	      0,
-		632,
-		 650);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'liverpool - the liver building',
-	       'oil on canvas',
-	       40,
-	       60,
-	       'liverpool_liver',
-	       'sold',
-	       0,
-		516,
-		 650);
-
-
-
-##--------------------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'new york 1',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'new_york_1',
-	      'sold',
-	       0,
-		650,
-		 646);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'new york 2',
-	       'oil on canvas',
-	       60,
-	       40,
-	       'new_york_2',
-	       'sold',
-	       0,
-		650,
-		 513);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'milan',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'milan',
-	       'sold',
-	       0,
-		646,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'paris',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'paris',
-	      'sold',
-	       0,
-		650,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'prague',
-	       'oil on canvas',
-	       40,
-	       60,
-	       'prague',
-	       'sold',
-	       0,
-		506,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'rome',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'rome',
-	        'sold',
-	       0,
-		650,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'shanghai',
-	       'oil on canvas',
-	       60,
-	       40,
-	       'shanghai',
-	        'sold',
-	       0,
-		650,
-		 516);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'sydney',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'sydney',
-	        'sold',
-	       0,
-		648,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'vatican city',
-	       'oil on canvas',
-	       40,
-	       40,
-	       'the_vatican',
-	        'sold',
-	       0,
-		644,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'forest at dawn',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'forest_at_dawn',
-	       'price on application',
-	       0,
-		648,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'angry skies',
-	       'oil on canvas',
-	       188,
-	       127,
-	       'angry_skies',
-	      'price on application',
-	       0,
-		650,
-		 451);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'autumn meadow',
-	       'oil on canvas',
-	       188,
-	       127,
-	       'autumn_meadow',
-	     'price on application',
-	       0,
-		650,
-		 453);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'morning lake',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'morning_lake',
-	       'sold',
-	       0,
-		650,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'fire at sea',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'fire_at_sea',
-	      'sold',
-	       0,
-		630,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'autumm mist',
-	       'oil on canvas',
-	       90,
-	       90,
-	       'autumn_mist',
-	        'commission example',
-	       0,
-		650,
-		 649);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'brooklyn bridge',
-	       'oil on canvas',
-	       150,
-	       120,
-	       'brooklyn_bridge',
-	       'sold',
-	       0,
-		650,
-		 520);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'disturbance',
-	       'acrylic on canvas',
-	       120,
-	       120,
-	       'disturbance',
-	       'sold',
-	       0,
-		650,
-		 516);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'from fifth avenue',
-	       'oil on canvas',
-	       100,
-	       100,
-	       'from_fifth_avenue',
-	       'sold',
-	       0,
-		644,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'ghosts at the louvre',
-	       'oil on canvas',
-	       100,
-	       75,
-	       'ghosts_at_the',
-	       'comission example',
-	       0,
-		650,
-		 474);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'girl in rain',
-	       'oil on canvas',
-	       75,
-	       75,
-	       'girl_in_rain',
-	    'comission example',
-	       0,
-		650,
-		 645);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'homage to lennon',
-	       'mixed media',
-	       95,
-	       120,
-	       'homage_to_lennon',
-	       'sold',
-	       0,
-		543,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'homage to mccartney',
-	       'mixed media',
-	       95,
-	       120,
-	       'homage_to_mccartney',
-	       'sold',
-	       0,
-		446,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'join me in a glass',
-	       'acrylic on canvas',
-	       120,
-	       150,
-	       'join_me_in',
-	       'sold',
-	       0,
-		522,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'large firedanncer 2',
-	       'oil on canvas',
-	       150,
-	       120,
-	       'large_firedancer_2',
-	      'commission example',
-	       0,
-		532,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'nightlife',
-	       'oil on canvas',
-	       75,
-	       100,
-	       'nightlife',
-	       'commission example',
-	       0,
-		508,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'rain in venice2',
-	       'oil on canvas',
-	       75,
-	       75,
-	       'rain_in_venice2',
-	       'commission example',
-	       0,
-		650,
-		 638);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'rialto',
-	       'oil on canvas',
-	       100,
-	       75,
-	       'rialto',
-	      'commission example',
-	       0,
-		650,
-		 487);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'self',
-	       'acrylic on canvas',
-	       120,
-	       150,
-	       'self',
-	       'sold',
-	       0,
-		650,
-		 518);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'the portrait redifined girl at the met',
-	       'oil on canvas',
-	       120,
-	       150,
-	       'the_portrait_redifined',
-	       'sold',
-	       0,
-		650,
-		 507);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'the vatican small',
-	       'oil on canvas',
-	       95,
-	       120,
-	       'the_vatican_small',
-	       'sold',
-	       0,
-		523,
-		 650);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(111,
-	       'venice',
-	       'oil on canvas',
-	       120,
-	       100,
-	       'venice',
-	       'sold',
-	       0,
-		650,
-		 535);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-INSERT INTO artist (id, name, statement, notes, display)
-	VALUES(116, 'helene gilmour',
-	       '<p class="artist">Helene has been a Graphic Designer and Illustrator for 12 years and worked for a number of companies producing artwork for childrens products, Christmas cards and gift wrap, ceramics, textiles and packaging. She says-
+	VALUES(116, 'helene marie gilmour',
+	       '<p class="artist">Helene-Marie is a Freelance Graphic Designer & Illustrator &  has worked for a number of Companies producing artwork for Childrens'' products, Homewares, Ceramics, Textiles, Greetings Cards, Giftwrapping & Packaging. She says -
 	</p>
-<p class="artist">"I am inspired by life and all I see around me. As life changes, my inspirations change and I enjoy the flexiblility of creating artwork that reflect this. I like the way art allows me the freedom to create my own little world!"</p>',
+<p class="artist">"I am very lucky to have a job that I love!  I have been in the design industry for many years & I am still learning & being inspired. 
+I create alot of my designs on the computer, so it''s nice to take time out & put paint to canvas. Not only is it very relaxing, but it allows me the freedom to 
+explore my own style, try different approaches & get lost in my own little world!"</p>',
                '<p class="artist">
 </p>',
 	       1);
 
 ##--------------------------------------------------------------------------------------------
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'applying blusher',
+	       'pen and ink',
+	       21,
+	       29,
+	       'applying-blusher',
+	       'limited edition print, &pound;26',
+	       0,
+		460,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg127', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------      
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'cats rock',
+	      'pen and ink',
+	       21,
+	       29,
+	       'cats-rock',
+	       'limited edition print, &pound;26',
+	       0,
+		459,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg128', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------        
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'i love cats',
+	      'pen and ink',
+	       21,
+	       29,
+	       'i-love-cats',
+	       'limited edition print, &pound;26',
+	       0,
+		459,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg129', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------         
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'rebel',
+	         'pen and ink',
+	       21,
+	       29,
+	       'rebel',
+	       'limited edition print, &pound;26',
+	       0,
+		459,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg133', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------            
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'tickle me',
+	         'pen and ink',
+	       21,
+	       29,
+	       'tickle-me',
+	       'limited edition print, &pound;26',
+	       0,
+		460,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg134', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'love is a 4 legged word',
+	         'pen and ink',
+	       21,
+	       29,
+	       'love-is-a',
+	       'limited edition print, &pound;26',
+	       0,
+		650,
+		 460);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg130', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------          
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'love pug pink',
+	         'pen and ink',
+	       21,
+	       29,
+	       'love-pug-pink',
+	       'limited edition print, &pound;26',
+	       0,
+		460,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg131', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------          
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'love pug',
+	         'pen and ink',
+	       21,
+	       29,
+	       'love-pug',
+	       'limited edition print, &pound;26',
+	       0,
+		460,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg132', 'limited ed', 26);
+##--------------------------------------------------------------------------------------------            
+
+
 
 
 
@@ -9249,7 +7879,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       30,
 	       'balancing-cupcakes',
 	       'original, &pound;180',
-	       1,
+	       0,
 		322,
 		 650);
 
@@ -9264,249 +7894,124 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(116,
-	       'naughty but nice ',
-	       'acrylic collage and pen',
-	       60,
-	       30,
-	       'naughty-but-nice',
-	       'original, &pound;180',
-	       0,
-		321,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg128', 'original', 180);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'cupcakes in a row ',
-	       'acrylic collage and pen',
-	       80,
-	       30,
-	       'cupcakes-in-a',
-	       'original, &pound;200',
-	       0,
-		650,
-		 242);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg129', 'original', 200);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'cupcakes in pink frame ',
-	       'acrylic collage and pen',
-	       30,
-	       30,
-	       'cupcakes-in-pink',
-	       'original, &pound;95',
-	       0,
-		644,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg130', 'original', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'cupcakes in teal frame ',
-	       'acrylic collage and pen',
-	       30,
-	       30,
-	       'cupcakes-in-teal',
-	       'original, &pound;95',
-	       0,
-		644,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg131', 'original', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'cupcakes hill ',
-	       'acrylic collage and pen',
-	       40,
-	       30,
-	       'cupcakes-hill',
-	       'original, &pound;95',
-	       0,
-		479,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg132', 'original', 95);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'quality time',
+	       'butterfly in a pink frame ',
 	       'acrylic on canvas',
-	       50,
-	       50,
-	       'quality_time',
-	       'original, &pound;170',
-	       0,
-		650,
-		 648);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg116', 'original', 170);
-##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'peacock',
-	       'acrylic and pen',
-	       60,
 	       30,
-	       'peacock',
-	       'commission example',
-	       0,
-		650,
-		 319);
-
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'the daily meeting',
-	       'acrylic and pen',
-	       50,
-	       50,
-	       'the-daily-meeting',
-	       'original, &pound;180',
-	       0,
-		644,
+	       30,
+	       'butterfly-pink-frame',
+	       'original, &pound;90',
+	       1,
+		643,
 		 650);
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg121', 'original', 180);
-##--------------------------------------------------------------------------------------------
+	VALUES(LAST_INSERT_ID(), 'hg130', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
 
 
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(116,
-	       'bunting',
-	       'acrylic and pen',
-	       50,
-	       50,
-	       'bunting',
-	       'commission example',
+	       'butterfly in a aqua frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-aqua-frame',
+	       'original, &pound;90',
 	       0,
 		650,
-		 647);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'house on the hill',
-	       'acrylic and pen',
-	       60,
-	       30,
-	       'house-on-the',
-	       'commission example',
-	       0,
-		650,
-		 323);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'summer seeds',
-	       'acrylic and pen',
-	       30,
-	       30,
-	       'summer-seeds',
-	       'commission example',
-	       0,
-		650,
-		 639);
-
-##--------------------------------------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'pompom',
-	       'acrylic and pen',
-	       30,
-	       30,
-	       'pompom',
-	       'commission example',
-	       0,
-		647,
 		 650);
 
-##--------------------------------------------------------------------------------------------
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg131', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
 
 
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(116,
-	       'flowerbubble',
-	       'acrylic and gloss',
-	       100,
-	       50,
-	       'flowerbubble',
+	       'butterfly in a gold frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-gold-frame',
+	       'original, &pound;90',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg132', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'butterfly in a blue frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-blue-frame',
+	       'original, &pound;90',
+	       0,
+		641,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg133', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'large butterfly study',
+	       'acrylic on canvas',
+	       60,
+	       60,
+	       'large-butterfly-study',
 	       'original, &pound;280',
 	       0,
 		650,
-		 313);
+		 635);
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg126', 'original', 280);
+	VALUES(LAST_INSERT_ID(), 'hg134', 'original', 280);
+
+##--------------------------------------------------------------------------------------------    
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'pink house on the hill ',
+	       'acrylic on canvas',
+	       80,
+	       30,
+	       'pink-house-on',
+	       'original, &pound;200',
+	       0,
+		650,
+		 244);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg135', 'original', 200);
+
 ##--------------------------------------------------------------------------------------------
 
 
@@ -14828,13 +13333,11 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       50,
 	       70,
 	       'liverpool-town-hall',
-	       'original, &pound;575',
+	       'sold',
 	       0,
 		429,
 		 650);
 
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mj113', 'original',575);
 
 
 
@@ -14884,13 +13387,10 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       10,
 	       50,
 	       'autumn-sunlight',
-	       'original, &pound;500',
+	       'sold',
 	       0,
 		650,
 		 326);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mj115', 'original',500);
 
 
 
@@ -15037,14 +13537,10 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       122,
 	       30.5,
 	       'tree_in_autumn',
-	       'framed original, &pound;500',
+	       'sold',
 	       0,
 		163,
 		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mj103', 'framed original',500);
-
 
 
 ##-----------------------------------------------------------------------------------------
@@ -19864,6 +18360,10 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
+
+
+
+
 INSERT INTO artist (id, name, statement, notes, display)
 	VALUES(211, 'david brightmore',
 	'<p class="artist">Originally from South Yorkshire, I studied Business Management in Cardiff and Fine Art in Sheffield. I lived in the Snowdonia village of Rhyd-Ddu from 1985 until 2004, learned the Welsh language and have a close affinity with life in Wales. I have run and walked most of the mountains and hills here and though my landscape paintings and drawings are rarely specific to one recognisable place, they endeavour to express certain essential dramatic and lyrical qualities of the North Wales environment.
@@ -19872,7 +18372,7 @@ INSERT INTO artist (id, name, statement, notes, display)
 <p class="artist">I have been a full-time painter since 2000 and have held solo exhibitions in numerous North Wales venues such as; Theatr Gwynedd, Theatr Clwyd Cymru, Wrexham Arts Centre, Oriel Corwen, Royal International Pavillion, Llangollen and at Oriel Plas Glyn y Weddw, Llanbedrog, where I was Chairman of the Board of Management for four years.
 </p>
 
-<p class="artist">I am told that my work is vigorous and energetic; certainly my response to the environment has been both physical and emotional and maybe this comes across. I am currently influenced by the landscape of Clwyd, and the urban environment of Chester, Manchester and  Sheffield. My most recent work  reflects my  interest in "family history" ? hence a series of "figure-scapes",  searching  for the  rhythm of land and figure, often in  primordial settings. All of this and with reference to more global issues  I am now progressing in  my M.A. Fine Art course at Glyndwr University  where the subject of "rhythm and gesture in relation to romanticism" is central to my studies, which I complete this summer.
+<p class="artist">I am told that my work is vigorous and energetic; certainly my response to the environment has been both physical and emotional and maybe this comes across. I am currently influenced by the landscape of Clwyd, and the urban environment of Chester, Manchester and  Sheffield. My most recent work  reflects my  interest in "family history" hence a series of "figure-scapes", searching for the rhythm of land and figure, often in  primordial settings. All of this and with reference to more global issues, I developed on my M.A. Fine Art Course at Glyndwr University, where the subject of "rhythm and gesture in relation to romanticism" was central to my studies which I completed in 2011.
 </p>
 
 <p class="artist"></p>',
@@ -19886,133 +18386,58 @@ INSERT INTO artist (id, name, statement, notes, display)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'wild wales 1 ',
-	       'box canvas',
-	       103,
-	       73,
-	       'wild-wales-1',
-	      'original, &pound;1350',
+	        'hills are alive 24 ',
+	       'acrylics and inks',
+	       135,
+	       105,
+	       'hills-are-alive24',
+	      'original, &pound;1950',
 	       0,
 		650,
-		 461);
+		 485);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de158', 'original',1350);
+	VALUES(LAST_INSERT_ID(), 'de101', 'original',1950);
 
 
-##---------------------------------------------------------------
+##--------------------------------------------------------------- 
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'wild wales 2 ',
-	       'framed canvas',
-	       110,
-	       80,
-	       'wild-wales-2',
-	      'original, &pound;1450',
+	        'wild wales 7',
+	       'acrylics and inks',
+	       135,
+	       100,
+	       'wild-wales-7',
+	      'original, &pound;1950',
 	       0,
 		650,
-		 448);
+		 468);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de159', 'original',1450);
+	VALUES(LAST_INSERT_ID(), 'de102', 'original',1950);
 
 
 ##---------------------------------------------------------------
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'wild wales 3 ',
-	       'framed canvas',
-	       75,
-	       75,
-	       'wild-wales-3',
-	      'original, &pound;850',
-	       0,
-		644,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de160', 'original',850);
-
-
-##---------------------------------------------------------------
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'wild wales 4 ',
-	       'framed canvas',
-	       60,
-	       60,
-	       'wild-wales-4',
-	      'original, &pound;550',
-	       0,
-		649,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de161', 'original',550);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'wild wales 5',
-	       'framed canvas',
-	       60,
-	       60,
-	       'wild-wales-5',
-	      'original, &pound;550',
-	       0,
-		645,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de162', 'original',550);
-
-
-##---------------------------------------------------------------
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'mountain memories 1',
-	       'acrylics and ink on card',
-	       90,
-	       90,
-	       'mountain_memories_1',
+	        'wild wales 14',
+	       'acrylics and inks',
+	       84,
+	       84,
+	       'wild-wales-14',
 	      'original, &pound;1250',
 	       0,
 		647,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de102', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'mountain memories 2',
-	       'acrylics and ink on card',
-	       90,
-	       90,
-	       'mountain_memories_2',
-	      'original, &pound;1250',
-	       0,
-		643,
 		 650);
 
 
@@ -20020,1006 +18445,403 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'de103', 'original',1250);
 
 
-##---------------------------------------------------------------
+##--------------------------------------------------------------- 
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'mountain memories 3',
-	       'acrylics and ink on card',
-	       90,
-	       90,
-	       'mountain_memories_3',
-	      'original, &pound;1250',
+	        'wild wales 16',
+	       'acrylics and inks',
+	       73,
+	       103,
+	       'wild-wales-16',
+	      'original, &pound;1350',
 	       0,
-		650,
+		463,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de104', 'original',1250);
+	VALUES(LAST_INSERT_ID(), 'de104', 'original',1350);
 
 
-##---------------------------------------------------------------
+##--------------------------------------------------------------- 
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'mountain high 1',
-	       'acrylics and ink on card',
-	       62,
-	       62,
-	       'mountain_high_1',
-	      'SOLD, &pound;550',
+	        'landscape celebration 18',
+	       'acrylics and inks',
+	       115,
+	       85,
+	       'landscape-celebration-18',
+	      'original, &pound;1550',
 	       0,
-		647,
+		650,
+		 452);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'de105', 'original',1550);
+
+
+##---------------------------------------------------------------  
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(211,
+	        'then it was autumn',
+	       'acrylics and inks',
+	       103,
+	       73,
+	       'then-it-was',
+	      'original, &pound;750',
+	       1,
+		650,
+		 460);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'de106', 'original',750);
+
+
+##---------------------------------------------------------------   
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(211,
+	        'autumn 2',
+	       'acrylics and inks',
+	       76,
+	       76,
+	       'autumn-2',
+	      'original, &pound;750',
+	       0,
+		636,
 		 650);
 
 
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'mountain high 2',
-	       'acrylics and ink on card',
-	       62,
-	       62,
-	       'mountain_high_2',
-	      'original, &pound;550',
-	       0,
-		650,
-		 649);
-
-
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de106', 'original',550);
+	VALUES(LAST_INSERT_ID(), 'de107', 'original',750);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------    
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'organic landscape 1',
-	       'acrylics and ink on canvas',
-	       70,
-	       70,
-	       'organic_landscape_1',
-	      'original, &pound;650',
-	       0,
-		650,
-		 648);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de107', 'original',650);
-
-
-##---------------------------------------------------------------
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'organic landscape 2',
-	       'acrylics and ink on canvas',
-	       70,
-	       70,
-	       'organic_landscape_2',
-	      'original, &pound;650',
+	        'autumn 3',
+	       'acrylics and inks',
+	       76,
+	       76,
+	       'autumn-3',
+	      'original, &pound;750',
 	       0,
 		642,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de108', 'original',650);
+	VALUES(LAST_INSERT_ID(), 'de108', 'original',750);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------    
 
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'organic landscape 3',
-	       'acrylics and ink on canvas',
-	       70,
-	       70,
-	       'organic_landscape_3',
-	      'original, &pound;650',
-	       0,
-		641,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de109', 'original',650);
-
-
-##---------------------------------------------------------------
 
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'busy in chester',
-	       'acrylics an inks on canvas',
-	       105,
-	       105,
-	       'busy_in_chester',
-	      'original, &pound;1500',
-	       0,
-		650,
-		 649);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de121', 'original',1500);
-
-
-##---------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'then it was summer',
-	       'acrylics and ink on canvas',
-	       132,
-	       100,
-	       'then_it_was',
-	      'unavaliable, &pound;1750',
-	       0,
-		650,
-		 489);
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'figurescape 1,2,3',
-	       'oils and ink on canvas',
-	       270,
-	       90,
-	       'figurescape_123',
-	      'original, &pound;5000',
-	       0,
-		650,
-		 219);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de110', 'original',5000);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'figurescape 1',
-	       'oils and ink on canvas',
-	       90,
-	       90,
-	       'figurescape_1',
-	      'original, &pound;1750',
-	       0,
-		645,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de111', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'figurescape 2',
-	       'oils and ink on canvas',
-	       90,
-	       90,
-	       'figurescape_2',
-	      'original, &pound;1750',
-	       0,
-		640,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de112', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'figurescape 3',
-	       'oils and ink on canvas',
-	       90,
-	       90,
-	       'figurescape_3',
-	      'original, &pound;1750',
-	       0,
-		645,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de113', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'mountain glow 2',
-	       'acrylic and ink on canvas',
-	       105,
+	        'we like it here',
+	       'acrylics and inks',
 	       75,
-	       'mountain_glow_2',
-	      'original, &pound;1550',
-	       0,
-		650,
-		 449);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de114', 'original',1550);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'mountain glow 3',
-	       'acrylic and ink on canvas',
-	       105,
 	       75,
-	       'mountain_glow_3',
-	      'original, &pound;1550',
-	       0,
-		650,
-		 455);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de115', 'original',1550);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'hills are alive 8',
-	       'acrylic and ink on canvas',
-	       125,
-	       85,
-	       'hills_are_alive8',
-	      'SOLD, &pound;1750',
-	       0,
-		650,
-		 495);
-
-
-
-##---------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'downtown 1',
-	       'acrylics an inks on card',
-	       110,
-	       85,
-	       'downtown_1',
-	      'original, &pound;1500',
-	       0,
-		650,
-		 431);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de122', 'original',1500);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'downtown 2',
-	       'acrylics an inks on card',
-	       100,
-	       100,
-	       'downtown_2',
-	      'original, &pound;1750',
-	       0,
-		644,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de123', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'city strollers',
-	       'acrylics an inks on card',
-	       100,
-	       100,
-	       'city_strollers',
-	      'original, &pound;1500',
-	       0,
-		650,
-		 633);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de124', 'original',1500);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'theater of dreams',
-	       'acrylics an inks on card',
-	       100,
-	       100,
-	       'theater_of_dreams',
-	      'original, &pound;1750',
+	       'we-like-it',
+	      'original, &pound;850',
 	       0,
 		650,
 		 647);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de125', 'original',1750);
+	VALUES(LAST_INSERT_ID(), 'de109', 'original',850);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------    
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'everything must go',
-	       'acrylics an inks on card',
+	        'figurescape 1',
+	       'oil',
 	       100,
 	       100,
-	       'everything_must_go',
-	      'original, &pound;1550',
+	       'figurescape-1',
+	      'original, &pound;1750',
 	       0,
-		646,
+		642,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de126', 'original',1550);
+	VALUES(LAST_INSERT_ID(), 'de110', 'original',1750);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------     
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'sale',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'sale',
-	      'original, &pound;1550',
+	        'coming round the mountain 3',
+	       'oil',
+	       112,
+	       92,
+	       'coming-round-the3',
+	      'original, &pound;1950',
 	       0,
-		637,
-		 650);
+		650,
+		 515);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de127', 'original',1550);
+	VALUES(LAST_INSERT_ID(), 'de111', 'original',1950);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------       
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'cant stop sorry',
-	       'acrylics and inks on card',
-	       88,
-	       88,
-	       'cant_stop',
-	      'SOLD, &pound;1250',
-	       1,
-		649,
-		 650);
+	        'coming round the mountain 4',
+	       'oil',
+	       110,
+	       90,
+	       'coming-round-the4',
+	      'original, &pound;1950',
+	       0,
+		650,
+		 518);
 
 
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'de112', 'original',1950);
 
 
+##---------------------------------------------------------------        
 
-##---------------------------------------------------------------
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'out of the trees',
-	       'acrylics and inks on card',
-	       76,
-	       76,
-	       'out_of_the',
-	      'original, &pound;950',
+	        'coming round the mountain 27',
+	       'mixed media',
+	       68,
+	       68,
+	       'coming-round-the27',
+	      'original, &pound;450',
 	       0,
 		650,
 		 644);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de129', 'original',950);
+	VALUES(LAST_INSERT_ID(), 'de113', 'original',450);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------       
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'naturally primitive',
-	       'acrylics and inks on card',
-	       105,
-	       75,
-	       'naturally_primitive',
-	      'original, &pound;1250',
-	       0,
-		650,
-		 453);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de130', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'more to follow',
-	       'acrylics and inks on card',
-	       65,
-	       45,
-	       'more_to_follow',
-	      'original, &pound;650',
-	       0,
-		650,
-		 522);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de131', 'original',650);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'coming round the mountains 1',
-	       'acrylics and inks on card',
-	       59,
-	       59,
-	       'coming_round_the1',
-	      'original, &pound;550',
-	       0,
-		639,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de132', 'original',550);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'coming round the mountains 2',
-	       'acrylics and inks on card',
-	       59,
-	       59,
-	       'coming_round_the2',
-	      'original, &pound;550',
-	       0,
-		650,
-		 647);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de133', 'original',550);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'family gathering',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'family_gathering',
-	      'original, &pound;1750',
-	       0,
-		647,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de134', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'head land',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'head_land',
-	      'original, &pound;1750',
-	       0,
-		641,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de135', 'original',1750);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'global complexities 1',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'global_complexities_1',
-	      'original, &pound;1250',
-	       0,
-		649,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de136', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'global complexities 2',
-	       'acrylics and inks on card',
-	       109,
-	       109,
-	       'global_complexities_2',
-	      'original, &pound;1250',
-	       0,
-		649,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de137', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'global complexities 6',
-	       'acrylics and inks on canvas',
-	       75,
-	       75,
-	       'global_complexities_6',
-	      'unavailable, &pound;1250',
-	       0,
-		650,
-		 648);
-
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'global complexities 7',
-	       'acrylics and inks on canvas',
-	       75,
-	       75,
-	       'global_complexities_7',
-	      'unavalibel, &pound;1250',
+	        'coming round the mountain 28',
+	       'mixed media',
+	       68,
+	       68,
+	       'coming-round-the28',
+	      'original, &pound;450',
 	       0,
 		648,
 		 650);
 
 
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'rhythm and greens',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'rhythm_and_greens',
-	      'original, &pound;1250',
-	       0,
-		647,
-		 650);
-
-
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de140', 'original',1250);
+	VALUES(LAST_INSERT_ID(), 'de114', 'original',450);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------        
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'through a glass brightly 1',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'through_a_glass1',
-	      'original, &pound;1250',
-	       0,
-		650,
-		 647);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de141', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'through a glass brightly 2',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'through_a_glass2',
-	      'original, &pound;1250',
-	       0,
-		644,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de142', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'through a glass brightly 3',
-	       'acrylics and inks on card',
-	       100,
-	       100,
-	       'through_a_glass3',
-	      'original, &pound;1250',
-	       0,
-		647,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de143', 'original',1250);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'always possibilities',
-	       'acrylics and inks on canvas',
-	       100,
-	       100,
-	       'always_possibilities',
-	      'SOLD, &pound;1550',
-	       0,
-		639,
-		 650);
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'on the move',
-	       'acrylics and inks on canvas',
-	       100,
-	       100,
-	       'on_the_move',
-	      'SOLD, &pound;1550',
-	       0,
-		650,
-		 647);
-
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	       'weve got rhythm',
-	       'acrylics and inks on card',
-	       110,
-	       90,
-	       'weve_got_rhythm',
+	        'coming round the mountain 29',
+	       'mixed media',
+	       106,
+	       76,
+	       'coming-round-the29',
 	      'original, &pound;1550',
 	       0,
 		650,
-		 516);
+		 466);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de146', 'original',1550);
+	VALUES(LAST_INSERT_ID(), 'de115', 'original',1550);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------        
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	       'at a crossroads',
-	       'acrylics and inks on canvas',
-	       90,
-	       120,
-	       'at_a_crossroads',
-	      'original, &pound;4000',
+	        'out of the woods 3',
+	       'mixed media',
+	       100,
+	       100,
+	       'out-of-the3',
+	      'original, &pound;1950',
 	       0,
 		650,
-		 289);
+		 649);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de147', 'original',4000);
+	VALUES(LAST_INSERT_ID(), 'de116', 'original',1950);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------         
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'from the land ',
-	       'acrylics and inks on canvas',
-	       90,
-	       120,
-	       'from_the_land',
-	      'original, &pound;1750',
+	        'only passing through',
+	       'mixed media',
+	       68,
+	       68,
+	       'only-passing-through',
+	      'original, &pound;550',
 	       0,
-		483,
+		650,
+		 643);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'de117', 'original',550);
+
+
+##---------------------------------------------------------------          
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(211,
+	        'land sea and sky 1',
+	       'mixed media',
+	       97,
+	       97,
+	       'land-sea-and1',
+	      'original, &pound;1450',
+	       0,
+		647,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de148', 'original',1750);
+	VALUES(LAST_INSERT_ID(), 'de118', 'original',1450);
 
 
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'figurescape 8 ',
-	       'oils and inks on canvas',
-	       153,
-	       102,
-	       'figurescape_8',
-	      'unavailable, &pound;2000',
-	       0,
-		650,
-		 435);
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'figurescape 9 ',
-	       'mixed media on canvas',
-	       150,
-	       90,
-	       'figurescape_9',
-	      'SOLD, &pound;2500',
-	       0,
-		650,
-		 391);
-
-
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'figurescape 11 ',
-	       'mixed media on board',
-	       125,
-	       85,
-	       'figurescape_11',
-	      'SOLD, &pound;2500',
-	       0,
-		650,
-		 483);
-
-
-
-
-
-##---------------------------------------------------------------
+##---------------------------------------------------------------           
 
 
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'hills are alive 10 ',
-	       'acrylics an inks on canvas',
-	       120,
-	       90,
-	       'hills-are-10',
+	        'land sea and sky 2',
+	       'mixed media',
+	       100,
+	       100,
+	       'land-sea-and2',
 	      'original, &pound;1750',
 	       0,
-		650,
-		 536);
+		649,
+		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de152', 'original',1750);
+	VALUES(LAST_INSERT_ID(), 'de119', 'original',1750);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------            
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'hills are alive 17 ',
-	       'acrylics an inks on canvas',
-	       130,
+	        'land sea and sky 3',
+	       'mixed media',
 	       100,
-	       'hills-are-17',
-	      'original, &pound;2200',
+	       100,
+	       'land-sea-and3',
+	      'original, &pound;1750',
 	       0,
-		650,
-		 498);
+		645,
+		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de153', 'original',2200);
+	VALUES(LAST_INSERT_ID(), 'de120', 'original',1750);
 
 
-##---------------------------------------------------------------
+##---------------------------------------------------------------            
+
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(211,
-	        'hills are alive 18 ',
-	       'acrylics an inks on canvas',
-	       130,
-	       100,
-	       'hills-are-18',
-	      'original, &pound;2200',
+	        'across the fields 3',
+	       'mixed media',
+	       105,
+	       85,
+	       'across-the-fields3',
+	      'original, &pound;1350',
 	       0,
 		650,
-		 502);
+		 504);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de154', 'original',2200);
+	VALUES(LAST_INSERT_ID(), 'de121', 'original',1350);
 
 
 ##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'hills are alive 19 ',
-	       'acrylics an inks on canvas',
-	       130,
-	       100,
-	       'hills-are-19',
-	      'original, &pound;2200',
-	       0,
-		650,
-		 499);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de155', 'original',2200);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'hills are alive 20 ',
-	       'acrylics an inks on canvas',
-	       130,
-	       100,
-	       'hills-are-20',
-	      'original, &pound;2200',
-	       0,
-		650,
-		 500);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de156', 'original',2200);
-
-
-##---------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(211,
-	        'hills are alive 21 ',
-	       'acrylics an inks on canvas',
-	       130,
-	       100,
-	       'hills-are-21',
-	      'original, &pound;2200',
-	       0,
-		650,
-		 493);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'de157', 'original',2200);
 
 INSERT INTO artist (id, name, statement, notes, display)
 	VALUES(213, 'neil arms',
@@ -26071,17 +23893,19 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
+
 INSERT INTO artist (id, name, statement, notes, display, keywords)
 	VALUES(226, 'mike rickett',
-	'<p class="artist">Mike Rickett has been a student of fine art for eight years, first achieving a Foundation Degree in Fine Art, then a BA (Hons) in 2010 when he was awarded the Liverpool Women''s Hospital Purchase prize.  Followed that he achieved an MA  by Creative Practice, all at Liverpool Hope University. He previously achieved a BA (Hons) in English at the University of Liverpool. He shortly intends to embark on PhD.
+	'<p class="artist">Mike Rickett''s art explores the relationship between space, geometry and colour in the attempt to capture on canvas the physical and non-physical phenomena associated with the modern industrial city, its architecture, dynamism, and complexity. His work encompasses three distinct forms - hard-edge, geometric urban paintings and 3D reliefs as well as two-colour studies of Liverpool scenes and woodcut prints, also mostly of Liverpool scenes.
+
 </p>
 
-<p class="artist">He is a founder member of The Liverpool School art movement which now has eight members. 
-</p>
+<p class="artist">Mike has an MA in fine art following a BA (Hons) both at Liverpool Hope University where he was awarded the Liverpool Women''s Hospital Purchase prize. He previously achieved a BA (Hons) in English at the University of Liverpool. He shortly intends to embark on PhD. He is a founder member of The Liverpool School art movement of urban geometric art which now has eight members.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-<p class="artist">Mike''s work encompasses three distinct forms - hard-edge, geometric urban paintings and 3D reliefs as well as two-colour studies of Liverpool scenes and woodcut prints, also mostly of Liverpool scenes.</p>
+<p class="artist">Before beginning to study art in 2008 he pursued a career in the media as a journalist, mostly in daily newspapers, latterly with the Liverpool Daily Post but before that with the Liverpool Echo, Reuters, as well the Daily Mail and also as head of public relations for Girobank and the Plessey Company. 
+</p>
 
-<p class="artist">The art explores the relationship between space, geometry and colour in the attempt to capture on canvas the physical and non-physical phenomena associated with the modern industrial city, its architecture, dynamism, and complexity.</p>',
+<p class="artist">Mike was brought up in Powys, mid- Wales but now lives in Liverpool and has two children - a son in London and a daughter in Canada.</p>',
 
                NULL,
 	       1,
@@ -26089,70 +23913,105 @@ INSERT INTO artist (id, name, statement, notes, display, keywords)
 
 
 
-##---------------------------------------------------------------
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no 5',
-	       'acrylic on canvas',
-	       61,
-	       96,
-	       'composition-no5',
-	       'not currently available',
-	       0,
-		402,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr106', 'limited', 550);
-
-
-##--------------------------------------------------------------- 
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'terrace',
-	       'acrylic on canvas',
-	       44,
-	       61,
-	       'terrace',
-	      'not currently available',
-	       0,
-		423,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr119', 'limited', 450);
-
-
 ##---------------------------------------------------------------   
 
 
 
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'percy street',
+	       'framed screen print',
+	       21,
+	       29,
+	       'percy-street',
+	       'limited edition print, &pound;60',
+	       0,
+		486,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr113', 'limited edition print',60);
+
+
+##---------------------------------------------------------------     
+
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(226,
-	       'wood street',
+	       'fleet street 2',
+	       'framed screen print',
+	       29,
+	       21,
+	       'fleet-street-2',
+	        'limited edition print, &pound;60',
+	       0, 
+		481,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr103', 'limited edition print', 60);
+
+
+##---------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'kings parade',
+	       'framed wood cut',
+	       59,
+	       42,
+	       'kings-parade',
+	       'limited edition print, &pound;120',
+	       0,
+		650,
+		 488);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr110', 'limited edition print',120);
+
+
+##---------------------------------------------------------------    
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'wood street 1',
+	       'screen print framed',
+	       21,
+	       29,
+	       'wood-street-1',
+	       'limited edition print, &pound;60',
+	       0,
+		420,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr107', 'limited edition print', 60);
+
+
+##---------------------------------------------------------------      
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'wood street 3',
 	       'acrylic on canvas',
 	       72,
 	       107,
-	       'wood-street-1',
-	          'not currently available',
-	       0,
+	       'wood-street-3',
+	        'original, &pound;450',
+	       0,  
 		435,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr122', 'original', 350);
+	VALUES(LAST_INSERT_ID(), 'mr101', 'original', 450);
 
 
 ##---------------------------------------------------------------   
@@ -26167,139 +24026,17 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       84,
 	       122,
 	       'india-buildings-2',
-	           'not currently available',
-	       0,
+	      'original, &pound;400',
+	       1,
 		488,
 		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr113', 'limited', 400);
+	VALUES(LAST_INSERT_ID(), 'mr102', 'original', 400);
 
 
-##---------------------------------------------------------------  
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'pump house',
-	       'acrylic on canvas',
-	       52,
-	       80,
-	       'pump-house',
-	       'sold',
-	       0,
-		440,
-		 650);
-
-
-
-
-##---------------------------------------------------------------       
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'fleet street',
-	       'acrylic on canvas',
-	       52,
-	       80,
-	       'fleet-street',
-	         'not currently available',
-	       0,
-		408,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr111', 'limited', 450);
-
-
-##---------------------------------------------------------------  
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no 1',
-	       'acrylic plaster and plywood relief',
-	       61,
-	       42,
-	       'composition-no1',
-	          'not currently available',
-	       0,
-		650,
-		 445);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr102', 'limited', 650);
-
-
-##--------------------------------------------------------------- 
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no 2',
-	       'acrylic plaster and plywood relief',
-	       61,
-	       42,
-	       'composition-no2',
-	         'not currently available',
-	       0,
-		650,
-		 643);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr105', 'limited', 650);
-
-
-##---------------------------------------------------------------   
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no 3',
-	       'acrylic on canvas',
-	       108,
-	       60,
-	       'composition-no3',
-	          'not currently available',
-	       1,
-		650,
-		 363);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr103', 'limited', 550);
-
-
-##--------------------------------------------------------------- 
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no 4',
-	       'acrylic plaster and plywood relief',
-	       64,
-	       42,
-	       'composition-no4',
-	          'not currently available',
-	       0,
-		650,
-		 428);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr104', 'limited', 650);
-
-
-##--------------------------------------------------------------- 
-
+##---------------------------------------------------------------    
 
 
 
@@ -26308,45 +24045,22 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(226,
-	       'allerton road 2013',
+	       'allerton road ',
 	       'acrylic on canvas',
 	       82,
 	       48,
-	       'allerton-road-2013',
-	        'not currently available',
+	       'allerton-road',
+	        'original, &pound;450',
 	       0,
 		650,
-		 377);
+		 368);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr101', 'limited', 450);
+	VALUES(LAST_INSERT_ID(), 'mr105', 'original', 450);
 
 
 ##--------------------------------------------------------------- 
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'huskisson street',
-	       'acrylic on canvas',
-	       108,
-	       67,
-	       'huskisson-street',
-	        'not currently available',
-	       0,
-		650,
-		 398);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr112', 'limited', 550);
-
-
-##---------------------------------------------------------------   
 
 
 
@@ -26359,394 +24073,126 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       125,
 	       83,
 	       'paradise-interchange',
-	          'not currently available',
+	      'limited edition print, &pound £450',
 	       0,
 		650,
 		 488);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr115', 'original', 650);
-
-
-##---------------------------------------------------------------    
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'parr street corner',
-	       'acrylic on canvas',
-	       49,
-	       48,
-	       'parr-street-corner',
-	          'not currently available',
-	       0,
-		650,
-		 488);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr116', 'limited', 350);
-
-
-##---------------------------------------------------------------      
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'talking streets',
-	       'acrylic and montage on canvas',
-	       52,
-	       80,
-	       'talking-streets',
-	          'not currently available',
-	       0,
-		650,
-		 469);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr118', 'limited', 450);
+	VALUES(LAST_INSERT_ID(), 'mr106', 'original', 450);
 
 
 ##---------------------------------------------------------------  
 
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'trees',
-	       'silkscreen print',
-	       39,
-	       51,
-	       'trees',
-	           'not currently available',
-	       0,
-		476,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr120', 'limited edition print', 120);
-
-
-##---------------------------------------------------------------    
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(226,
-	       'paradise street',
-	       'screen print',
-	       39,
-	       33,
-	       'paradise-street',
-	       'not currently available',
-	       0,
-		650,
-		 433);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr114', 'limited edition print', 120);
-
-
-##---------------------------------------------------------------   
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'wood street 1',
-	       'screen print',
-	       39,
-	       51,
-	       'wood-street-screenprint1',
-	       'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr121', 'limited edition print', 120);
-
-
-##---------------------------------------------------------------   
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'wood street 2',
-	       'screen print',
-	       39,
-	       51,
-	       'wood-street-screenprint2',
-	         'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr123', 'limited edition print', 120);
-
-
-##---------------------------------------------------------------   
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'wood street woodcut',
-	       'acrylics on 12mm varnished ply',
-	       61,
-	       92,
-	       'wood-street',
-	      'not currently available',
-	       0,
-		450,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr124', 'original', 550);
-
-
-##--------------------------------------------------------------- 
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'dancer 1',
-	       'screenprint',
-	       40,
-	       50,
-	       'dancer-1',
-	       'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr107', 'limited edition print', 95);
-
-
-##--------------------------------------------------------------- 
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'dancer 2',
-	       'screenprint',
-	       40,
-	       50,
-	       'dancer-2',
-	     'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr108', 'limited edition print', 95);
-
-
-##--------------------------------------------------------------- 
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'dancer 3',
-	       'screenprint',
-	       40,
-	       50,
-	       'dancer-3',
-	      'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr109', 'limited edition print', 95);
-
-
-##---------------------------------------------------------------  
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'dancer 4',
-	       'screenprint',
-	       40,
-	       50,
-	       'dancer-4',
-	       'not currently available',
-	       0,
-		488,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr110', 'limited edition print', 95);
-
-
-##---------------------------------------------------------------    
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'the beatles church',
+	       'city living',
 	       'acrylic on canvas',
-	       41,
-	       61,
-	       'the-beatles-church',
-	     'not currently available',
-	       0,
-		420,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr111', 'limited edition print', 400);
-
-
-##---------------------------------------------------------------      
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'composition no7',
-	       'acrylic on canvas',
-	       99,
-	       62,
-	       'composition-no7',
-	       'not currently available',
-	       0,
-		650,
-		 409);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr112', 'limited edition print', 550);
-
-
-##---------------------------------------------------------------        
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'survivor',
-	       'acrylic on canvas',
-	       48,
-	       23,
-	       'survivor',
-	     'not currently available',
-	       0,
-		650,
-		 303);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr113', 'limited edition print', 350);
-
-
-##---------------------------------------------------------------         
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'over the top',
-	       'acrylic on canvas',
-	       62,
 	       45,
-	       'over-the-top',
-	       'not currently available',
+	       30,
+	       'city-living',
+	       'original, &pound;150',
 	       0,
 		650,
-		 475);
+		 490);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr114', 'limited edition print', 450);
+	VALUES(LAST_INSERT_ID(), 'mr108', 'original',150);
 
 
-##---------------------------------------------------------------        
+##---------------------------------------------------------------       
+
 
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(226,
-	       'salute the tank',
-	       'acrylic on canvas',
+	       'composition no 1',
+	       'acrylic plaster and 12mm plywood',
+	       61,
+	       42,
+	       'composition-no1',
+	        'original, &pound;500',
+	       0,  
+		650,
+		 445);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr104', 'original', 500);
+
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'composition no 6',
+	       'relief in ply and plaster and acrylics',
 	       62,
-	       43,
-	       'salute-the-tank',
-	      'not currently available',
-	       0,
-		650,
-		 447);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr115', 'limited edition print', 450);
-
-
-##---------------------------------------------------------------         
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(226,
-	       'the front',
-	       'acrylic on canvas',
 	       62,
-	       36,
-	       'the-front',
-	      'not currently available',
+	       'composition-No-6-Kings',
+	       'original, &pound;500',
 	       0,
 		650,
-		 373);
+		 650);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr116', 'limited edition print', 450);
+	VALUES(LAST_INSERT_ID(), 'mr109', 'original',500);
 
 
-##---------------------------------------------------------------            
-
+##---------------------------------------------------------------          
+    
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(226,
-	       'passchendaele',
-	       'acrylic on canvas',
-	       65,
-	       43,
-	       'passchendaele',
-	      'not currently available',
+	       'penny lane',
+	       'acrylics on 12mm varnished ply',
+	       90,
+	       60,
+	       'penny-lane',
+	       'original, &pound;450',
 	       0,
 		650,
 		 417);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mr117', 'limited edition print', 450);
+	VALUES(LAST_INSERT_ID(), 'mr112', 'original',450);
 
 
-##--------------------------------------------------------------- 
+##---------------------------------------------------------------          
+  
 
 
-##---------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(226,
+	       'metropolis in transit gloria',
+	       'wood plaster and acrylics',
+	       78,
+	       26,
+	       'metropolis-in-transit',
+	       'original, &pound;650',
+	       0,
+		650,
+		 620);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mr111', 'original',650);
+
+
+##---------------------------------------------------------------         
+
 
 INSERT INTO artist (id, name, statement, notes, display, keywords)
 	VALUES(225, 'angela burton',
@@ -29516,6 +26962,73 @@ I am more than willing to undertake commissions.
                NULL,
 	       1,
 		'liverpool artist, nostalgic paintings, liverpool cartoons, watercolour of liverpool, 50s liverpool, 60s liverpool, dave broadfoot artist, ');
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(235,
+	       'the bootiful game 1 - fog',
+	       'watercolour on paper',
+	       62,
+	       38,
+	       'the-bootiful1-fog',
+	      'original, &pound;275',
+	       0,
+		650,
+		 363);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'do121', 'original', 275);
+
+
+
+
+##---------------------------------------------------------------     
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(235,
+	       'the bootiful game 2 - snow',
+	       'watercolour on paper',
+	       62,
+	       38,
+	       'the-bootiful2-snow',
+	      'original, &pound;275',
+	       0,
+		650,
+		 356);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'do122', 'original', 275);
+
+
+
+
+##---------------------------------------------------------------  -     
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(235,
+	       'the bootiful game 3 - rain',
+	       'watercolour on paper',
+	       62,
+	       38,
+	       'the-bootiful3-rain',
+	      'original, &pound;275',
+	       0,
+		650,
+		 359);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'do123', 'original', 275);
+
+
+
 
 ##---------------------------------------------------------------
 
@@ -35218,22 +32731,161 @@ INSERT INTO artist (id, name, statement, notes, display, keywords)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(255,
-	       'work the evening tide',
+	       'tugs in gladstone lock circa 1965',
 	       'watercolour',
-	       56,
-	       38,
-	       'work-the-evening',
-	      'original, &pound;280',
+	       40,
+	       30,
+	       'tugs-in-gladstone',
+	      'original, &pound;240',
 	       0,
 		650,
-		 451);
+		 523);
 
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'jc101', 'original', 280);
+	VALUES(LAST_INSERT_ID(), 'jc112', 'original', 240);
 
 
-##---------------------------------------------------------------
+##--------------------------------------------------------------- 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'tugs in gladstone lock circa 1965',
+	        'watercolour',
+	       40,
+	       30,
+	       'tugs-in-gladstone',
+	      'limited edition print, &pound;50',
+	       0,
+		650,
+		 523);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc113', 'limited editon print', 50);
+
+
+##---------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'kruzenstern tall ships race 1984',
+	       'watercolour',
+	       40,
+	       30,
+	       'kruzenstern-tall-ships',
+	      'original, &pound;240',
+	       0,
+		507,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc114', 'original', 240);
+
+
+##--------------------------------------------------------------- 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'kruzenstern tall ships race 1984',
+	        'watercolour',
+	       40,
+	       30,
+	       'kruzenstern-tall-ships',
+	      'limited edition print, &pound;50',
+	       0,
+		507,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc115', 'limited editon print', 50);
+
+
+##---------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'turmoil with flying enterprise',
+	       'watercolour',
+	       46,
+	       30,
+	       'turmoil-with-flying',
+	      'original, &pound;250',
+	       0,
+		650,
+		 422);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc116', 'original', 250);
+
+
+##--------------------------------------------------------------- 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'turmoil with flying enterprise',
+	        'watercolour',
+	       40,
+	       30,
+	       'turmoil-with-flying',
+	      'limited edition print, &pound;50',
+	       0,
+		650,
+		 422);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc117', 'limited editon print', 50);
+
+
+##---------------------------------------------------------------   
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'early morning mist on the hudson river',
+	       'watercolour',
+	       40,
+	       30,
+	       'early-morning-mist',
+	      'original, &pound;240',
+	       0,
+		650,
+		 471);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc118', 'original', 240);
+
+
+##--------------------------------------------------------------- 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(255,
+	       'early morning mist on the hudson river',
+	       'watercolour',
+	       40,
+	       30,
+	       'early-morning-mist',
+	      'limited edition print, &pound;50',
+	       0,
+		650,
+		 471);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jc119', 'limited editon print', 50);
+
+
+##---------------------------------------------------------------     
+
+
 
 
 
@@ -40842,24 +38494,6 @@ INSERT INTO artist (id, name, statement, notes, display, keywords)
 ##----------------------------------------------------------------------------------
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
-	       'airfield',
-	       'acrylic and oil on canvas',
-	       15,
-	        15,
-	       'airfield',
-	       'original &pound;350',
-	       0,
-		646,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ101', 'original', 230);
-
-
-##----------------------------------------------------------------------------------
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -40884,86 +38518,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(279,
-	       'green field and sands',
-	       'acrylic and oil on board',
-	       15,
-	        15,
-	       'green-field-and',
-	        'original &pound;230',
-	       0,
-		650,
-		 649);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ103', 'original', 230);
-
-
-##----------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
-	       'derelict barn 3',
-	       'acrylic and oil on board',
-	       50,
-	        60,
-	       'derelict-barn-3',
-	       'not currently available',
-	       0,
-		650,
-		 540);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ104', 'original', 640);
-
-
-##---------------------------------------------------------------------------------- 
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
-	       'collage with red flag',
-	       'acrylic and oil on board',
-	       50,
-	        60,
-	       'collage-with-red',
-	       'not currently available',
-	       0,
-		650,
-		 524);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ105', 'original', 1000);
-
-
-##---------------------------------------------------------------------------------- 
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
-	       'trees in the snow',
-	       'acrylic and oil on canvas ',
-	       20,
-	        20,
-	       'trees-in-the',
-	        'original &pound;380',
-	       1,
-		643,
-		 650);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ106', 'original', 380);
-
-
-##----------------------------------------------------------------------------------
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
 	       'beach with red flag',
 	       'acrylic and oil on canvas ',
 	       18,
@@ -40980,27 +38534,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 ##---------------------------------------------------------------------------------- 
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(279,
-	       'scrap 7',
-	       'water based oil on board',
-	       20.2,
-	        30.1,
-	       'scrap-7',
-	        'original &pound;390',
-	       0,
-		650,
-		 431);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'JJ108', 'original', 390);
-
-
-##----------------------------------------------------------------------------------
-
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(279,
@@ -41019,8 +38552,121 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'JJ109', 'original', 380);
 
 
-##----------------------------------------------------------------------------------
+##----------------------------------------------------------------------------------  
 
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'collage with circles',
+	       'water soluble oil on board framed',
+	       30,
+	        30,
+	       'collage-with-circles',
+	        'original &pound;450',
+	       1,
+		645,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ110', 'original', 450);
+
+
+##----------------------------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'landscape with orange',
+	       'acrylic and oil on board framed',
+	       20,
+	        30,
+	       'landscape-with-orange',
+	        'original &pound;350',
+	       0,
+		650,
+		 440);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ111', 'original', 350);
+
+
+##----------------------------------------------------------------------------------   
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'landscape with yellow and blue',
+	       'acrylic and oil on board framed',
+	       20,
+	        30,
+	       'landscape-with-yellow',
+	        'original &pound;350',
+	       0,
+		650,
+		 428);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ112', 'original', 350);
+
+
+##----------------------------------------------------------------------------------      
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'line of brown trees',
+	       'acrylic and oil on canvas framed',
+	       18,
+	        12,
+	       'line-of-brown',
+	        'original &pound;320',
+	       0,
+		650,
+		 470);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ113', 'original', 320);
+
+
+##----------------------------------------------------------------------------------       
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'scrap 1',
+	       'water soluble oil on board framed',
+	       15.1,
+	        25,
+	       'scrap-1',
+	        'original &pound;370',
+	       0,
+		650,
+		 383);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ114', 'original', 370);
+
+
+##----------------------------------------------------------------------------------        
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(279,
+	       'scrap 2',
+	       'water soluble oil on board framed',
+	       18.2,
+	        30.3,
+	       'scrap-2',
+	        'original &pound;390',
+	       0,
+		650,
+		 385);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'JJ115', 'original', 390);
+
+
+##----------------------------------------------------------------------------------
 
 
 
@@ -42985,6 +40631,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
+
 INSERT INTO artist (id, name, statement, notes, display, keywords)
 	VALUES(284, 'john petch',
 	'<p class="artist">John Petch, born in Liverpool now living in Cheshire, trained to teach art in Liverpool, working in a number of local schools. He says:</p>
@@ -42995,12 +40642,523 @@ INSERT INTO artist (id, name, statement, notes, display, keywords)
 
 <p class="artist">"I am currently exploring the relationship between line and shape in the environment particularly buildings and the spaces between."</p>
 
-<p class="artist"></p>',
+<p class="artist">Limited edition prints are also available in larger sizes, please call 0845 017 6660.</p>',
                NULL,
 	       1,
 		'KEYWORDS');
 
 ##----------------------------------------------------------------------------------
+
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'back north john street medium',
+	       'acrylic on canvas',
+	       37,
+	       26,
+	       'back-north-john',
+	       'limited edition print &pound;58',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp112', 'limited edition print', 58);
+
+
+##----------------------------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'back north john street small',
+	       'acrylic on canvas',
+	       24,
+	       18,
+	       'back-north-john',
+	       'limited edition print &pound;38',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp113', 'limited edition print', 38);
+
+
+##---------------------------------------------------------------------------------- 
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       '1 mann island medium',
+	       'acrylic on canvas',
+	       37,
+	       26,
+	       '1-mann-island',
+	       'limited edition print &pound;58',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp114', 'limited edition print', 58);
+
+
+##----------------------------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       '1 mann island small',
+	       'acrylic on canvas',
+	       24,
+	       18,
+	       '1-mann-island',
+	       'limited edition print &pound;38',
+	       0,
+		650,
+		 455);
+
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp115', 'limited edition print', 38);
+
+
+##----------------------------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'jubilee bridge medium',
+	       'acrylic on canvas',
+	       37,
+	       26,
+	       'jubilee-bridge',
+	       'limited edition print &pound;58',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp116', 'limited edition print', 58);
+
+
+##----------------------------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'jubilee bridge small',
+	       'acrylic on canvas',
+	       24,
+	       18,
+	       'jubilee-bridge',
+	       'limited edition print &pound;38',
+	       0,
+		 650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp117', 'limited edition print', 38);
+
+
+##----------------------------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'stepping off medium',
+	       'acrylic on canvas',
+	       37,
+	       26,
+	       'stepping-off',
+	       'limited edition print &pound;58',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp118', 'limited edition print', 58);
+
+
+##----------------------------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'stepping off small',
+	       'acrylic on canvas',
+	       24,
+	       18,
+	       'stepping-off',
+	       'limited edition print &pound;38',
+	       0,
+		650,
+		 455);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp119', 'limited edition print', 38);
+
+
+##---------------------------------------------------------------------------------- 
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'west tower liverpool medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'west-tower-liverpool',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp120', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'west tower liverpool small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'west-tower-liverpool',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp121', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'costa liverpool medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'costa-liverpool',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp122', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'costa liverpool small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'costa-liverpool',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp123', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'mann island medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'mann-island',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp124', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------     
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'mann island small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'mann-island',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp125', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------     
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'st pauls square medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'st-pauls-square',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp126', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'st pauls square small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'st-pauls-square',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp127', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'hilton liverpool medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'hilton-liverpool',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp128', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'hilton liverpool small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'hilton-liverpool',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp129', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'echo arena medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'echo-arena',
+	       'limited edition print &pound;54',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp130', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'echo arena small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'echo-arena',
+	       'limited edition print &pound;34',
+	       0,
+		650,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp131', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------          
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'liverpool one medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'liverpool-one',
+	       'limited edition print &pound;54',
+	       0,
+		637,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp132', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'liverpool one small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'liverpool-one',
+	       'limited edition print &pound;34',
+	       0,
+		637,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp133', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------            
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'unity residential medium',
+	       'acrylic on canvas',
+	       25,
+	       25,
+	       'unity-residential',
+	       'limited edition print &pound;54',
+	       0,
+		649,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp134', 'limited edition print', 54);
+
+
+##----------------------------------------------------------------------------------            
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(284,
+	       'unity residential small',
+	       'acrylic on canvas',
+	       16,
+	       16,
+	       'unity-residential',
+	       'limited edition print &pound;34',
+	       0,
+		649,
+		 650);
+
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'jp135', 'limited edition print', 34);
+
+
+##----------------------------------------------------------------------------------                
+
 
 
 
@@ -43240,30 +41398,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 ##----------------------------------------------------------------------------------
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(284,
-	       'study after victor vasarely',
-	       'acrylic on canvas',
-	       100,
-	       70,
-	       'study-after-victor',
-	       'original &pound;900',
-	       0,
-		650,
-		 440);
-
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'jp101', 'original', 900);
-
-
-##----------------------------------------------------------------------------------
-
-
-
 
 INSERT INTO artist (id, name, statement, notes, display, keywords)
 	VALUES(285, 'art for arts sake',
@@ -52009,14 +50143,12 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       40,
 	       30,
 	       'pretty-and-elegant',
-	      'original, &pound;70',
+	      'sold',
 	       0,
 		650,
 		484);
 	     
 		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'kh109', 'original', 70);
 
 ##---------------------------------------------------------------   
 
@@ -52408,84 +50540,6 @@ INSERT INTO artist (id, name, statement, notes, display)
 
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(310,
-	       'buttermere',
-	       'watercolour',
-	       28,
-	       20,
-	       'buttermere-looking',
-	      'original, &pound;155',
-	       0,
-		650,
-		449);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mg101', 'original', 155);
-
-##----------------------    
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(310,
-	       'castlerigg stone circle',
-	       'watercolour',
-	       28,
-	       19,
-	       'castlerigg-stone-circle',
-	      'original, &pound;155',
-	       0,
-		650,
-		445);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mg102', 'original', 155);
-
-##----------------------      
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(310,
-	       'ferry on the mersey',
-	       'watercolour',
-	       26.5,
-	       17.4,
-	       'ferry-on-the',
-	      'original, &pound;155',
-	       0,
-		650,
-		529);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mg103', 'original', 155);
-
-##----------------------      
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(310,
-	       'view of the welsh hills',
-	       'watercolour',
-	       48,
-	       39.5,
-	       'view-of-the',
-	      'original, &pound;275',
-	       0,
-		526,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'mg104', 'original', 275);
-
-##----------------------     
-
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -52827,7 +50881,85 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
  
 
- 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(310,
+	       'buttermere',
+	       'watercolour',
+	       28,
+	       20,
+	       'buttermere-looking',
+	      'original, &pound;155',
+	       0,
+		650,
+		449);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mg101', 'original', 155);
+
+##----------------------    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(310,
+	       'castlerigg stone circle',
+	       'watercolour',
+	       28,
+	       19,
+	       'castlerigg-stone-circle',
+	      'original, &pound;155',
+	       0,
+		650,
+		445);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mg102', 'original', 155);
+
+##----------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(310,
+	       'ferry on the mersey',
+	       'watercolour',
+	       26.5,
+	       17.4,
+	       'ferry-on-the',
+	      'original, &pound;155',
+	       0,
+		650,
+		529);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mg103', 'original', 155);
+
+##----------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(310,
+	       'view of the welsh hills',
+	       'watercolour',
+	       48,
+	       39.5,
+	       'view-of-the',
+	      'original, &pound;275',
+	       0,
+		526,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'mg104', 'original', 275);
+
+##----------------------      
 
 
 
@@ -53764,7 +51896,7 @@ chosen to capture.
 <p class="artist">Ben Hughes Music together with Ben Hughes Art both promote what
 is really important to this young creative "son of Liverpool".</p>
 
-<p class="artist"></p>',
+<p class="artist">Please call 0845 0176660 to arrange viewing of framed original works.</p>',
                NULL,
 	       1);
 
@@ -53812,6 +51944,24 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 ##---------------------------------------------------------------         
 
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(314,
+	       'bold street liverpool',
+	   'watercolour on paper',
+	       60,
+	       42,
+	       'bold-street-liverpool',
+	      'framed original, &pound;300',
+	       0,
+		443,
+		650);
+	     
+
+
+##---------------------------------------------------------------  
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -53900,6 +52050,23 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(314,
+		'liverpool echo arena',
+	   'watercolour on paper',
+	       60,
+	       42,
+	      'liverpool-echo-arena',
+	      'framed original, &pound;300',
+	       0,
+		443,
+		650);
+	     
+
+
+##---------------------------------------------------------------  
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(314,
 	       'liverpool lime street station',
 	 	       'watercolour on paper',
 	       44.5,
@@ -53918,6 +52085,21 @@ INSERT INTO art_pricing(art, item_number, description, price)
 ##---------------------------------------------------------------                       
 
 
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(314,
+		'liverpool lime street station',
+	   'watercolour on paper',
+	       42,
+	       30,
+	      'liverpool-lime-street',
+	    'framed original, &pound;300',
+	       0,
+		443,
+		650);
+	     
+
+
+##--------------------------------------------------------------- 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(314,
@@ -53942,6 +52124,22 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(314,
+	       'liverpool metropolitan cathedral',
+	   'watercolour on paper',
+	       60,
+	       42,
+	       'metropolitan-cathedral',
+	      'framed original, &pound;300',
+	       0,
+		443,
+		650);
+	     
+
+
+##---------------------------------------------------------------  
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(314,
 	       'liverpool one',
 	       'watercolour on paper',
 	       44.5,
@@ -53960,6 +52158,23 @@ INSERT INTO art_pricing(art, item_number, description, price)
 ##---------------------------------------------------------------                           
 
 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(314,
+	     'liverpool one',
+	   'watercolour on paper',
+	       60,
+	       42,
+	      'liverpool-one',
+	      'framed original, &pound;300',
+	       0,
+		443,
+		650);
+	     
+
+
+##---------------------------------------------------------------  
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(314,
@@ -54508,6 +52723,155 @@ INSERT INTO artist (id, name, statement, notes, display)
 
 
 
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'cavern',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'cavern',
+	      'limited edition print, &pound;65',
+	       0,
+		485,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa106', 'limited edition print',65);
+
+
+##---------------------------------------------------------------                 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'liver building',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'liver-building',
+	      'limited edition print, &pound;65',
+	       0,
+		494,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa112', 'limited edition print',65);
+
+
+##---------------------------------------------------------------                             
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'palm house',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'palm-house',
+	      'limited edition print, &pound;65',
+	       1,
+		485,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa119', 'limited edition print',65);
+
+
+##---------------------------------------------------------------                                                         
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'pink liver building',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'pink-liver-building',
+	      'limited edition print, &pound;65',
+	       0,
+		459,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa120', 'limited edition print',65);
+
+
+##---------------------------------------------------------------                                                           
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'walker art gallery',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'walker-art-gallery',
+	      'limited edition print, &pound;65',
+	       0,
+		490,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa123', 'limited edition print',65);
+
+
+##---------------------------------------------------------------     
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'liverpool triptych 1',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'liverpool-triptych-1',
+	      'limited edition print, &pound;85',
+	       0,
+		650,
+		429);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa117', 'limited edition print',85);
+
+
+##---------------------------------------------------------------                                               
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'liverpool triptych 2',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'liverpool-triptych-2',
+	      'limited edition print, &pound;85',
+	       0,
+		650,
+		429);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa118', 'limited edition print',85);
+
+
+##---------------------------------------------------------------                                                  
+
+
+
+
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(315,
 	       'beach 1',
@@ -54606,6 +52970,47 @@ INSERT INTO art_pricing(art, item_number, description, price)
 ##---------------------------------------------------------------                   
 
 
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'beachfront 6',
+	       'acrylics and ink on streched canvas',
+	       50,
+	       60,
+	       'beachfront-6',
+	      'original, &pound;285',
+	       0,
+		536,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa123', 'original',285);
+
+
+##---------------------------------------------------------------                                                                        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(315,
+	       'beachfront 7',
+	       'acrylics and ink on streched canvas',
+	       50,
+	       60,
+	       'beachfront-7',
+	      'original, &pound;285',
+	       0,
+		533,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sa124', 'original',285);
+
+
+##---------------------------------------------------------------     
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -54841,154 +53246,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 
 
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'liverpool triptych 1',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'liverpool-triptych-1',
-	      'limited edition print, &pound;85',
-	       0,
-		650,
-		429);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa117', 'limited edition print',85);
-
-
-##---------------------------------------------------------------                                               
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'liverpool triptych 2',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'liverpool-triptych-2',
-	      'limited edition print, &pound;85',
-	       0,
-		650,
-		429);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa118', 'limited edition print',85);
-
-
-##---------------------------------------------------------------                                                  
-
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'cavern',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'cavern',
-	      'limited edition print, &pound;65',
-	       0,
-		485,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa106', 'limited edition print',65);
-
-
-##---------------------------------------------------------------                 
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'liver building',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'liver-building',
-	      'limited edition print, &pound;65',
-	       0,
-		494,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa112', 'limited edition print',65);
-
-
-##---------------------------------------------------------------                             
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'palm house',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'palm-house',
-	      'limited edition print, &pound;65',
-	       1,
-		485,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa119', 'limited edition print',65);
-
-
-##---------------------------------------------------------------                                                         
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'pink liver building',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'pink-liver-building',
-	      'limited edition print, &pound;65',
-	       0,
-		459,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa120', 'limited edition print',65);
-
-
-##---------------------------------------------------------------                                                           
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(315,
-	       'walker art gallery',
-	       'acrylic on canvas',
-	       30,
-	       40,
-	       'walker-art-gallery',
-	      'limited edition print, &pound;65',
-	       0,
-		490,
-		650);
-	     
-		
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'sa123', 'limited edition print',65);
-
-
-##---------------------------------------------------------------     
-
-
  
 
 
@@ -55114,5 +53371,1192 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 ##---------------------------------------------------------------   
 
+ 
 
 
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(317, 'david andrews',
+	'<p class="artist">David Andrews is a Liverpool based artist and designer, specialising in large and small scale street art and framed prints. His background and experience in mixed media, graphic design and Scherenschnitte (paper-cutting) influences his street artwork; using multi-layered stencils and acrylic spray-paint in a range of vibrant colours. Many of David''s current pieces are linked to science and nature, a theme which continues to inspire him.</p>
+
+<p class="artist">David has participated in a number of exhibitions across the North-West and has recently completed large-scale art commissions for Alternative Futures Group and Rex by Revolver Retail. He is also currently working with the Liverpool Poetry Society on a community street art project. David is passionate about changing negative perceptions of street art and graffiti and believes (and indeed demonstrates) that it is possible to create beautiful art from a spray can.</p>
+
+
+<p class="artist">David is available to discuss bespoke commissions, big or small, and will happily work with you to tailor designs to your needs
+</p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'butterflies of the soul',
+	       'spray paint on canvas board',
+	       29,
+	       29,
+	       'butterflies-of-the',
+	      'original, &pound;100',
+	       0,
+		650,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da101', 'original', 100);
+
+
+##---------------------------------------------------------------    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'charismatic megafauna',
+	       'spray paint on board in custom frame',
+	       29,
+	       37,
+	       'charismatic-megafauna',
+	      'original, &pound;150',
+	       0,
+		519,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da102', 'original', 150);
+
+
+##---------------------------------------------------------------       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'giraffiti',
+	       'spray paint on reverse of glass',
+	       29,
+	       39,
+	       'giraffiti',
+	      'original, &pound;100',
+	       0,
+		488,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da103', 'original', 100);
+
+
+##---------------------------------------------------------------           
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'space scape 1',
+	       'spray paint on wooden board',
+	       45,
+	       78,
+	       'space-scape-1',
+	      'original, &pound;100',
+	       0,
+		432,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da104', 'original', 100);
+
+
+##---------------------------------------------------------------          
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'pink butterfly',
+	       'spray paint on wooden board',
+	       80,
+	       60,
+	       'pink-butterfly',
+	      'original, &pound;100',
+	       0,
+		432,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da105', 'original', 100);
+
+
+##---------------------------------------------------------------              
+    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'blue butterfly',
+	       'spray paint on wooden board',
+	       80,
+	       60,
+	        'blue-butterfly',
+	      'original, &pound;100',
+	       0,
+		432,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'da106', 'original', 100);
+
+
+##---------------------------------------------------------------              
+    
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'alternative futures',
+	       'spray paint on wall',
+	       1000,
+	       250,
+	       'alternative-futures',
+	      'commission example',
+	       0,
+		650,
+		386);
+	     
+		
+
+
+
+##---------------------------------------------------------------                 
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'butterflies',
+	       'spray paint on wall',
+	       130,
+	       100,
+	       'butterflies',
+	      'commission example',
+	       1,
+		650,
+		480);
+	     
+		
+
+
+##---------------------------------------------------------------                    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(317,
+	       'rex',
+	       'spray paint on wall',
+	       0,
+	       0,
+	       'rex',
+	      'commission example',
+	       0,
+		650,
+		578);
+	     
+		
+
+
+##--------------------------------------------------------------- 
+
+
+ 
+
+
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(318, 'katherine dereli',
+	'<p class="artist">I''m Katherine Dereli, I sculpt mostly in clay that I then cast into plaster and occasionally bronze, or else fire to create one off terracotta pieces. I have also worked in carved stone. In the past I have done varying amounts of painting, traditional and digital which I continue to work on though my focus is on sculpture.</p>
+
+<p class="artist"></p>
+
+
+<p class="artist">
+</p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'climbing cat',
+	       'terracotta',
+	       20,
+	       30,
+	       'climbing-cat',
+	      'original, &pound;160',
+	       0,
+		650,
+		488);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd103', 'original', 160);
+
+
+##---------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'george bernard shaw',
+	       'plaster',
+	       35,
+	       20,
+	       'george-bernard-shaw',
+	      'original, &pound;220',
+	       0,
+		425,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd105', 'original', 220);
+
+
+##--------------------------------------------------------------- 
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'arrangement',
+	       'acrylic on canvas',
+	       30,
+	       40,
+	       'arrangement',
+	      'original, &pound;150',
+	       0,
+		504,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd101', 'original', 150);
+
+
+##---------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'carnations and poppies',
+	       'acrylic on canvas',
+	       40,
+	       50,
+	       'carnations-and-poppies',
+	      'original, &pound;230',
+	       0,
+		551,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd102', 'original', 230);
+
+
+##---------------------------------------------------------------      
+
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'flowers in a cornell box',
+	       'acrylic on canvas',
+	       25,
+	       30,
+	       'flowers-in-a',
+	      'original, &pound;150',
+	       0,
+		572,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd104', 'original', 150);
+
+
+##---------------------------------------------------------------      
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'red flowers',
+	       'acrylic on canvas',
+	       40,
+	       55,
+	       'red-flowers',
+	      'original, &pound;230',
+	       0,
+		650,
+		483);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd106', 'original', 230);
+
+
+##---------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(318,
+	       'white carnations',
+	       'acrylic on canvas',
+	       40,
+	       40,
+	       'white-carnations',
+	      'original, &pound;200',
+	       1,
+		650,
+		632);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kd107', 'original', 200);
+
+
+##---------------------------------------------------------------     
+
+
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(319, 'lottie hulse',
+	'<p class="artist">Lottie, a Year 9 student from St Hilda''s CofE High School, is the second recipient of the dot-art Scholarship, 
+giving her a years membership to dot-art''s network, allowing her to showcase and sell her work alongside professional artists;
+after being named Overall Winner (secondary) in the second dot-art Schools Competition in May 2014. Her winning piece of work, Heat, can be seen below.
+</p>
+
+<p class="artist">The dot-art Schools programme is an annual, interactive, online, inter-school art competition, launched in 2012 and culminating in an end of year 
+exhibition for the top students in each participating school. The winners of the 2014 dot-art Schools Competition were announced at a prize-giving 
+ceremony at the Walker Art Gallery in Liverpool on 16th May 2014, where as well as the overall winners, the top three students from each of 
+the participating schools were all presented with a certificate by the Lord Mayor, Councillor Gary Millar.
+</p>
+
+<p class="artist">You can find out more about dot-art Schools at <a class="art_prices" href="http://schools.dot-art.com/">schools.dot-art.com.</a>
+</p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'heat',
+	       'pen on paper',
+	       29,
+	       21,
+	       'heat',
+	      'not available',
+	       0,
+		554,
+		 650);
+	     
+		
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'youth 1',
+	       'pen on paper',
+	       29,
+	       21,
+	       'youth-1',
+	     'original, &pound;45',
+	       1,
+		459,
+		 650);
+	     
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'lh101', 'original', 45);
+		
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'youth 2',
+	       'pen on paper',
+	       29,
+	       21,
+	       'youth-2',
+	     'original, &pound;45',
+	       0,
+		454,
+		 650);
+	     
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'lh101', 'original', 45);
+		
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'glasses',
+	       'pen on paper',
+	       21,
+	       14.6,
+	       'glasses',
+	     'original, &pound;40',
+	       0,
+		650,
+		 474);
+	     
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'lh102', 'original', 40);
+		
+
+##---------------------------------------------------------------   
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'fridge',
+	       'pen on paper',
+	       29,
+	       21,
+	       'fridge',
+	     'original, &pound;45',
+	       0,
+		420,
+		 650);
+	     
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'lh103', 'original', 45);
+		
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(319,
+	       'garden',
+	       'pen on paper',
+	       29,
+	       21,
+	       'garden',
+	     'original, &pound;45',
+	       0,
+		439,
+		 650);
+	     
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'lh104', 'original', 45);
+		
+
+##---------------------------------------
+
+ 
+
+
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(320, 'nicky armstrong',
+	'<p class="artist">Trained in both traditional stained glass and Contemporary Architectural Glass Design Nicky has developed a reputation as a fine art glass/ mixed media Applied Artist often incorporating textiles into pieces to touch on social and political observations. Intent on pushing boundaries, Nicky''s strengths lie in innovative manipulation of material combined with social comment.</p>
+
+<p class="artist">Matriarchal Trapping is a body of work touching on the issues off class diversity. The works recognise and expresses personal experiences of living amid oppressed stereotypical working class woman, and the strong comradeship between social groups amongst these tight knit communities.
+The loss of industry within Victorian towns reflects in the ghostly remains of garments, carbon echoes industrial bi-product and speaks volumes of lifetimes spent serving the machine
+</p>
+
+
+<p class="artist">"Even today I remember vividly the memories 
+of an up bringing in a Northern working community and the personality traits of women whom I have known throughout my life are still with me. 
+Women from industrial working communities whom have spent a lifetime working in the confinement of a factory.  Remnants of tools and learnt tacit skills of times when women were not only slave to the industrial machine but also oppressed in the home."</p>
+
+<p class="artist">Matriarchal Trapping is a reflection of the past and a celebration of woman in the future.</p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'barbaras pinny',
+	       'carbon print on glass reclamed window pane',
+	       61,
+	       100,
+	       'barbaras-pinny',
+	      'original, &pound;700',
+	       0,
+		390,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na101', 'original', 700);
+
+
+##---------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'irenes pinny',
+	       'carbon print on glass reclamed window pane',
+	       61,
+	       100,
+	       'irenes-pinny',
+	      'original, &pound;700',
+	       0,
+		391,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na102', 'original', 700);
+
+
+##---------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'margarets pinny',
+	       'carbon print on glass reclamed window pane',
+	       61,
+	       100,
+	       'margarets-pinny',
+	      'original, &pound;700',
+	       0,
+		405,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na103', 'original', 700);
+
+
+##---------------------------------------------------------------         
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'ritas pinny',
+	       'carbon print on glass reclamed window pane',
+	       61,
+	       100,
+	       'ritas-pinny',
+	      'original, &pound;700',
+	       0,
+		402,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na104', 'original', 700);
+
+
+##---------------------------------------------------------------              
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'doreens pinny',
+	       'carbon print on glass',
+	       61,
+	       100,
+	       'doreens-pinny',
+	      'original, &pound;750',
+	       0,
+		650,
+		410);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na105', 'original', 750);
+
+
+##---------------------------------------------------------------                
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'sylvias pinny',
+	       'carbon print on glass',
+	       61,
+	       100,
+	       'sylvias-pinny',
+	      'original, &pound;500',
+	       0,
+		417,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na106', 'original', 500);
+
+
+##---------------------------------------------------------------                    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'peg bag',
+	       'carbon print on glass',
+	       61,
+	       100,
+	       'peg-bag',
+	      'original, &pound;500',
+	       0,
+		387,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na107', 'original', 500);
+
+
+##---------------------------------------------------------------                      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'gloves',
+	       'carbon print on glass',
+	       62,
+	       62,
+	       'gloves',
+	      'original, &pound;166',
+	       1,
+		650,
+		627);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na108', 'original', 166);
+
+
+##---------------------------------------------------------------                        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'irons',
+	       'branded calico mixed media',
+	       75,
+	       160,
+	       'irons',
+	      'original, &pound;300',
+	       0,
+		650,
+		332);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na109', 'original', 300);
+
+
+##---------------------------------------------------------------                           
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'patterns',
+	       'screen printed glass gold leaf',
+	       60,
+	       75,
+	       'patterns',
+	      'original, &pound;333',
+	       0,
+		464,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na110', 'original', 333);
+
+
+##---------------------------------------------------------------                               
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'patterns and shuttle',
+	       'mixed media',
+	       94,
+	       102,
+	       'patterns-and-shuttle',
+	      'original, &pound;200',
+	       0,
+		514,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na111', 'original', 200);
+
+
+##---------------------------------------------------------------                                    
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'shuttle panel',
+	       'screen printed glass branded wood',
+	       85,
+	       106,
+	       'shuttle-panel',
+	      'original, &pound;600',
+	       0,
+		650,
+		529);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na112', 'original', 600);
+
+
+##---------------------------------------------------------------                                     
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'shuttle screen',
+	       'screen printed glass branded wood',
+	       180,
+	       62,
+	       'shuttle-screen',
+	      'original, &pound;1166',
+	       0,
+		423,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na113', 'original', 1166);
+
+
+##---------------------------------------------------------------                                       
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'untitled',
+	       'carbon print on glass mixed media',
+	       90,
+	       45,
+	       'untitled',
+	      'original, &pound;140',
+	       0,
+		650,
+		488);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'na114', 'original', 140);
+
+
+##---------------------------------------------------------------                                            
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(320,
+	       'street',
+	       'soot and vinyl letters installation piece',
+	         0,
+	         0,
+	       'street',
+	      'commission example',
+	       0,
+		650,
+		459);
+	     
+		
+
+
+##--------------------------------------------------------------- 
+
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(321, 'david grimbleby',
+	'<p class="artist">David Grimbleby was born in Lincolnshire, studied graphic design and worked as a decorative and 
+  lettering artist. In the south west and London, he worked in several outdoor jobs, exhibiting locally and nationally. 
+  On moving to Southport he became a member of Merseyside Contemporary Artists and has exhibited widely in both solo 
+  and mixed exhibitions. David has won several awards and prizes and has work in the BBC Public Catalogue Foundation site, 
+  Your Paintings, as well as in many private and public collections. His work has been influenced by surrealism, landscape 
+  and nature; continuing to experiment with various materials in painting, collage and assemblage.
+</p>
+
+<p class="artist"></p>
+
+<p class="artist"></p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'mythic future',
+	       'mixed media',
+	       31,
+	       39,
+	       'mythic-future',
+	      'original, &pound;140',
+	       0,
+		650,
+		519);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg101', 'original', 140);
+
+
+##---------------------------------------------------------------  
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'secret place',
+	       'mixed media',
+	       46,
+	       61,
+	       'secret-place',
+	      'original, &pound;230',
+	       0,
+		650,
+		467);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg102', 'original', 230);
+
+
+##---------------------------------------------------------------  
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'rambler chic',
+	       'mixed media',
+	       60,
+	       50,
+	       'rambler-chic',
+	      'original, &pound;230',
+	       0,
+		525,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg103', 'original', 230);
+
+
+##---------------------------------------------------------------    
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'garden of the birds',
+	       'mixed media',
+	       51,
+	       51,
+	       'garden-of-the',
+	      'original, &pound;250',
+	       0,
+		650,
+		645);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg104', 'original', 250);
+
+
+##---------------------------------------------------------------      
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'rose mandala',
+	       'mixed media',
+	       51,
+	       51,
+	       'rose-mandala',
+	      'original, &pound;250',
+	       0,
+		644,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg105', 'original', 250);
+
+
+##---------------------------------------------------------------      
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'wind song',
+	       'oil on canvas',
+	       51,
+	       51,
+	       'wind-song',
+	      'original, &pound;250',
+	       0,
+		643,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg115', 'original', 250);
+
+
+##---------------------------------------------------------------         
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'higgs boson decay',
+	       'mixed media',
+	       31,
+	       31,
+	       'higgs-boson-decay',
+	      'original, &pound;140',
+	       0,
+		650,
+		641);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg106', 'original', 140);
+
+
+##---------------------------------------------------------------        
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'time',
+	       'mixed media',
+	       22,
+	       22,
+	       'time',
+	      'original, &pound;130',
+	       1,
+		644,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg107', 'original', 130);
+
+
+##---------------------------------------------------------------          
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'words from the wise',
+	       'mixed media',
+	       26,
+	       21,
+	       'words-from-the',
+	      'original, &pound;130',
+	       0,
+		550,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg108', 'original', 130);
+
+
+##---------------------------------------------------------------          
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'remnants',
+	       'mixed media',
+	       28,
+	       23,
+	       'remnants',
+	      'original, &pound;130',
+	       0,
+		536,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg109', 'original', 130);
+
+
+##---------------------------------------------------------------          
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'whats is left behind',
+	       'mixed media',
+	       34,
+	       29,
+	       'what-is-left',
+	      'original, &pound;130',
+	       0,
+		553,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg110', 'original', 130);
+
+
+##---------------------------------------------------------------          
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'ness gardens bands',
+	       'oil and collage',
+	       51,
+	       66,
+	       'ness-gardens-bands',
+	      'original, &pound;300',
+	       0,
+		650,
+		495);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg111', 'original', 300);
+
+
+##---------------------------------------------------------------            
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'the brood',
+	       'oil and collage',
+	       30,
+	       41,
+	       'the-brood',
+	      'original, &pound;150',
+	       0,
+		650,
+		491);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg112', 'original', 150);
+
+##--------------------------------------------------------------                                                                             
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'coastal road',
+	       'oil on canvas',
+	       41,
+	       51,
+	       'costal-road',
+	      'original, &pound;150',
+	       0,
+		650,
+		501);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg113', 'original', 150);
+
+
+##---------------------------------------------------------------                                                                               
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'foxglove sentinel',
+	       'oil on canvas',
+	       40,
+	       36,
+	       'foxglove-sentinel',
+	      'original, &pound;180',
+	       0,
+		500,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg114', 'original', 180);
+
+
+##---------------------------------------------------------------                                                                                 
+
+                                                                        
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(321,
+	       'beacon fell junction',
+	       'oil on canvas',
+	       41,
+	       51,
+	       'beacon-fell-junction',
+	      'original, &pound;150',
+	       0,
+		650,
+		505);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'dg116', 'original', 150);
+
+
+##--------------------------------------------------------------- 
+ 

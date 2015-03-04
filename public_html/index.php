@@ -77,6 +77,8 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 <meta property="fb:admins" content="712515886" />
 
+
+
 </head>
 
 <body class="light">
@@ -110,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/nathan-pendlebury">featured artist... nathan pendlebury</a></h3>
+<a class="menu" href="/artist/paula tasker lynch">featured artist... paula tasker lynch</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -119,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 38 LIMIT 7";
+$query = "SELECT title, image FROM art WHERE artist = 312 LIMIT 6";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/nathan pendlebury/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/paula tasker lynch/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -135,14 +137,24 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <h3 class="sidebar-title">
 <a class="menu" href="http://twitter.com/dotart" id="twitter-link">dotart twitter feed</a></h3>
 
+<a class="twitter-timeline" 
+ width="200"
+  height="450"
+href="https://twitter.com/dotart" 
+data-widget-id="572773081828294656">Tweets by @dotart</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
 <!-- <ul id="twitter_update_list"></ul>
 
-<script src="http://twitter.com/javascripts/blogger.js"></script>
-<script src="http://twitter.com/statuses/user_timeline/dotart.json?callback=twitterCallback&amp;count=5" type="text/javascript"></script>
--->
 
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/dotart" data-widget-id="311872985717932033">Tweets by @dotart</a>
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+
+
 
 
 </td>
@@ -174,7 +186,7 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <td align="center" width="150px">
 <img src="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" title="Liverpool in Oils by Joe Thompson" alt="Liverpool in Oils by Joe Thompson"/>
 
-<p>12th December 2014 - 9th January 2015, REX The Concept Store, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
+<p>12th December 2014 - 6th March 2015, REX The Concept Store, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
 
 <p>8th September - 24th October 2014, dot-art Showroom <strong> Political Football</strong> - Phil Disley</p>
 
