@@ -133,31 +133,19 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 
 </div>
 </td>
+
 <td>
 <h3 class="sidebar-title">
 <a class="menu" href="http://twitter.com/dotart" id="twitter-link">dotart twitter feed</a></h3>
-
 <a class="twitter-timeline" 
  width="200"
-  height="450"
-href="https://twitter.com/dotart" 
-data-widget-id="572773081828294656">Tweets by @dotart</a>
+ height="450"
+ href="https://twitter.com/dotart" 
+ data-widget-id="572773081828294656">Tweets by @dotart</a>
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
-<!-- <ul id="twitter_update_list"></ul>
-
-
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/dotart" data-widget-id="311872985717932033">Tweets by @dotart</a>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
--->
-
-
-
-
 </td>
+
 </tr>
 </table>
 
@@ -319,9 +307,6 @@ choose to give any amount from &pound;20.</p>
 <?php
    include $inc_dir . 'analytics.html';
 ?>
-
-<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/dotart.json?callback=twitterCallback2&amp;count=5"></script>
 
 </body>
 
