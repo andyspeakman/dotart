@@ -46,6 +46,7 @@
 
 <ul class="artist">
 <li class="artist">Sunday 29th March 2015, 10am-1pm. Cost: £25<br>
+<li class="artist">Sunday 17th May 2015, 10am-1pm. Cost: £25<br>
 <a href="https://sketchinginthepalmhouse.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
@@ -72,8 +73,8 @@ and see the online calendar below. If you would like further information, or to 
 <h3 class="artist">painting</h3>
 
 <ul class="artist">
-<li class="artist">Tuesday evenings, 6.45-9.30pm. Winter 10 week course starts 27th January 2015. Cost: £160<br>
-<a href="http://paintingwinter15.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9.30pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
+<a href="http://paintingspring15.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -86,8 +87,8 @@ Suitable for all levels, including beginners.</p>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 27th January 2015. Cost: £160<br>
-<a href="http://lifedrawingwinter15.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
+<a href="http://lifedrawingspring15.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Life Drawing, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 
@@ -101,8 +102,8 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 27th January 2015. Cost: £160<br>
-<a href="http://jewellerymetalcourse.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
+<a href="http://jewellerymetalspring15.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 </ul>
@@ -111,47 +112,24 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 
 
 
-<h3 class="artist">jewellery making with beads</h3>
-
-<ul class="artist">  
-
-<li class="artist">Sunday 10.30am-4.30pm. 22nd February 2015. Cost: £40<br>
-<a href="http://jewellerybeadsday.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Beads - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</ul>
-
-<p class="artist">Tutor: <b>Wendy Lennon</b>. Learn different techniques of bead making from a choice of materials including clay, aluminium foil and paper. Then using simple techniques you will use wire and jewellery findings making these into earrings, bracelets or necklaces.</p> 
-
-
-<h3 class="artist">decoupage</h3>
-
-<ul class="artist">  
-
-<li class="artist">Sunday 10.30am-4.30pm. 22nd March 2015. Cost: £40<br>
-<a href="http://decoupageday.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Beads - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</ul>
-
-<p class="artist">Tutor: <b>Christine Colvin</b>. An introduction to decoupage, the art of decorating with paper, made popular by the Victorians which now has a modern twist, breathing new life into old items and jazzing up new ones!</p> 
-
-
-<h3 class="artist">photowalks</h3>
+<h3 class="artist">LOOK/15 photowalks</h3>
 
 <ul class="artist">
 
-<li class="artist">Sundays, 10.30am-2.30pm. 23rd November 2014. Cost: £25 <br>
-<a href="http://photowalks2014.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photowalks - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
+<li class="artist">Saturday 16th May 10.30am-12.30pm. Cost: £20 <br>
+<li class="artist">Sunday 17th May 10.30am-12.30pm. Cost: £20 <br>
+<li class="artist">Saturday 23rd May 10.30am-12.30pm. Cost: £20 <br>
+<li class="artist">Sunday 24th May 10.30am-12.30pm. Cost: £20 <br>
 
-<li class="artist">Sundays, 10.30am-2.30pm. 18th January 2015. Cost: £25 <br>
-<a href="http://photowalks2015.eventbrite.com/" target="_blank"  ><img border="0"  
+<a href="http://look15photowalks.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photowalks - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 
 </ul>
 
-<p class="artist">Tutor: <b>Steward Ellett</b>. Experienced photographer and teacher Steward leads a guided walk around the architectural 
+<p class="artist">Tutor: <b>Steward Ellett</b>. dot-art has teamed up with Liverpool's International Photography Festival, LOOK/15,
+to offer a series of special Photowalks in locations across Merseyside during the festival this May.
+Experienced photographer and teacher Steward leads a guided walk around the architectural and landscape 
 highlights of Liverpool looking at different ways of capturing photos using various in camera techniques. 
 Dress for all weathers and bring your camera!</p>
 
@@ -171,6 +149,24 @@ info@dot-art.co.uk</a> or call 0845 017 6660 for more details.</p>
 
 
 <!---
+
+<h3 class="artist">photowalks</h3>
+
+<ul class="artist">
+
+
+<li class="artist">Sundays, 10.30am-2.30pm. 8th March 2015. Cost: £25 <br>
+<a href="http://photowalks2015.eventbrite.com/" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photowalks - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+
+</ul>
+
+<p class="artist">Tutor: <b>Steward Ellett</b>. Experienced photographer and teacher Steward leads a guided walk around the architectural 
+highlights of Liverpool looking at different ways of capturing photos using various in camera techniques. 
+Dress for all weathers and bring your camera!</p>
+
+
 
 h3 class="artist">black & white photography</h3>
 
