@@ -26,6 +26,10 @@
 
 <h1>press releases</h1>
 
+<p class="date">19th March 2015</p>
+<p><b><a href="/images/dotart-Bebbington-Rex-Release.pdf" title="Download the Faith Bebbington Press Release">Download the Faith Bebbington at REX Press Release (PDF FORMAT)</a></b></p>
+
+
 <p class="date">26th November 2014</p>
 <p><b><a href="/images/dotart-Thompson-Rex-Release.pdf" title="Download the Liverpool in Oils Press Release">Download the Liverpool in Oils at REX Press Release (PDF FORMAT)</a></b></p>
 

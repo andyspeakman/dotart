@@ -35,6 +35,36 @@
 <h1>exhibition archive</h1>
 
 
+<h3>Liverpool in Oils - Joe Thompson</h3>
+
+<table class="art" width="100%">
+<tr align="center">
+
+<td>
+    <a href="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
+        <img src="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/></a>
+</td>
+<td>
+    <a href="http://www.dot-art.co.uk/images/joe-rex-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
+        <img src="http://www.dot-art.co.uk/images/joe-rex-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/>
+    </a>
+    </td>
+
+<td>
+    <a href="http://www.dot-art.co.uk/artists-work/joe thompson/dockers-clock-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
+        <img src="http://www.dot-art.co.uk/artists-work/joe thompson/dockers-clock-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/>
+    </a>
+</td>
+    </tr>
+
+</table>
+
+<p>12th December 2014 - 6th March 2015</p>
+<p>dot-art Exhibition Space, Rex Liverpool.</p>
+
+<p><b><a href="/images/dotart-Thompson-Rex-Release.pdf" title="Download the Liverpool in Oils by Joe Thompson Press Release">Download the Liverpool in Oils by Joe Thompson Press Release (PDF FORMAT)</a></b></p>
+
+
 <h3>Political Football - Phil Disley</h3>
 
 <table class="art" width="100%">

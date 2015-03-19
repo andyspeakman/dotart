@@ -172,11 +172,13 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <tr bgcolor="#E9F6FD" align="center" height="auto">
 
 <td align="center" width="150px">
-<img src="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" title="Liverpool in Oils by Joe Thompson" alt="Liverpool in Oils by Joe Thompson"/>
+<img src="http://www.dot-art.co.uk/images/bebbington-2-tn.jpg" title="Faith Bebbington Sculpture" alt="Faith Bebbington Sculpture"/>
 
-<p>12th December 2014 - 6th March 2015, REX The Concept Store, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
+<p>20th March - 10th May 2015, dot-art at Rex, <strong>Faith Bebbington</strong> Sculpture</p>
 
-<p>8th September - 24th October 2014, dot-art Showroom <strong> Political Football</strong> - Phil Disley</p>
+<p>12th December 2014 - 6th March 2015, dot-art at Rex, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
+
+
 
 
 

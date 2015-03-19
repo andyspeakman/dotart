@@ -34,37 +34,19 @@
 <h1>what's on</h1>
 
 
-<h3>REX: Pop Up Exhibition</h3>
-<p><b>Lower Ground Floor, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</b> 
-See <a href="https://twitter.com/RexLiverpool">Project Rex on Twitter</a> for more details</p>
+<h3>dot-art Exhibition Space at Rex</h3>
+
+<p><b>Faith Bebbington Sculpture</b></p>
+<p>20th March - 10th May 2015</p>
+
+<p>Lower Ground Floor, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</p>
+<p>Opening times: Monday to Saturday 9.30am to 5.30pm and Sundays 11am to 5pm. Please call 0845 017 6660 for further information</p>
 
 
-<table class="art" width="100%">
-<tr align="center">
+<img src="http://dot-art.co.uk/images/bebbington-med.jpg" title="Faith Bebbington Sculpture" alt="Faith Bebbington Sculpture"/>
 
-<td>
-    <a href="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
-        <img src="http://www.dot-art.co.uk/artists-work/joe thompson/crosby-beach-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/></a>
-</td>
-<td>
-    <a href="http://www.dot-art.co.uk/images/joe-rex-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
-        <img src="http://www.dot-art.co.uk/images/joe-rex-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/>
-    </a>
-    </td>
 
-<td>
-    <a href="http://www.dot-art.co.uk/artists-work/joe thompson/dockers-clock-tn.jpg" class="fancybox" rel="fancybox" title="Liverpool in Oils by Joe Thompson">
-        <img src="http://www.dot-art.co.uk/artists-work/joe thompson/dockers-clock-tn.jpg" title="click to enlarge" alt="Liverpool in Oils by Joe Thompson"/>
-    </a>
-</td>
-    </tr>
-
-</table>
-
-<p><b>Liverpool in Oils by Joe Thompson</b></p>
-<p>12th December 2014 - 9th January 2015</p>
-
-<p><b><a href="/images/dotart-Thompson-Rex-Release.pdf" title="Download the Liverpool in Oils by Joe Thompson Press Release">Download the Liverpool in Oils by Joe Thompson Press Release (PDF FORMAT)</a></b></p>
+<p><b><a href="/images/dotart-Bebbington-Rex-Release.pdf" title="Download the Faith Bebbington Sculpture Press Release">Download the Faith Bebbington Sculpture Press Release (PDF FORMAT)</a></b></p>
 
 <!--
  
@@ -111,9 +93,10 @@ to light-hearted topical cartoons, Liverpool based Phil's work raises eyebrows a
  
 --> 
 
-<h3>dot-art at REX: The Concept Store</h3>
+<h3>dot-art at Rex: The Concept Store</h3>
 
-<p>Visit dot-art at REX for an ever-changing selection of limited edition and original work by our member artists starting at just &pound20.</p>
+<p>Visit dot-art at REX for an ever-changing selection of limited edition and original work by our member artists starting 
+at just &pound20.</p>
 
 <p><b>Lower Ground Floor, Rapid, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</b> 
 See <a href="https://twitter.com/RexLiverpool">Project Rex on Twitter</a> for more details</p>
