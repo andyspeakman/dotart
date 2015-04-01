@@ -161,7 +161,7 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <h3><a class="menu" href="/pages/customers/register.php">sign up</a></h3></td>
 
 <td align="center" width="150px">
-<h3><a class="menu" href="/pages/news.php"> blog</a></h3></td>
+<h3><a class="menu" href="/pages/news.php"> news</a></h3></td>
 
 <td align="center" width="150px">
 <h3><a class="menu" href="/pages/testamonials.php">why us?</a></h3></td>
@@ -177,12 +177,6 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <p>20th March - 10th May 2015, dot-art at Rex, <strong>Faith Bebbington</strong> Sculpture</p>
 
 <p>12th December 2014 - 6th March 2015, dot-art at Rex, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
-
-
-
-
-
-
 
 
 
@@ -230,28 +224,11 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://www.dot-art.co.uk/images/rex-tn.jpg" title="dot-art at Project Rex"/>
+<img src="http://services.dot-art.com/images/dotart_services_tn.gif" title="Admin and Marketing Intern Vacancy"/>
+
+<p>We're Hiring! <strong>Admin and Marketing Intern</strong> vacancy...</p>
 
 <p><strong>Project Rex</strong> launches in Liverpool 10th October...</p>
-
-<p>New <strong>Fine Art Printing</strong> service is launched...</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

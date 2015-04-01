@@ -27,6 +27,41 @@
 
 <h1>news</h1> 
 
+<h3>We're Hiring! Admin and Marketing Admin Intern Vacancy</h3>
+
+<img src="http://www.dot-art.co.uk/images/DAS-web.jpg" title=">dot-art Services Vacancy" alt=">dot-art Services Vacancy"/>
+
+<p>dot-art Services CIC wishes to appoint a paid intern to support the Director and Project Manager in the administration 
+and marketing of a range of activities as we experience a period of growth and development, including our support services 
+for visual artists, art classes for adults, and dot-art Schools, our annual, inter-school art competition.
+Applicants will ideally be educated to degree level, with a proactive approach and genuine interest in building a career 
+in the arts. The intern will be responsible for marketing and developing new audiences for our work, as well as communicating 
+with current contacts, both face to face, over the phone and digitally, and therefore must be confident, presentable and 
+professional.</p>
+
+<p>The successful candidate will be highly organised, with excellent communication skills and great attention to detail. 
+Experience of working in the arts is preferable as is some experience of office work. Excellent IT skills, self-reliance 
+and commitment are all essential.</p>
+
+<p>This paid internship has been created as part of the 
+<a href="http://creative-employment.co.uk/the-creative-employment-programme">
+Creative Employment Programme.</a> 
+There are certain criteria you must meet in order to be eligible to apply for a Creative Employment Programme 
+funded internship. At the time of applying you must be 18 to 24 years old and you must be registered as unemployed 
+with Jobcentre Plus.</p>
+
+<p>This will be a 6 month contract, 30 hours per week, at minimum wage, starting in May 2015.</p>
+
+<p><a href="http://www.dot-art.co.uk/images/Intern-Application-Pack-dot-art-Services.pdf">
+Download the full application pack and person specification.</a> 
+
+<p><b>Please send a CV and supporting letter outlining relevant skills and experience, in response to the information provided, 
+plus web links to any projects you have been engaged in by email to: services@dot-art.com.</b></p>
+
+<p><b>Deadline for applications: 5pm, Friday 1st May 2015.<br>
+Interviews will take place week commencing 18th May 2015.</b></p>
+
+
 <h3>dot-art at Project Rex</h3>
 
 <img src="http://www.dot-art.co.uk/images/Rex-square.jpg" title=">dot-art at Project Rex" alt=">dot-art at Project Rex"/>
