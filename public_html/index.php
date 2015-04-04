@@ -213,7 +213,7 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <p style="margin-top: 1px">Enter your email address to receive our newsletter.</p>
 
 
-<p style="margin-top: 1px">Read the most recent <a href="http://us9.campaign-archive1.com/?u=9f768ea7878c3f7270d1e20ab&id=79e716666e&e=">
+<p style="margin-top: 1px">Read the most recent <a href="http://us9.campaign-archive2.com/?u=9f768ea7878c3f7270d1e20ab&id=5ecaf1f825">
 dot-art Newsletter</a> online.</p>
 
 <a class="menu" href="http://twitter.com/dotart "><img src="/images/twitter.png" title="Follow dot-art on Twitter" alt="Twitter logo" /></a>
