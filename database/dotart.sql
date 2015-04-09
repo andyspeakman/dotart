@@ -7738,6 +7738,111 @@ explore my own style, try different approaches & get lost in my own little world
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(116,
+	       'butterfly in a pink frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-pink-frame',
+	       'original, &pound;90',
+	       1,
+		643,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg130', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'butterfly in a aqua frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-aqua-frame',
+	       'original, &pound;90',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg131', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'butterfly in a gold frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-gold-frame',
+	       'original, &pound;90',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg132', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'butterfly in a blue frame ',
+	       'acrylic on canvas',
+	       30,
+	       30,
+	       'butterfly-blue-frame',
+	       'original, &pound;90',
+	       0,
+		641,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg133', 'original', 90);
+
+##--------------------------------------------------------------------------------------------   
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
+	       'large butterfly study',
+	       'acrylic on canvas',
+	       60,
+	       60,
+	       'large-butterfly-study',
+	       'original, &pound;280',
+	       0,
+		650,
+		 635);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'hg134', 'original', 280);
+
+##--------------------------------------------------------------------------------------------    
+
+
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(116,
 	       'applying blusher',
 	       'pen and ink',
 	       21,
@@ -7906,111 +8011,6 @@ INSERT INTO art_pricing(art, item_number, description, price)
 	VALUES(LAST_INSERT_ID(), 'hg127', 'original', 180);
 
 ##--------------------------------------------------------------------------------------------
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'butterfly in a pink frame ',
-	       'acrylic on canvas',
-	       30,
-	       30,
-	       'butterfly-pink-frame',
-	       'original, &pound;90',
-	       1,
-		643,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg130', 'original', 90);
-
-##--------------------------------------------------------------------------------------------   
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'butterfly in a aqua frame ',
-	       'acrylic on canvas',
-	       30,
-	       30,
-	       'butterfly-aqua-frame',
-	       'original, &pound;90',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg131', 'original', 90);
-
-##--------------------------------------------------------------------------------------------   
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'butterfly in a gold frame ',
-	       'acrylic on canvas',
-	       30,
-	       30,
-	       'butterfly-gold-frame',
-	       'original, &pound;90',
-	       0,
-		650,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg132', 'original', 90);
-
-##--------------------------------------------------------------------------------------------   
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'butterfly in a blue frame ',
-	       'acrylic on canvas',
-	       30,
-	       30,
-	       'butterfly-blue-frame',
-	       'original, &pound;90',
-	       0,
-		641,
-		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg133', 'original', 90);
-
-##--------------------------------------------------------------------------------------------   
-
-
-
-
-
-INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
-	VALUES(116,
-	       'large butterfly study',
-	       'acrylic on canvas',
-	       60,
-	       60,
-	       'large-butterfly-study',
-	       'original, &pound;280',
-	       0,
-		650,
-		 635);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'hg134', 'original', 280);
-
-##--------------------------------------------------------------------------------------------    
 
 
 
