@@ -26,6 +26,10 @@
 
 <h1>press releases</h1>
 
+<p class="date">20th April 2015</p>
+<p><b><a href="/images/dotart-Chang-Everton-Release.pdf" title="Download the Chang and Everton Commission Release">Download the Chang and Everton Commission Press Release (PDF FORMAT)</a></b></p>
+
+
 <p class="date">2nd April 2015</p>
 <p><b><a href="/images/dotart-Spring-15-Art-Classes-Release.pdf" title="Download the Spring 15 Art Classes Release">Download the Spring 15 Art Classes Press Release (PDF FORMAT)</a></b></p>
 

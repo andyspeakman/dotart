@@ -228,7 +228,7 @@ dot-art Newsletter</a> online.</p>
 
 <p>We're Hiring! <strong>Admin and Marketing Intern</strong> vacancy...</p>
 
-<p><strong>Project Rex</strong> launches in Liverpool 10th October...</p>
+<p><strong>Chang Everton</strong> commission by dot-art artist Alistair Parker unveiled...</p>
 
 
 

@@ -27,6 +27,21 @@
 
 <h1>news</h1> 
 
+<h3>Chang Everton Commission Unveiled</h3>
+
+<img src="http://www.dot-art.co.uk/images/Chang-Everton-commission-web.jpg" title=">Chang Everton Commission Unveiled" alt=">Chang Everton Commission Unveiled"/>
+
+<p>In early 2015, dot-art were commissioned by Chang Beer to produce an artwork to mark the longest standing shirt sponsorship 
+in Premier League history between Everton and Chang. The mosaic piece, created from over 5000 Chang bottle tops, was 
+unveiled at Goodison Park on Thursday 16 April, by the artist <a href="http://www.dot-art.co.uk/artist/alistair-parker"> 
+Alistair Parker</a>, Club Ambassador Graeme Sharp, Richard Kenyon, 
+Director of Marketing and Communications at Everton and Kevin Ng, Global Sales Director at Chang, on the side of the Park 
+End Stand.</p>
+
+<p><a href="http://www.dot-art.co.uk/images/dotart-Chang-Everton-Release.pdf">
+Read the full press release</a> or <a href="https://www.flickr.com/photos/dot-art/sets/72157652086066815/">
+see more photos,</a> from work in progress to the unveiling itself.</p>
+
 <h3>We're Hiring! Admin and Marketing Admin Intern Vacancy</h3>
 
 <img src="http://www.dot-art.co.uk/images/DAS-web.jpg" title=">dot-art Services Vacancy" alt=">dot-art Services Vacancy"/>
