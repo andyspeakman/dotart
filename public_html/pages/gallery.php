@@ -48,6 +48,12 @@
 
 <p><b><a href="/images/dotart-Bebbington-Rex-Release.pdf" title="Download the Faith Bebbington Sculpture Press Release">Download the Faith Bebbington Sculpture Press Release (PDF FORMAT)</a></b></p>
 
+<h3>coming soon...</h3>
+
+<p><b>Portraits of Nature - Steward Ellett (part of <a href="http://lookphotofestival.com/">LOOK/15,</a>)</b></p>
+<p>15th May -30th August 2015</p>
+
+<img src="http://dot-art.co.uk/images/PON-med.jpg" title="Portraits of Nature - Steward Ellett" alt="Portraits of Nature - Steward Ellett"/>
 <!--
  
 <h3>dot-art Showroom</h3>
@@ -146,7 +152,10 @@ art restoration</a> service. Our resident expert has almost forty years experien
 expertise and knowledge in the examination and valuation of works of art, as well it's cleaning and restoration. 
 </p>
 
+
+<!---
 <h3><a class="menu" href="http://www.google.com/calendar/embed?src=852fpeplrib0m4bg5312f2s9po%40group.calendar.google.com&ctz=Europe/London&pvttk=cff6cf421406767e581b2856b92556bb">exhibition calendar</a></h3>
+
 
 
 <iframe src="http://www.google.com/calendar/embed?title=Exhibition%20Calendar&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=852fpeplrib0m4bg5312f2s9po%40group.calendar.google.com&amp;color=%23BE6D00&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="700" height="500" frameborder="0" scrolling="no"></iframe>
@@ -167,6 +176,8 @@ jQuery(document).ready(function() {
     });
 });
 </script>
+
+--->
 
 <?php
   include $inc_dir . 'analytics.html';

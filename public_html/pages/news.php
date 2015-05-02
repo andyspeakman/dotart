@@ -27,6 +27,33 @@
 
 <h1>news</h1> 
 
+<h3>LOOK/15 Photowalks</h3>
+
+<img src="http://www.dot-art.co.uk/images/look-photowalk-med.jpg" title="LOOK/15 Photowalks" alt="LOOK/15 Photowalks"/>
+
+<p><b>SAT 16TH, SUN 17TH, SAT 23RD AND SUN 24TH MAY 2015, VARIOUS LOCATIONS</b></p>
+
+<ul>
+<li>16 May, 10am, Reflections and Lines, Atrium of the Capital Building (Atrium escalators)</li>
+<li>17 May, 10am, Inside and Out, Central Library (coffee shop)</li>
+<li>23 May, 10am, Another Place (Crosby Coast Guard Centre car park)</li>
+<li>24 May, 10am, Sefton Park (Palm House main entrance)</li>
+</ul>
+
+<p><b>dot-art has teamed up with with Liverpool's International Photography Festival, 
+<a href="http://lookphotofestival.com/">LOOK/15,</a>
+to offer a series of special Photowalks in locations across Merseyside during the festival this May.</b></p>
+
+<p>Experienced photographer and teacher Steward Ellett leads a series of guided walks around the architectural and 
+landscape highlights of Liverpool and the surrounding area, looking at different ways of capturing images using various 
+in-camera techniques. Dress for all weathers and bring your camera! In this series of four photowalks, Steward will guide 
+his group through a variety of Liverpool landscapes and photographic concepts including Anthony Gormley’s Another Place 
+(Crosby); reflections and lines and modern vs classical Participants are encouraged to look for interesting angles, 
+develop their camera know-how and share their work</p>
+
+<a href="https://look15photowalks.eventbrite.com/">BOOK HERE</a>
+
+
 <h3>Chang Everton Commission Unveiled</h3>
 
 <img src="http://www.dot-art.co.uk/images/Chang-Everton-commission-web.jpg" title=">Chang Everton Commission Unveiled" alt=">Chang Everton Commission Unveiled"/>

@@ -224,9 +224,9 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://services.dot-art.com/images/dotart_services_tn.gif" title="Admin and Marketing Intern Vacancy"/>
+<img src="http://www.dot-art.co.uk/images/look-photowalk-tn.jpg" title="LOOK/15 Photowalks" alt="LOOK/15 Photowalks"/>
 
-<p>We're Hiring! <strong>Admin and Marketing Intern</strong> vacancy...</p>
+<p><strong>LOOK/15 Photowalks</strong> 16th, 17th, 23rd and 24th May...</p>
 
 <p><strong>Chang Everton</strong> commission by dot-art artist Alistair Parker unveiled...</p>
 
