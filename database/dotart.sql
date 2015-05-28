@@ -2403,23 +2403,39 @@ of the artists imagination, and more traditional landscape paintings including a
 ##-----------------------------------------------------------------------------------
 
 
+    
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(50,
+	        'liver birds looking out to sea',
+	       'oil on canvas',
+	       168,
+	       137,
+	      'liver-birds-looking',
+	       'original &pound;1200',
+	       0,
+		650,
+		 482);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'GL117', 'original', 1200);
 
 
+##-----------------------------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(50,
-	        'liver building 7',
+	        'liver building 8',
 	       'oil on canvas',
-	       120,
-	       120,
-	      'liver-building-7',
-	       'original &pound;850',
+	       95,
+	       41,
+	      'liver-building-8',
+	       'original &pound;650',
 	       0,
-		517,
+		402,
 		 650);
 
 INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'GL116', 'original', 850);
+	VALUES(LAST_INSERT_ID(), 'GL116', 'original', 650);
 
 
 ##-----------------------------------------------------------------------------------
@@ -2445,6 +2461,21 @@ INSERT INTO art_pricing(art, item_number, description, price)
 ##-----------------------------------------------------------------------------------
 
 
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(50,
+	        'liver building 7',
+	       'oil on canvas',
+	       120,
+	       120,
+	      'liver-building-7',
+	       'commission example',
+	       0,
+		517,
+		 650);
+
+
+
+##-----------------------------------------------------------------------------------
 
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
@@ -2454,14 +2485,10 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       122,
 	       122,
 	       'liver_buildings_4',
-	        'original &pound;950',
+	       'commission example',
 	       1,
 		649,
 		 650);
-
-INSERT INTO art_pricing(art, item_number, description, price)
-	VALUES(LAST_INSERT_ID(), 'GL117', 'original', 950);
-
 
 
 ##-----------------------------------------------------------------------------------
@@ -3668,7 +3695,7 @@ INSERT INTO art_pricing(art, item_number, description, price)
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(66,
 
-	       'autumn leaves (les feuilles)',
+	       'autumn leaves (les feuilles mortes)',
 	       'oil on canvas',
 	       89,
 	       56,
@@ -10679,6 +10706,26 @@ INSERT INTO artist (id, name, statement, notes, display)
 <p class="artist"></p>',
                NULL,
 	       1);
+
+##-----------------------------------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(140,
+	       'taxi!',
+	     'mixed media on paper',
+	       58,
+	       50,
+	       'taxi',
+	  'original, &pound;600',
+	       0,
+		650,
+		 566);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'sf152', 'original', 600);
+
 
 ##-----------------------------------------------------------------------------------------
 
@@ -17904,7 +17951,110 @@ INSERT INTO artist (id, name, statement, notes, display)
 
 ##---------------------------------------------------------------
 
+ 
 
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(199,
+	       'cloud rise',
+	       'mixed media',
+	       50,
+	       50,
+	       'cloud-rise',
+	       'original, &pound;999',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'ak113', 'original',999);
+
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(199,
+	       'grassland 1',
+	       'oil on canvas board',
+	       104,
+	       76,
+	       'grassland-1',
+	       'original, &pound;1690',
+	       1,
+		650,
+		 487);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'ak114', 'original',1690);
+
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(199,
+	       'grassland 2',
+	       'oil on canvas board',
+	       30,
+	       30,
+	       'grassland-2',
+	       'original, &pound;680',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'ak115', 'original',680);
+
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(199,
+	       'skyblaze',
+	       'oil and acrylics on canvas',
+	       70,
+	       70,
+	       'skyblaze',
+	       'original, &pound;1399',
+	       0,
+		645,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'ak116', 'original',1399);
+
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(199,
+	       'tangerine summer',
+	       'oil on canvas board',
+	       50,
+	       50,
+	       'tangerine-summer',
+	       'original, &pound;999',
+	       0,
+		650,
+		 650);
+
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'ak117', 'original',999);
+
+
+
+##---------------------------------------------------------------
 
 INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
 	VALUES(199,
@@ -17935,7 +18085,7 @@ INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_
 	       60,
 	       'high-trail',
 	       'original, &pound;1250',
-	       1,
+	       0,
 		643,
 		 650);
 
@@ -55707,3 +55857,617 @@ INSERT INTO art_pricing(art, item_number, description, price)
 
 ##---------------------------------------------------------------   
 
+ INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(323, 'faith bebbington',
+	'<p class="artist">Faith Bebbington gained her BA Hons. Degree in Fine Art: Sculpture from Winchester School of Art. 
+  She has over twenty years experience of creating sculpture, exhibiting and selling work across the UK and Europe, 
+  from her studio base in Liverpool.  Her work has been commissioned for private, public and corporate settings across 
+  the UK by a range of clients including Knowsley Borough Council, The Football Association, the Canal and River Trust 
+  and Veolia Environment.</p>
+
+<p class="artist">Faith talks about her approach: "I enjoy the challenge of creating site-specific sculptures for 
+public spaces, to interact with and humanize the built environment.  It''s important to me that my artwork is accessible, 
+to spark a personal connection with the viewer. My sculptural practice stems partly from being born with mild cerebral palsy- 
+a disability that is almost imperceptible to most people, but has a daily impact on my life and makes me particularly 
+conscious of my own and other people''s physical movements.  So I create sculpture that explores the process of movement; 
+from the subtle actions many people take for granted such as being able to balance and simple coordinated movements 
+like walking; to the more energetic actions used by sportspeople and performers."
+</p>
+
+
+<p class="artist"></p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'balancing act',
+	       'pigment fiberglass resin freestanding',
+	       17,
+	       14,
+	       'balancing-act',
+	      'original, &pound;250',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb101', 'original', 250);
+
+
+##---------------------------------------------------------------  
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'black swan',
+	       'pigment fiberglass resin freestanding on base',
+	       54,
+	       30,
+	       'black-swan',
+	      'original, &pound;834',
+	       1,
+		427,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb102', 'original', 834);
+
+
+##---------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'cat walk',
+	       'painted fiberglass resin freestanding on base',
+	       70,
+	       25,
+	       'cat-walk',
+	      'original, &pound;834',
+	       0,
+		427,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb103', 'original', 834);
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'devilish',
+	       'pigment fiberglass resin suspended',
+	       68,
+	       33,
+	       'devilish',
+	      'original, &pound;500',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb104', 'original', 500);
+
+
+##---------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'flying couple',
+	       'painted fiberglass resin oak base free standing on base',
+	       48,
+	       35,
+	       'flying-couple',
+	      'original, &pound;584',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb105', 'original', 584);
+
+
+##---------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'grace',
+	       'pigment fiberglass resin suspended',
+	       62,
+	       53,
+	       'grace',
+	      'original, &pound;667',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb106', 'original', 667);
+
+
+##---------------------------------------------------------------        
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'king of queens',
+	       'pigment fiberglass resin suspended',
+	       51,
+	       36,
+	       'king-of-queen',
+	      'original, &pound;584',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb107', 'original', 584);
+
+
+##---------------------------------------------------------------         
+
+
+     
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'leap of faith',
+	       'iron fiberglass suspended',
+	       45,
+	       39,
+	       'leap-of-faith',
+	      'original, &pound;584',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb109', 'original', 584);
+
+
+##---------------------------------------------------------------           
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'lift',
+	       'pigment fiberglass resin free standing on pole lead base',
+	       52,
+	       28,
+	       'lift',
+	      'original, &pound;250',
+	       0,
+		466,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb110', 'original', 250);
+
+
+##---------------------------------------------------------------             
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'oh my',
+	       'iron and fiberglass resin wall mounted',
+	       39,
+	       12,
+	       'oh-my',
+	      'original, &pound;334',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb111', 'original', 334);
+
+
+##---------------------------------------------------------------              
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'reclining',
+	       'painted fiberglass resin free standing',
+	       16,
+	       36,
+	       'reclining',
+	      'original, &pound;334',
+	       0,
+		650,
+		427);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb112', 'original', 334);
+
+
+##---------------------------------------------------------------             
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'running on air',
+	       'painted fiberglass resin pair wall mounted',
+	       34,
+	       24,
+	       'running-on-air',
+	      'sold',
+	       0,
+		650,
+		433);
+	     
+		
+
+
+##---------------------------------------------------------------            
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'swing low',
+	       'painted fiberglass resin free standing on base',
+	       24,
+	       31,
+	       'swing-low',
+	      'original, &pound;667',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb114', 'original', 667);
+
+
+##---------------------------------------------------------------              
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'trophy',
+	       'pigment fiberglass resin free standing on base',
+	       50,
+	       12,
+	       'trophy',
+	      'original, &pound;417',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb115', 'original', 417);
+
+
+##---------------------------------------------------------------                
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'tut',
+	       'pigment fiberglass resin free standing on base',
+	       47,
+	       20,
+	       'tut',
+	      'original, &pound;667',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb116', 'original', 667);
+
+
+##---------------------------------------------------------------                
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'voguetastic',
+	       'pigment fiberglass resin free standing on base',
+	       50,
+	       20,
+	       'voguetastic',
+	      'original, &pound;667',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb117', 'original', 667);
+
+
+##---------------------------------------------------------------                
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'watch your step',
+	       'pigment and painted fiberglass resin wall mounted',
+	       35,
+	       35,
+	       'watch-your-step',
+	      'original, &pound;584',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb118', 'original', 584);
+
+
+##---------------------------------------------------------------               
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(323,
+	       'wave',
+	       'bronze metal base free standing',
+	       35,
+	       14,
+	       'wave',
+	      'original, &pound;1334',
+	       0,
+		650,
+		427);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'fb119', 'original', 1334);
+
+
+##---------------------------------------------------------------
+
+
+
+
+
+
+INSERT INTO artist (id, name, statement, notes, display)
+	VALUES(324, 'kirsten little',
+	'<p class="artist">Kirsten Little''s practise is situated within a personal need and profound obsession with collecting, 
+  fabricating and recreating histories and functions of an object. As a general line of enquiry the objects are ones without 
+  love, a bit dead exposing discolouration, disintegration, disregard and decay; slightly grubby around the edges. 
+  They have lost the importance they once held and it is this hidden, and even diminished, beauty within the concrete 
+  object she seek to explore. Recreating histories owned by no one; anonymous and of non importance, preserving the 
+  otherwise lost and iconizing it through small metamorphosis.</p>
+
+<p class="artist">Dabbling with the cabinet of curiosities, the domestic, the gothic, surrealism, abjection and modern 
+culture the final result is often an amalgamation of material types crudely displayed to be on the edge of taste 
+compromising the beauty they once held; whilst hopefully recreating new realms of beauty often with an underlying 
+message of wit and sarcasm. Suggestive as apposed to narrative the works indirectly hint at humanness symptomatic of a 
+degree of disturbance, poetic, poignant yet hilarious resulting in an artist/narrator dialogue. Titles are considered an 
+integral part of the work , often borrowed from love songs, nursery rhymes or old books, they seek to add another edge 
+to the uncertainty the work pursues.</p>
+
+<p class="artist"></p>
+
+<p class="artist"></p>',
+               NULL,
+	       1);
+
+##---------------------------------------------------------------
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'austin reed in tweed',
+	       'mixed media collage',
+	       65,
+	       45,
+	       'austin-reed-in',
+	      'original, &pound;785',
+	       0,
+		650,
+		432);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl101', 'original', 785);
+
+
+##---------------------------------------------------------------    
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'chancer',
+	       'mixed media collage',
+	       23,
+	       23,
+	       'chancer',
+	      'original, &pound;75',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl102', 'original', 75);
+
+
+##---------------------------------------------------------------      
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'in front of the broken',
+	       'mixed media collage',
+	       23,
+	       23,
+	       'in-front-of',
+	      'original, &pound;75',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl104', 'original',75);
+
+
+##---------------------------------------------------------------          
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'jack jones',
+	       'mixed media collage',
+	       23,
+	       23,
+	       'jack-jones',
+	      'original, &pound;75',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl105', 'original',75);
+
+
+##---------------------------------------------------------------             
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'our darling joey',
+	       'mixed media collage',
+	       52,
+	       52,
+	       'our-darling-joey',
+	      'original, &pound;120',
+	       0,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl106', 'original',120);
+
+
+##---------------------------------------------------------------             
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'sensuch',
+	       'mixed media collage',
+	       23,
+	       23,
+	       'sensuch',
+	      'original, &pound;75',
+	       1,
+		650,
+		433);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl107', 'original',75);
+
+
+##---------------------------------------------------------------             
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'the crowned king',
+	       'mixed media collage',
+	       55,
+	       25,
+	       'the-crowned-king',
+	      'original, &pound;45',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl108', 'original',45);
+
+
+##---------------------------------------------------------------              
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'untitled',
+	       'mixed media collage',
+	       55,
+	       25,
+	       'untitled',
+	      'original, &pound;45',
+	       0,
+		433,
+		650);
+	     
+		
+INSERT INTO art_pricing(art, item_number, description, price)
+	VALUES(LAST_INSERT_ID(), 'kl109', 'original',45);
+
+
+##---------------------------------------------------------------   
+
+
+
+INSERT INTO art (artist, title, media, width, height, image, pricing_info, main_image, image_width, image_height)
+	VALUES(324,
+	       'ideal 2',
+	       'mixed media sculpture',
+	       200,
+	       200,
+	       'ideal-2',
+	      'commission example',
+	       0,
+		487,
+		650);
+	     
+		
+
+
+##---------------------------------------------------------------         

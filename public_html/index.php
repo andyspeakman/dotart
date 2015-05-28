@@ -172,11 +172,13 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <tr bgcolor="#E9F6FD" align="center" height="auto">
 
 <td align="center" width="150px">
-<img src="http://www.dot-art.co.uk/images/bebbington-2-tn.jpg" title="Faith Bebbington Sculpture" alt="Faith Bebbington Sculpture"/>
+<img src="http://www.dot-art.co.uk/images/PON-tn.jpg" title="Portraits of Nature" alt="Portraits of Nature"/>
+
+<p>15th - 25th May 2015, dot-art at Rex, <strong>Portraits of Nature</strong> by Steward Ellett. Part of LOOK/15.</p>
 
 <p>20th March - 10th May 2015, dot-art at Rex, <strong>Faith Bebbington</strong> Sculpture</p>
 
-<p>12th December 2014 - 6th March 2015, dot-art at Rex, <strong>Liverpool in Oils</strong> by Joe Thompson</p>
+
 
 
 

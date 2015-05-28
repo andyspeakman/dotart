@@ -35,6 +35,41 @@
 <h1>exhibition archive</h1>
 
 
+
+<h3>dot-art at Rex</h3>
+
+<img src="http://dot-art.co.uk/images/web-banner.jpg" title="dot-art and Project Rex" alt="dot-art and Project Rex"/>
+
+<p><b>Lower Ground Floor, Rapid, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</b> 
+See <a href="https://twitter.com/RexLiverpool">Project Rex on Twitter</a> for more details</p>
+
+<p>From October 2014 to May 2015, shoppers were able to visit dot-art at REX for an ever-changing selection of limited 
+edition and original work by our member artists starting at just &pound20.</p>
+
+
+
+<h3>Portraits of Nature - Steward Ellett (part of <a href="http://lookphotofestival.com/">LOOK/15,</a>)</h3>
+
+<img src="http://dot-art.co.uk/images/PON-med.jpg" title="Portraits of Nature - Steward Ellett" alt="Portraits of Nature - Steward Ellett"/>
+
+<p>15th - 25th May 2015</p>
+<p>dot-art Exhibition Space at Rex</p>
+
+<p><b><a href="/images/dotart-LOOK-Rex-Release.pdf" title="Download the Portraits of Nature Exhibition Release">Download the Portraits of Nature Exhibition Press Release (PDF FORMAT)</a></b></p>
+
+
+
+<h3>Faith Bebbington Sculpture</h3>
+
+<img src="http://dot-art.co.uk/images/bebbington-med.jpg" title="Faith Bebbington Sculpture" alt="Faith Bebbington Sculpture"/>
+
+<p>20th March - 10th May 2015</p>
+<p>dot-art Exhibition Space at Rex</p>
+
+<p><b><a href="/images/dotart-Bebbington-Rex-Release.pdf" title="Download the Faith Bebbington Sculpture Press Release">Download the Faith Bebbington Sculpture Press Release (PDF FORMAT)</a></b></p>
+
+
+
 <h3>Liverpool in Oils - Joe Thompson</h3>
 
 <table class="art" width="100%">

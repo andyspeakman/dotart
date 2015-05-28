@@ -34,27 +34,55 @@
 <h1>what's on</h1>
 
 
-<h3>dot-art Exhibition Space at Rex</h3>
+<h3>dot-art Showroom</h3>
 
-<p><b>Faith Bebbington Sculpture</b></p>
-<p>20th March - 10th May 2015</p>
+<p><b>16 Queen Avenue, Castle Street, Liverpool, L2 4TX.</b> For a map, please visit our <a href="/pages/contact.php">contact page</a></p>
+
+<p><b>Opening Times:</b> 12pm-6pm Monday to Friday and by appointment. Please call 0845 017 6660 for further information</p>
+   
+<p><a href="mailto:enquiries@dot-art.co.uk" title="email dot-art">Request a viewing</a> 
+of any piece of work you see <a href="/pages/customers/buy-art.php">on the website</a> 
+or make an appointment to discuss a <a href="pages/customers/commission-art.php">commission</a>, 
+<a href="pages/customers/framing.php">framing</a>, 
+<a href="pages/customers/valuationandrestoration.php">valuation or restoration</a> job.</p>
+
+
+<img src="http://dot-art.co.uk/images/dot-art-viewings.jpg" title="Request viewings at dot-art" alt="Request viewings at dot-art"/>
+
+
+
+
+
+<h3>dot-art at Rex</h3>
+
+<p><b>***STOP PRESS*** Rex at Rapid has now closed ***STOP PRESS***</b><p>
+
+<p>Details of the location and opening date of Rex II will be announced very soon.  
+See <a href="https://twitter.com/RexLiverpool">Project Rex on Twitter</a> for more details</p>
+   
+<img src="http://dot-art.co.uk/images/web-banner.jpg" title="dot-art and Project Rex" alt="dot-art and Project Rex"/>
+
+<p>Visit dot-art at Rex for an ever-changing selection of limited edition and original work by our member artists starting 
+at just &pound20.</p>
+
+<p>Rex is Liverpool's very first concept and box store, designed around independent retailers to create a 
+shared retail and work space for like minded creative businesses. dot-art is delighted to be one of the 
+very first organisations to partner with Rex, and will be selling an exclusive range of affordable original 
+and limited edition paintings and prints by our member artists, which will change on a regular basis. </p>
+
+
+
+<!--
+
+
+<h3>dot-art Exhibition Space at Rex</h3>
 
 <p>Lower Ground Floor, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</p>
 <p>Opening times: Monday to Saturday 9.30am to 5.30pm and Sundays 11am to 5pm. Please call 0845 017 6660 for further information</p>
 
 
-<img src="http://dot-art.co.uk/images/bebbington-med.jpg" title="Faith Bebbington Sculpture" alt="Faith Bebbington Sculpture"/>
-
-
-<p><b><a href="/images/dotart-Bebbington-Rex-Release.pdf" title="Download the Faith Bebbington Sculpture Press Release">Download the Faith Bebbington Sculpture Press Release (PDF FORMAT)</a></b></p>
 
 <h3>coming soon...</h3>
-
-<p><b>Portraits of Nature - Steward Ellett (part of <a href="http://lookphotofestival.com/">LOOK/15,</a>)</b></p>
-<p>15th May -30th August 2015</p>
-
-<img src="http://dot-art.co.uk/images/PON-med.jpg" title="Portraits of Nature - Steward Ellett" alt="Portraits of Nature - Steward Ellett"/>
-<!--
  
 <h3>dot-art Showroom</h3>
 
@@ -99,27 +127,7 @@ to light-hearted topical cartoons, Liverpool based Phil's work raises eyebrows a
  
 --> 
 
-<h3>dot-art at Rex: The Concept Store</h3>
 
-<p>Visit dot-art at REX for an ever-changing selection of limited edition and original work by our member artists starting 
-at just &pound20.</p>
-
-<p><b>Lower Ground Floor, Rapid, 20-48 Basnett Street, (Old George Henry Lee Building), Liverpool, L1 1EA.</b> 
-See <a href="https://twitter.com/RexLiverpool">Project Rex on Twitter</a> for more details</p>
-
-<p>Opening times: Monday to Saturday 9.30am to 5.30pm and Sundays 11am to 5pm. Please call 0845 017 6660 for further information</p>
-   
-<img src="http://dot-art.co.uk/images/web-banner.jpg" title="dot-art and Project Rex" alt="dot-art and Project Rex"/>
-
-<p>Rex is Liverpool's very first concept and box store, designed around independent retailers to create a 
-shared retail and work space for like minded creative businesses. dot-art is delighted to be one of the 
-very first organisations to partner with Rex, and will be selling an exclusive range of affordable original 
-and limited edition paintings and prints by our member artists, which will change on a regular basis. </p>
-
-<img src="http://dot-art.co.uk/images/rex-map-web.jpg" title="Rex Map" alt="Rex Map"/>> 
-
-<!--- 
-<h3>coming soon...</h3>--->
 
  
 
