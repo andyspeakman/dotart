@@ -42,10 +42,11 @@
 
 </table>
 
+<h2 class="artist">dot-art at Sefton Park Palm House</h2>
+
 <h3 class="artist">sketching in the palm house</h3>
 
 <ul class="artist">
-<li class="artist">Sunday 17th May 2015, 10am-1pm. Cost: £25<br>
 <li class="artist">Sunday 19th July 2015, 10am-1pm. Cost: £25<br>
 <a href="https://sketchinginthepalmhouse.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
@@ -55,29 +56,6 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 <p class="artist">Tutor: <b>Josie Jenkins</b>. This three hour workshop will give you the opportunity to learn or recap basic techniques 
 to help you draw from observation, try different materials and express what you see through drawing, 
 all in the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
-
-
-<h3 class="artist">LOOK/15 photowalks</h3>
-
-<ul class="artist">
-
-<li class="artist">Saturday 16th May 10.30am-12.30pm. Cost: £20 <br>
-<li class="artist">Sunday 17th May 10.30am-12.30pm. Cost: £20 <br>
-<li class="artist">Saturday 23rd May 10.30am-12.30pm. Cost: £20 <br>
-<li class="artist">Sunday 24th May 10.30am-12.30pm. Cost: £20 <br>
-
-<a href="http://look15photowalks.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photowalks - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
-
-</ul>
-
-<p class="artist">Tutor: <b>Steward Ellett</b>. dot-art has teamed up with Liverpool's International Photography Festival, 
-<a class="art_prices" href="http://lookphotofestival.com/">LOOK/15,</a>
-to offer a series of special Photowalks in locations across Merseyside during the festival this May.
-Experienced photographer and teacher Steward leads a guided walk around the architectural and landscape 
-highlights of Liverpool looking at different ways of capturing photos using various in camera techniques. 
-Dress for all weathers and bring your camera!</p>
 
 
 
