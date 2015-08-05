@@ -42,12 +42,24 @@
 
 </table>
 
-<h2 class="artist">dot-art at Sefton Park Palm House</h2>
+<p class="artist">We run a program of art classes and courses for adults, in a wide range of subjects, 
+across three venues; Liverpool's landmark arts centre the Bluecoat, the iconic Sefton Park Palm House in leafy south Liverpool, 
+and our newest partner, Hope Street Ltd, based in the city's main shopping area of Lord Street. All our sessions are delivered 
+by experienced local tutors and teachers.</p>
+
+<p class="artist">Evening courses run for 10 weeks and start in October, January and April, so keep checking back for new listings. 
+If you would like further information, or to suggest a subject for future class, please 
+<a class="art_prices" href="/pages/contact.php">get in touch.</a></p>
+
+<p class="artist"></p>
+
+
+<h2 class="artist">dot-art at Sefton Park Palm House<br>Sefton Park, Liverpool, L17 1AP </h3>
 
 <h3 class="artist">sketching in the palm house</h3>
 
 <ul class="artist">
-<li class="artist">Sunday 19th July 2015, 10am-1pm. Cost: £25<br>
+<li class="artist">Sunday 13th September 2015, 10am-1pm. Cost: £25<br>
 <a href="https://sketchinginthepalmhouse.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
@@ -59,24 +71,48 @@ all in the inspiring surroundings of the Sefton Park Palm House. Suitable for al
 
 
 
-<h2 class="artist">dot-art at the Bluecoat</h2>
 
-<p class="artist">We run a program of art classes and courses for adults, in a wide range of subjects, hosted by Liverpool's landmark arts centre,
-the Bluecoat. All our sessions are delivered by experienced local tutors and teachers.</p>
-
-<p class="artist">Evening courses run for 10 weeks and start in October, January and April, so keep checking back for new listings 
-and see the online calendar below. If you would like further information, or to suggest a subject for future class, please 
-<a class="art_prices" href="/pages/contact.php">get in touch.</a></p>
-
-<p class="artist"></p>
+<h2 class="artist">dot-art at Hope Street Ltd<br>3rd Floor, 76 Lord Street, Liverpool, L1 1TL</h2>
 
 
-
-<h3 class="artist">painting</h3>
+<h3 class="artist">oil painting (intermediate)</h3>
 
 <ul class="artist">
-<li class="artist">Tuesday evenings, 6.45-9.30pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
-<a href="http://paintingspring15.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Monday evenings, 6.45-9pm. Autumn 10 week course starts 5th October 2015. Cost: £160<br>
+<a href="https://oilpaintingautumn15.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Oil Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
+</ul>
+
+<p class="artist">Tutor: <b>Richard Meaghan</b>. Continue the process of exploring painting processes and practices, 
+focusing on working with oils to complete your own personal project. Suitable for those with some painting experience</p>
+
+
+
+<h3 class="artist">pinhole to pinterest</h3>
+
+<ul class="artist">
+<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £170<br>
+<a href="http://pinholetopintrest.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Pinhole to Pinterest, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
+</ul>
+
+<p class="artist">Tutor: <b>Rachel Brewster</b>. Gain a fascinating insight into traditional analogue photography and 
+learn more about the art and craft of using vintage tools and techniques to experiment and have fun with photography. 
+Suitable for all levels, including beginners.</p>
+
+
+
+
+<h2 class="artist">dot-art at the Bluecoat<br>School Lane, Liverpool, L1 3BX</h2>
+
+
+<h3 class="artist">acrylic painting</h3>
+
+<ul class="artist">
+<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £160<br>
+<a href="https://paintingautumn15.eventbrite.com " target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -89,14 +125,15 @@ Suitable for all levels, including beginners.</p>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
-<a href="http://lifedrawingspring15.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £160<br>
+<a href="https://lifedrawingautumn15.eventbrite.com " target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Life Drawing, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 
 </ul>
 
-<p class="artist">Tutor: <b>Roy Munday</b>. Develop your life drawing skills using various media. Suitable for all levels, including beginners.</p>
+<p class="artist">Tutor: <b>Roy Munday</b>. Develop your life drawing skills using various media. Suitable for all levels, 
+including beginners.</p>
 
 
 
@@ -104,13 +141,63 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 21st April 2015. Cost: £160<br>
+<li class="artist">Tuesday evenings, 6.45-9pm. Auyumn 10 week course starts 6th October 2015. Cost: £170<br>
 <a href="http://jewellerymetalspring15.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 </ul>
 
-<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of jewellery each week! Includes how to use a jewellers piercing saw, drilling, filing and polishing metal correctly and how to create colour, texture and patinas on metal.</p>
+<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of 
+jewellery each week! Includes how to use a jeweller’s piercing saw, drilling, filing and polishing metal correctly and 
+how to create colour, texture and patinas on metal. All materials provided, suitable for all levels, including beginners.</p>
+
+
+
+<h3 class="artist">introduction to photography</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 18th October 2015. Cost: £40<br>
+<a href="https://introductiontophotographyautumn15.eventbrite.com " target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" 
+alt="Register for Introduction to Photography Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Develop your photography skills in this introductory one day course, combining the basic theory of exposure and composition with a practical workshop of people and place. 
+Suitable for beginners and those wanting a refresher!</p> 
+
+
+
+<h3 class="artist">photography masterclass - composition</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 22nd November 2015. Cost: £40<br>
+<a href="http://photographymasterclasscomposition.eventbrite.com " target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Advance your photography skills in this masterclass one day course, combining the 
+detailed theory of composition with a practical workshop of object and environment.</p> 
+
+
+  
+<h3 class="artist">build your own camera</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 1st November 2015. Cost: £50<br>
+<a href="http://buildyourowncamera.eventbrite.com " target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Build Your Own Camera Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Rachel Brewster</b>. Learn how to build and use your very own working “Konstruktor” camera in a day 
+(and take it home with you)!</p> 
+
+
 
 
 

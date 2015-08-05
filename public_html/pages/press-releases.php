@@ -26,6 +26,9 @@
 
 <h1>press releases</h1>
 
+<p class="date">9th July 2015</p>
+<p><b><a href="/images/dotart-Radio-4-Release.pdf" title="Download the dot-art on Radio 4 Release">Download the dot-art on Radio 4 Press Release (PDF FORMAT)</a></b></p>
+
 <p class="date">7th May 2015</p>
 <p><b><a href="/images/dotart-LOOK-Rex-Release.pdf" title="Download the Portraits of Nature Exhibition Release">Download the Portraits of Nature Exhibition Press Release (PDF FORMAT)</a></b></p>
 

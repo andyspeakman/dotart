@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/david-grimbleby">featured artist... david grimbleby</a></h3>
+<a class="menu" href="/artist/josie jenkins">featured artist... josie jenkins</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 321 LIMIT 9";
+$query = "SELECT title, image FROM art WHERE artist = 279 LIMIT 9";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/david-grimbleby/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/josie jenkins/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -172,21 +172,17 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <tr bgcolor="#E9F6FD" align="center" height="auto">
 
 <td align="center" width="150px">
-<img src="http://www.dot-art.co.uk/images/PON-tn.jpg" title="Portraits of Nature" alt="Portraits of Nature"/>
+<img src="http://www.dot-art.co.uk/images/palm-house-tn.jpg" title="Sketching in the Palm House" alt="Sketching in the Palm House"/>
+
+<p>Sunday 13th September, 10am-1pm <strong>Sketching in the Palm House</strong></p>
 
 <p>15th - 25th May 2015, dot-art at Rex, <strong>Portraits of Nature</strong> by Steward Ellett. Part of LOOK/15.</p>
 
-<p>20th March - 10th May 2015, dot-art at Rex, <strong>Faith Bebbington</strong> Sculpture</p>
-
-
-
-
-
-
-
-<p><a href="/pages/gallery.php">more...</a></p></td>
+<p><a href="http://www.dot-art.co.uk/art-classes.php">more...</a></p></td>
 
 <td align="center" width="150px">
+
+
 
 <!---
 <form id="register_email" name="register_email" onsubmit="return validate()" method="get" action="/pages/customers/register.php">
