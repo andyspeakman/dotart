@@ -141,8 +141,8 @@ including beginners.</p>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Auyumn 10 week course starts 6th October 2015. Cost: £170<br>
-<a href="http://jewellerymetalspring15.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 13th October 2015. Cost: £170<br>
+<a href="http://jewelleryautumn15.eventbrite.com/" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 </ul>
@@ -205,10 +205,10 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 <h3 class="artist">photography tuition</h3>
  
 <ul class="artist">
- <li class="artist">In addition to our regular group Photowalks, tutor Steward Ellett can also offer half and full day individual photography 
- sessions, throughout the year, tailored to your specific interests, skills and location, starting from just £95. If you wish to bring along a partner or 
- family member, they can join you for a small additional fee, making this a great gift. Locations include Liverpool city centre, 
- Chester Zoo and Martin Mere.
+ <li class="artist">In addition to our range of group photography courses, tutor Bryn Davies can also offer half and full day 
+ individual photography sessions, throughout the year, tailored to your specific interests, skills and location, 
+ starting from just £95. If you wish to bring along a partner or family member, they can join you for a small additional fee, 
+ making this a great gift.
 </li> 
 </ul>
 
