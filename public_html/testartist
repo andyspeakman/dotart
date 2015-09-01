@@ -6,10 +6,18 @@ include $inc_dir . 'database_connect.php';
 
 /* Retrieve selected artist's information: */
 $path = explode("/", $_SERVER["REQUEST_URI"]);
+echo '<p>$_SERVER["REQUEST_URI"] = ' . $_SERVER["REQUEST_URI"] . '</p>';
+echo '<p>$path[0] = ' . $path[0] . '</p>';
+echo '<p>$path[1] = ' . $path[1] . '</p>';
+echo '<p>$path[2] = ' . $path[2] . '</p>';
 $artistUrl = $path[2];
+echo $artistUrl;
 $artistName = str_replace('-', ' ', $artistUrl);
 
 $query = "SELECT id, statement, notes, keywords FROM artist WHERE name = '" . $artistName . "'";
+echo $query;
+exit();
+
 $result = mysql_query($query);
 if (!mysql_num_rows($result)) {
     header("HTTP/1.0 410 Gone");
