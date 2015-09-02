@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/josie jenkins">featured artist... josie jenkins</a></h3>
+<a class="menu" href="/artist/maria-abernethy">featured artist... maria abernethy</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 279 LIMIT 9";
+$query = "SELECT title, image FROM art WHERE artist = 265 LIMIT 9";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/josie jenkins/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/maria-abernethy/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
