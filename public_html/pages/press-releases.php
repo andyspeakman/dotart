@@ -26,6 +26,10 @@
 
 <h1>press releases</h1>
 
+<p class="date">2nd September 2015</p>
+<p><b><a href="/images/dotart-Autumn-15-Art-Classes-Release.pdf" title="Download the Autumn Art Classes 2015 Release">Download the Autumn Art Clases 2015 Press Release (PDF FORMAT)</a></b></p>
+
+
 <p class="date">9th July 2015</p>
 <p><b><a href="/images/dotart-Radio-4-Release.pdf" title="Download the dot-art on Radio 4 Release">Download the dot-art on Radio 4 Press Release (PDF FORMAT)</a></b></p>
 

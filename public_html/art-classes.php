@@ -103,6 +103,22 @@ learn more about the art and craft of using vintage tools and techniques to expe
 Suitable for all levels, including beginners.</p>
 
 
+<h3 class="artist">liverpool atelier of contemporary realism</h3>
+
+<ul class="artist">
+<li class="artist">18th – 29th January 2016 (Monday to Friday, 10am-5pm). Cost: £750 for 10 days<br>
+<a href="https://liverpoolatelier2016.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Liverpool Atelier of Contemporary Realism - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
+</ul>
+
+<p class="artist">Tutor: <b>Richard Meaghan</b>. A two week intensive painting course, led by renowned artist Richard Meaghan. 
+The Liverpool Atelier of Contemporary Realism (LACR) offers a concentrated educational experience that encourages artistic 
+study and the practice of drawing and painting from life to ensure a deep understanding of form, design, practise and discipline. 
+Attendees learn directly from the teaching artist while experiencing a professional studio dynamic.</p>
+
+
+
 
 
 <h2 class="artist">dot-art at the Bluecoat<br>School Lane, Liverpool, L1 3BX</h2>
