@@ -40,7 +40,7 @@ flexible, and contracts will be on a month-by-month basis.</p>
 
 <h3>cost</h3>
 
-<p>Studios start at just £40 per month for members and £60 for non-members.<br>
+<p>Studios start at just £85 per month for members and £95 for non-members.<br>
 <p><a href="/images/dotart-studio-details.pdf" title="Download further details">Download more information and plan of available spaces.</a></p></p>
 
  

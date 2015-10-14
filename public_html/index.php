@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/maria-abernethy">featured artist... maria abernethy</a></h3>
+<a class="menu" href="/artist/david-andrews">featured artist... david andrews</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 265 LIMIT 9";
+$query = "SELECT title, image FROM art WHERE artist = 317 LIMIT 9";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/maria-abernethy/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/david andrews/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -222,9 +222,9 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://www.dot-art.co.uk/images/look-photowalk-tn.jpg" title="LOOK/15 Photowalks" alt="LOOK/15 Photowalks"/>
+<img src="http://www.dot-art.co.uk/images/painting-tn.jpg" title="Autumn Art Classes" alt="Autumn Art Classes"/>
 
-<p><strong>LOOK/15 Photowalks</strong> 16th, 17th, 23rd and 24th May...</p>
+<p><strong>Autumn Art Classes</strong> from 5th October onwards...</p>
 
 <p><strong>Chang Everton</strong> commission by dot-art artist Alistair Parker unveiled...</p>
 

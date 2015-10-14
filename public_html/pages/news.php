@@ -27,6 +27,20 @@
 
 <h1>news</h1> 
 
+
+<h3>Autumn Art Classes</h3>
+
+<img src="http://www.dot-art.co.uk/images/classes-web.jpg" title="Autumn Art Classes" alt="Autumn Art Classes"/>
+
+<p>The summer may be over, but don’t let it get you down; the autumn is a fantastic time to learn a new skill or 
+rediscover a hobby you enjoyed in the past. This season dot-art has new evening and weekend courses for adults starting 
+in city centre locations, in a variety of creative subjects from Oil Painting to Life Drawing and Jewellery Making to 
+Building Your Own Camera.</p>
+
+<p><a href="http://www.dot-art.co.uk/images/dotart-Autumn-15-Art-Classes-Release.pdf">Read the full press release</a> or 
+<a href="http://www.dot-art.co.uk/art-classes.php">see the full list and booking details here.</a></p>
+
+
 <h3>LOOK/15 Photowalks</h3>
 
 <img src="http://www.dot-art.co.uk/images/look-photowalk-med.jpg" title="LOOK/15 Photowalks" alt="LOOK/15 Photowalks"/>
