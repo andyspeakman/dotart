@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/david-andrews">featured artist... david andrews</a></h3>
+<a class="menu" href="/artist/bethany-fuller">featured artist... bethany fuller</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 317 LIMIT 9";
+$query = "SELECT title, image FROM art WHERE artist = 336 LIMIT 5";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/david andrews/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/bethany fuller/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -172,13 +172,12 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <tr bgcolor="#E9F6FD" align="center" height="auto">
 
 <td align="center" width="150px">
-<img src="http://www.dot-art.co.uk/images/palm-house-tn.jpg" title="Sketching in the Palm House" alt="Sketching in the Palm House"/>
+<img src="http://www.dot-art.co.uk/images/poppies-workshop-tn.jpg" title="Poppies Workshops for Schools" alt="Poppies Workshops for Schools"/>
 
-<p>Sunday 13th September, 10am-1pm <strong>Sketching in the Palm House</strong></p>
+<p>To coincide with the Poppies: Weeping Window installation at St Georges Hall, we have designed a range of 
+<strong>Poppies related art workshops</strong> for primary and secondary schools.
 
-<p>15th - 25th May 2015, dot-art at Rex, <strong>Portraits of Nature</strong> by Steward Ellett. Part of LOOK/15.</p>
-
-<p><a href="http://www.dot-art.co.uk/art-classes.php">more...</a></p></td>
+<p><a href="http://schools.dot-art.com/workshops">more...</a></p></td>
 
 <td align="center" width="150px">
 
@@ -222,11 +221,13 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://www.dot-art.co.uk/images/painting-tn.jpg" title="Autumn Art Classes" alt="Autumn Art Classes"/>
+<img src="http://www.dot-art.co.uk/images/dot-art-sen-awards-tn.jpg" title="dot-art at the SEN Awards" alt="dot-art at the SEN Awards"/>
+
+<p>dot-art named <strong>Arts and Cultural Champion 2015</strong> by the Social Enterprise Network...</p>
 
 <p><strong>Autumn Art Classes</strong> from 5th October onwards...</p>
 
-<p><strong>Chang Everton</strong> commission by dot-art artist Alistair Parker unveiled...</p>
+
 
 
 

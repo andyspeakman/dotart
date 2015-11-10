@@ -59,8 +59,8 @@ If you would like further information, or to suggest a subject for future class,
 <h3 class="artist">sketching in the palm house</h3>
 
 <ul class="artist">
-<li class="artist">Sunday 13th September 2015, 10am-1pm. Cost: £25<br>
-<a href="https://sketchinginthepalmhouse.eventbrite.com/" target="_blank"  ><img border="0"  
+<li class="artist">Sunday 31st January 2016, 10am-1pm. Cost: £25<br>
+<a href="http://sketchinginthepalmhouse16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -73,34 +73,6 @@ all in the inspiring surroundings of the Sefton Park Palm House. Suitable for al
 
 
 <h2 class="artist">dot-art at Hope Street Ltd<br>3rd Floor, 76 Lord Street, Liverpool, L1 1TL</h2>
-
-
-<h3 class="artist">oil painting (intermediate)</h3>
-
-<ul class="artist">
-<li class="artist">Monday evenings, 6.45-9pm. Autumn 10 week course starts 5th October 2015. Cost: £160<br>
-<a href="https://oilpaintingautumn15.eventbrite.com" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Oil Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>  
-</ul>
-
-<p class="artist">Tutor: <b>Richard Meaghan</b>. Continue the process of exploring painting processes and practices, 
-focusing on working with oils to complete your own personal project. Suitable for those with some painting experience</p>
-
-
-
-<h3 class="artist">pinhole to pinterest</h3>
-
-<ul class="artist">
-<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £170<br>
-<a href="http://pinholetopintrest.eventbrite.com" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Pinhole to Pinterest, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>  
-</ul>
-
-<p class="artist">Tutor: <b>Rachel Brewster</b>. Gain a fascinating insight into traditional analogue photography and 
-learn more about the art and craft of using vintage tools and techniques to experiment and have fun with photography. 
-Suitable for all levels, including beginners.</p>
 
 
 <h3 class="artist">liverpool atelier of contemporary realism</h3>
@@ -116,6 +88,20 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 The Liverpool Atelier of Contemporary Realism (LACR) offers a concentrated educational experience that encourages artistic 
 study and the practice of drawing and painting from life to ensure a deep understanding of form, design, practise and discipline. 
 Attendees learn directly from the teaching artist while experiencing a professional studio dynamic.</p>
+
+
+
+<h3 class="artist">oil painting (intermediate)</h3>
+
+<ul class="artist">
+<li class="artist">Monday evenings, 6.45-9pm. Autumn 10 week course starts 5th October 2015. Cost: £160<br>
+<a href="https://oilpaintingautumn15.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Oil Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
+</ul>
+
+<p class="artist">Tutor: <b>Richard Meaghan</b>. Continue the process of exploring painting processes and practices, 
+focusing on working with oils to complete your own personal project. Suitable for those with some painting experience</p>
 
 
 
@@ -233,6 +219,19 @@ info@dot-art.co.uk</a> or call 0845 017 6660 for more details.</p>
 
 
 <!---
+
+<h3 class="artist">pinhole to pinterest</h3>
+
+<ul class="artist">
+<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £170<br>
+<a href="http://pinholetopintrest.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Pinhole to Pinterest, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
+</ul>
+
+<p class="artist">Tutor: <b>Rachel Brewster</b>. Gain a fascinating insight into traditional analogue photography and 
+learn more about the art and craft of using vintage tools and techniques to experiment and have fun with photography. 
+Suitable for all levels, including beginners.</p>
 
 <h3 class="artist">photowalks</h3>
 

@@ -26,6 +26,10 @@
 
 <h1>press releases</h1>
 
+<p class="date">6th November 2015</p>
+<p><b><a href="/images/dotart-sen-awards-Release-061115.pdf" title="Download the dot-art SEN Awards Release">Download the dot-art SEN Awards Press Release (PDF FORMAT)</a></b></p>
+
+
 <p class="date">2nd September 2015</p>
 <p><b><a href="/images/dotart-Autumn-15-Art-Classes-Release.pdf" title="Download the Autumn Art Classes 2015 Release">Download the Autumn Art Clases 2015 Press Release (PDF FORMAT)</a></b></p>
 

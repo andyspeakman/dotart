@@ -28,6 +28,30 @@
 <h1>news</h1> 
 
 
+<h3>dot-art Named Arts and Cultural Champion 2015</h3>
+
+<img src="http://www.dot-art.co.uk/images/dot-art-sen-awards-med.jpg" title="dot-art at the SEN Awards" alt="dot-art at the SEN Awards"/>
+
+<p><i>Jessica, Lucy and Carolyn receive the award.</i></p>
+
+<p><b>At a fabulous black tie event at Liverpool’s Town Hall on 30th October, attended by the cream of the region’s social enterprises, 
+dot-art Services CIC was announced as the Arts and Cultural Champion for 2015 by the Social Enterprise Network for Merseyside.</b></p>
+
+<p>The SEN Powerful Together Awards recognise the Liverpool City Region’s most innovative social enterprises, 
+for attributes such as creativity, growth and social advocacy. The annual awards have been taking place since 2012, 
+and this year saw over 90 nominations received across all categories. The Arts and Cultural Champion award recognises 
+the achievements of the creative sector in supporting communities to thrive through a range of creative mediums, and 
+was awarded to dot-art in recognition of its varied programme of works in the visual arts.</p>
+
+<p>Lucy Byrne, managing director of dot-art Services said:</p>
+<p>“The dot-art team are absolutely delighted to win this award. Over the past few years we have developed a number 
+of new projects which have had fantastic reach and impact across the region; perhaps most importantly the dot-art 
+Schools programme which has given thousands of children the opportunity to see their work showcased online, and 
+displayed over 120 of these works in public art galleries in Liverpool City Centre. We have ambitious growth plans 
+for 2016 and I am confident the profile gained by winning this award will help us deliver these.”</p>
+
+<img src="http://www.dot-art.co.uk/images/sen-award-winners-med.jpg" title="SEN Award Winners 2015" alt="SEN Award Winners 2015"/>
+
 <h3>Autumn Art Classes</h3>
 
 <img src="http://www.dot-art.co.uk/images/classes-web.jpg" title="Autumn Art Classes" alt="Autumn Art Classes"/>
