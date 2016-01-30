@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/bethany-fuller">featured artist... bethany fuller</a></h3>
+<a class="menu" href="/artist/david-john-pearson">featured artist... david john pearson</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 336 LIMIT 5";
+$query = "SELECT title, image FROM art WHERE artist = 341 LIMIT 12";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/bethany fuller/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/david john pearson/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -210,7 +210,7 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <p style="margin-top: 1px">Enter your email address to receive our newsletter.</p>
 
 
-<p style="margin-top: 1px">Read the most recent <a href="http://us9.campaign-archive2.com/?u=9f768ea7878c3f7270d1e20ab&id=5ecaf1f825">
+<p style="margin-top: 1px">Read the most recent <a href="http://us9.campaign-archive1.com/?u=9f768ea7878c3f7270d1e20ab&id=54417ae5d3&e=">
 dot-art Newsletter</a> online.</p>
 
 <a class="menu" href="http://twitter.com/dotart "><img src="/images/twitter.png" title="Follow dot-art on Twitter" alt="Twitter logo" /></a>
@@ -221,11 +221,13 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://www.dot-art.co.uk/images/dot-art-sen-awards-tn.jpg" title="dot-art at the SEN Awards" alt="dot-art at the SEN Awards"/>
+<img src="http://www.dot-art.co.uk/images/dot-art-logo-tn.jpg" title="dot-art New Logo" alt="dot-art New Logo"/>
+
+<p><strong>New look for dot-art</strong> and new website coming soon...</p>
 
 <p>dot-art named <strong>Arts and Cultural Champion 2015</strong> by the Social Enterprise Network...</p>
 
-<p><strong>Autumn Art Classes</strong> from 5th October onwards...</p>
+
 
 
 

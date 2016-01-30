@@ -28,6 +28,17 @@
 <h1>news</h1> 
 
 
+<h3>New Look For dot-art</h3>
+
+<img src="http://www.dot-art.co.uk/images/dot-art-logos.jpg" title="dot-art New Logos" alt="dot-art New Logos"/>
+
+<p>2016 is going to be a big year for dot-art. Our new gallery opens in February followed by tenth birthday celebrations 
+in the spring and to start the year we have given our branding a refresh - hope you like the new logos! 
+We also have a completely new website currently in development to reflect all the changes, but until then 
+please bear with the old site; we promise it will be worth the wait!</p>
+
+
+
 <h3>dot-art Named Arts and Cultural Champion 2015</h3>
 
 <img src="http://www.dot-art.co.uk/images/dot-art-sen-awards-med.jpg" title="dot-art at the SEN Awards" alt="dot-art at the SEN Awards"/>

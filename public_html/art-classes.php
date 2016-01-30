@@ -54,21 +54,6 @@ If you would like further information, or to suggest a subject for future class,
 <p class="artist"></p>
 
 
-<h2 class="artist">dot-art at Sefton Park Palm House<br>Sefton Park, Liverpool, L17 1AP </h3>
-
-<h3 class="artist">sketching in the palm house</h3>
-
-<ul class="artist">
-<li class="artist">Sunday 31st January 2016, 10am-1pm. Cost: £25<br>
-<a href="http://sketchinginthepalmhouse16.eventbrite.com" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>  
-</ul>
-
-<p class="artist">Tutor: <b>Josie Jenkins</b>. This three hour workshop will give you the opportunity to learn or recap basic techniques 
-to help you draw from observation, try different materials and express what you see through drawing, 
-all in the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
-
 
 
 
@@ -78,7 +63,7 @@ all in the inspiring surroundings of the Sefton Park Palm House. Suitable for al
 <h3 class="artist">liverpool atelier of contemporary realism</h3>
 
 <ul class="artist">
-<li class="artist">18th – 29th January 2016 (Monday to Friday, 10am-5pm). Cost: £750 for 10 days<br>
+<li class="artist">NEW DATES: 7th - 18th March 2016 (Monday to Friday, 10am-5pm). Cost: £750 for 10 days<br>
 <a href="https://liverpoolatelier2016.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Liverpool Atelier of Contemporary Realism - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
@@ -94,8 +79,8 @@ Attendees learn directly from the teaching artist while experiencing a professio
 <h3 class="artist">oil painting (intermediate)</h3>
 
 <ul class="artist">
-<li class="artist">Monday evenings, 6.45-9pm. Autumn 10 week course starts 5th October 2015. Cost: £160<br>
-<a href="https://oilpaintingautumn15.eventbrite.com" target="_blank"  ><img border="0"  
+<li class="artist">Monday evenings, 6.45-9pm. Winter 10 week course starts 1st February 2016. Cost: £160<br>
+<a href="https://oilpaintingwinter16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Oil Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -103,6 +88,21 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 <p class="artist">Tutor: <b>Richard Meaghan</b>. Continue the process of exploring painting processes and practices, 
 focusing on working with oils to complete your own personal project. Suitable for those with some painting experience</p>
 
+
+
+<h3 class="artist">jewellery making in metal</h3>
+
+<ul class="artist">
+
+<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £170<br>
+<a href="http://jewellerywinter16.eventbrite.com/" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of 
+jewellery each week! Includes how to use a jeweller’s piercing saw, drilling, filing and polishing metal correctly and 
+how to create colour, texture and patinas on metal. All materials provided, suitable for all levels, including beginners.</p>
 
 
 
@@ -113,8 +113,8 @@ focusing on working with oils to complete your own personal project. Suitable fo
 <h3 class="artist">acrylic painting</h3>
 
 <ul class="artist">
-<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £160<br>
-<a href="https://paintingautumn15.eventbrite.com " target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £160<br>
+<a href="https://paintingwinter16.eventbrite.com " target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -127,8 +127,8 @@ Suitable for all levels, including beginners.</p>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 6th October 2015. Cost: £160<br>
-<a href="https://lifedrawingautumn15.eventbrite.com " target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £160<br>
+<a href="https://lifedrawingwinter16.eventbrite.com " target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Life Drawing, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 
@@ -139,21 +139,53 @@ including beginners.</p>
 
 
 
-<h3 class="artist">jewellery making in metal</h3>
+<h3 class="artist">sculpting with polymer clay</h3>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Autumn 10 week course starts 13th October 2015. Cost: £170<br>
-<a href="http://jewelleryautumn15.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £170<br>
+<a href="https://polymerclay16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sculpting with Polymer Clay, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 </ul>
 
-<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of 
-jewellery each week! Includes how to use a jeweller’s piercing saw, drilling, filing and polishing metal correctly and 
-how to create colour, texture and patinas on metal. All materials provided, suitable for all levels, including beginners.</p>
+<p class="artist">Tutor: <b>Faith Bebbington</b>. Learn 
+the process of creating your own small scale figurative sculpture using polymer clay. This material is easy to model 
+using simple hand tool and requires only a normal oven to bake it hard. No previous experience required.</p>
 
 
+
+<h3 class="artist">jewellery making (soldering)</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 28th February 2016. Cost: £70<br>
+<li class="artist">Sunday 11am-5pm. 17th April 2016. Cost: £70<br>
+<a href="https://jewellerysoldering.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making (Soldering)) - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Spend the day improving on your basic knowledge of jewellery making 
+in metal with this workshop learning how to solder using both copper and silver; producing a sterling silver ring and 
+copper and silver pendant.</p> 
+
+
+<h3 class="artist">photography masterclass - composition</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 10th April 2015. Cost: £40<br>
+<a href="http://photographycomposition.eventbrite.com " target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Advance your photography skills in this masterclass one day course, combining the 
+detailed theory of composition with a practical workshop of object and environment.</p> 
+
+
+<!--
 
 <h3 class="artist">introduction to photography</h3>
 
@@ -171,34 +203,42 @@ Suitable for beginners and those wanting a refresher!</p>
 
 
 
-<h3 class="artist">photography masterclass - composition</h3>
 
-<ul class="artist">  
 
-<li class="artist">Sunday 11am-5pm. 22nd November 2015. Cost: £40<br>
-<a href="http://photographymasterclasscomposition.eventbrite.com " target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
+ --> 
+
+
+
+
+<h2 class="artist">dot-art at Sefton Park Palm House<br>Sefton Park, Liverpool, L17 1AP </h3>
+
+<h3 class="artist">drawing evening course</h3>
+
+<ul class="artist">
+<li class="artist">Wednesday evenings, 6-8pm. Winter 10 week course starts 3rd February 2016. Cost: £160<br>
+<a href="https://drawingwinter16.eventbrite.com" target="_blank"><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Drawing in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
 </ul>
 
-<p class="artist">Tutor: <b>Bryn Davies</b>. Advance your photography skills in this masterclass one day course, combining the 
-detailed theory of composition with a practical workshop of object and environment.</p> 
+<p class="artist">Tutor: <b>Josie Jenkins</b>. This 10 week drawing course will give you the opportunity to improve 
+your observational drawing skills and try new ways of working, guided with exercises designed for all abilities, in 
+the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
 
 
-  
-<h3 class="artist">build your own camera</h3>
+<h3 class="artist">sketching in the palm house</h3>
 
-<ul class="artist">  
-
-<li class="artist">Sunday 11am-5pm. 1st November 2015. Cost: £50<br>
-<a href="http://buildyourowncamera.eventbrite.com " target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Build Your Own Camera Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
+<ul class="artist">
+<li class="artist">Sunday 31st January 2016, 10am-1pm. Cost: £25<br>
+<li class="artist">Sunday 20th March 2016, 10am-1pm. Cost: £25<br>
+<a href="http://sketchinginthepalmhouse16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>  
 </ul>
 
-<p class="artist">Tutor: <b>Rachel Brewster</b>. Learn how to build and use your very own working “Konstruktor” camera in a day 
-(and take it home with you)!</p> 
-
+<p class="artist">Tutor: <b>Josie Jenkins</b>. This three hour workshop will give you the opportunity to learn or recap basic techniques 
+to help you draw from observation, try different materials and express what you see through drawing, 
+all in the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
 
 
 

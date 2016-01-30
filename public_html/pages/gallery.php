@@ -34,11 +34,13 @@
 <h1>what's on</h1>
 
 
-<h3>dot-art Showroom</h3>
+<h3>dot-art Gallery</h3>
 
-<p><b>16 Queen Avenue, Castle Street, Liverpool, L2 4TX.</b> For a map, please visit our <a href="/pages/contact.php">contact page</a></p>
+<p><i>The first exhibition in our BRAND NEW GALLERY will open on Friday 12th February 2016 - check back soon for more details!</i></p>
 
-<p><b>Opening Times:</b> 12pm-6pm Monday to Friday and by appointment. Please call 0845 017 6660 for further information</p>
+<p><b>14 Queen Avenue, Castle Street, Liverpool, L2 4TX.</b> For a map, please visit our <a href="/pages/contact.php">contact page</a></p>
+
+<p><b>Opening Times:</b> 10am-6pm Monday to Saturday. Please call 0345 017 6660 for further information</p>
    
 <p><a href="mailto:enquiries@dot-art.co.uk" title="email dot-art">Request a viewing</a> 
 of any piece of work you see <a href="/pages/customers/buy-art.php">on the website</a> 
@@ -47,11 +49,12 @@ or make an appointment to discuss a <a href="pages/customers/commission-art.php"
 <a href="pages/customers/valuationandrestoration.php">valuation or restoration</a> job.</p>
 
 
-<img src="http://dot-art.co.uk/images/dot-art-viewings.jpg" title="Request viewings at dot-art" alt="Request viewings at dot-art"/>
+<img src="http://dot-art.co.uk/images/queen-ave.jpg" 
+title="Request viewings at dot-art" alt="Request viewings at dot-art"/>
 
 
 
-
+  <!--
 
 <h3>dot-art at Rex</h3>
 
@@ -72,7 +75,7 @@ and limited edition paintings and prints by our member artists, which will chang
 
 
 
-<!--
+
 
 
 <h3>dot-art Exhibition Space at Rex</h3>
