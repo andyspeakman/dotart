@@ -26,6 +26,10 @@
 
 <h1>press releases</h1>
 
+<p class="date">5th February 2016</p>
+<p><b><a href="/images/dotart-New-Gallery-Launch-Release.pdf" title="Download the dot-art New Gallery Launch Release">Download the dot-art New Gallery Launch Press Release (PDF FORMAT)</a></b></p>
+
+
 <p class="date">6th January 2016</p>
 <p><b><a href="/images/dotart-Winter-16-Art-Classes-Release.pdf" title="Download the dot-art Winter Art Classes Release">Download the dot-art Winter Art Classes Press Release (PDF FORMAT)</a></b></p>
 

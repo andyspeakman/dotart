@@ -90,7 +90,7 @@ whatever your background or previous experience.</b></h3>
 Don't take our word for it. <a href="http://services.dot-art.co.uk/artist-testamonials.php" title="artist testamonials">Read what some of our members have to say about dot-art.</a>
  <br>Or <a href="mailto:artists@dot-art.co.uk" title="email us">send us an email</a> with your questions. Ready to join?</p>
 
-<h3><b><a class="menu" href="/images/dot-art-membership-2012.pdf">Download information
+<h3><b><a class="menu" href="/images/dot-art-artist-membership-2016.pdf">Download information
 on features, benefits and how to apply.</a>
 </b></h3>
 

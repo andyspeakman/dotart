@@ -112,7 +112,7 @@ function hiLite(imgDocID, imgObjName, comment) {
 <tr bgcolor="#E9F6FD" align="left" valign="top">
 
 <td><h3>
-<a class="menu" href="/artist/david-john-pearson">featured artist... david john pearson</a></h3>
+<a class="menu" href="/artist/clare-bates">featured artist... clare bates</a></h3>
 
 
 <div id="slideshow-container" class="speed:5 fade">
@@ -121,13 +121,13 @@ function hiLite(imgDocID, imgObjName, comment) {
 
 include $inc_dir . 'database_connect.php';
 
-$query = "SELECT title, image FROM art WHERE artist = 341 LIMIT 12";
+$query = "SELECT title, image FROM art WHERE artist = 322 LIMIT 11";
 $result = mysql_query($query)
 	or die("Database error: " . mysql_error());
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-   printf("<img width=\"475px\" src=\"/artists work/david john pearson/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
+   printf("<img width=\"475px\" src=\"/artists work/clare bates/%s_en.jpg\" alt=\"%s\" />", $row["image"], $row["title"]);
 }
 ?>
 
@@ -172,12 +172,10 @@ while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 <tr bgcolor="#E9F6FD" align="center" height="auto">
 
 <td align="center" width="150px">
-<img src="http://www.dot-art.co.uk/images/poppies-workshop-tn.jpg" title="Poppies Workshops for Schools" alt="Poppies Workshops for Schools"/>
+<img src="http://www.dot-art.co.uk/images/dear-liverpool-tn.jpg" title="Dear Liverpool Exhibition" alt="Dear Liverpool Exhibition"/>
 
-<p>To coincide with the Poppies: Weeping Window installation at St Georges Hall, we have designed a range of 
-<strong>Poppies related art workshops</strong> for primary and secondary schools.
-
-<p><a href="http://schools.dot-art.com/workshops">more...</a></p></td>
+<p><strong>Dear Liverpool</strong> exhibition, 12th February - 23rd April 2016.
+<p><a href="http://www.dot-art.co.uk/pages/gallery.php">more...</a></p></td>
 
 <td align="center" width="150px">
 
@@ -221,11 +219,13 @@ dot-art Newsletter</a> online.</p>
 
 <td style="padding-top: 20px" align="center" width="150px">
 
-<img src="http://www.dot-art.co.uk/images/dot-art-logo-tn.jpg" title="dot-art New Logo" alt="dot-art New Logo"/>
+<img src="http://www.dot-art.co.uk/images/dot-art-gallery-web-tn.jpg" title="New dot-art Gallery Opens" alt="New dot-art Gallery Opens"/>
+
+<p><strong>New dot-art Gallery</strong> opened on 12th February 2016...</p>
 
 <p><strong>New look for dot-art</strong> and new website coming soon...</p>
 
-<p>dot-art named <strong>Arts and Cultural Champion 2015</strong> by the Social Enterprise Network...</p>
+
 
 
 

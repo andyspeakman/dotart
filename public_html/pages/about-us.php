@@ -62,6 +62,9 @@ from consultancy and sourcing to framing and hanging. Work can be acquired on a 
 basis, and can be built into wider marketing, branding or CSR objectives using a variety of bespoke approaches, 
 including exhibitions, artist talks, promotional launches or events and staff workshops.</p>
 
+<p>dot-art is a member of <a href="http://www.cool-collective.co.uk/">COoL</a>, a diverse collective of key arts organisations in Liverpool: championing the arts; 
+changing perceptions; creating possibilities.</p>
+
 
 <h3>who?</h3>
 

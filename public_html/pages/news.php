@@ -27,6 +27,32 @@
 
 <h1>news</h1> 
 
+<h3>New dot-art Gallery Opens</h3>
+
+<img src="http://www.dot-art.co.uk/images/launch-web.jpg" title="dot-art Gallery Launch" alt="dot-art Gallery Launch"/>
+
+<p><b>dot-art has opened a new gallery space at 14 Queen Avenue, in the heart of Liverpool’s commercial district.
+The space will be dot-art's new permanent home and opened on Friday 12 February with an exhibition entitled 
+“Dear Liverpool”, showcasing the work of 18 talented artists from the local area, following a well attended 
+launch event the previous night.</b></p>
+
+<p>dot-art supports visual artists and champions art as an integral part of everyday life; by offering access to affordable, 
+locally sourced art for homes and businesses, and through the work of its social enterprise arm, which runs arts classes, 
+a unique membership scheme for local artists and an innovative inter-school art programme. The new gallery space offers 
+dot-art the chance to further raise its profile across the region and give more opportunities to the 100+ artists it works with.
+The “Dear Liverpool” exhibition is designed to be a love letter to the cultural capital of the North, and perfectly 
+summarises Liverpool’s energy and vibrancy. While there are some familiar scenes on show, several artists have chosen 
+to represent the city in abstract or unexpected ways and it is abundantly clear from the diversity and quality of the 
+work in the exhibition how much our city's architecture, culture and people influence our creative community. All the 
+artwork is for sale, with prices ranging from £25 -£2500.</p>
+
+<p><a href="https://flic.kr/s/aHsktCzqy4">All the photos from the launch event can be seen here.</a></p>
+
+<p><b>The dot-art Gallery is open 10am-6pm, Monday to Saturday.
+<br>The Dear Liverpool exhibition will be open to the public from Friday 12th February to Saturday 23rd April.</b></p>
+
+
+<img src="http://www.dot-art.co.uk/images/launch-2-web.jpg" title="The dot-art team in the new gallery" alt="The dot-art team in the new gallery"/>
 
 <h3>New Look For dot-art</h3>
 

@@ -36,8 +36,6 @@
 
 <h3>dot-art Gallery</h3>
 
-<p><i>The first exhibition in our BRAND NEW GALLERY will open on Friday 12th February 2016 - check back soon for more details!</i></p>
-
 <p><b>14 Queen Avenue, Castle Street, Liverpool, L2 4TX.</b> For a map, please visit our <a href="/pages/contact.php">contact page</a></p>
 
 <p><b>Opening Times:</b> 10am-6pm Monday to Saturday. Please call 0345 017 6660 for further information</p>
@@ -49,10 +47,17 @@ or make an appointment to discuss a <a href="pages/customers/commission-art.php"
 <a href="pages/customers/valuationandrestoration.php">valuation or restoration</a> job.</p>
 
 
-<img src="http://dot-art.co.uk/images/queen-ave.jpg" 
+<img src="http://dot-art.co.uk/images/dot-art-gallery-web.jpg" 
 title="Request viewings at dot-art" alt="Request viewings at dot-art"/>
 
+<h3>Dear Liverpool</h3>
 
+<p>The first exhibition in our BRAND NEW GALLERY opened on Friday 12th February and runs until Saturday 23rd April 2016.
+<br><a href="http://www.dot-art.co.uk/images/dotart-New-Gallery-Launch-Release.pdf">Read the full press release.</a></p>
+
+
+<img src="http://dot-art.co.uk/images/dear-liverpool-poster-web.jpg" 
+title="Request viewings at dot-art" alt="Request viewings at dot-art"/>
 
   <!--
 
