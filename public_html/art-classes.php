@@ -43,11 +43,11 @@
 </table>
 
 <p class="artist">We run a program of art classes and courses for adults, in a wide range of subjects, 
-across three venues; Liverpool's landmark arts centre the Bluecoat, the iconic Sefton Park Palm House in leafy south Liverpool, 
-and our newest partner, Hope Street Ltd, based in the city's main shopping area of Lord Street. All our sessions are delivered 
+across four venues; Liverpool's landmark arts centre the Bluecoat, the iconic Sefton Park Palm House in leafy south Liverpool, 
+Hope Street Ltd, based in the city's main shopping area of Lord Street and the dot-art Gallery. All our sessions are delivered 
 by experienced local tutors and teachers.</p>
 
-<p class="artist">Evening courses run for 10 weeks and start in October, January and April, so keep checking back for new listings. 
+<p class="artist">Evening courses run for 6 or 10 weeks and run in Autumn, Winter and Spring, so keep checking back for new listings. 
 If you would like further information, or to suggest a subject for future class, please 
 <a class="art_prices" href="/pages/contact.php">get in touch.</a></p>
 
@@ -55,11 +55,28 @@ If you would like further information, or to suggest a subject for future class,
 
 
 
+<h2 class="artist">dot-art Gallery<br>14 Queen Avenue, Castle Street, Liverpool, L2 4TX</h2>
+
+<h3 class="artist">photowalk</h3>
+
+<ul class="artist">  
+
+<li class="artist">Saturday 9am-12pm. 14th May 2016. Cost: £25<br>
+<a href="https://photowalk16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photowalk - dot-art in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Start your weekend with a photowalk around Liverpool’s world famous waterfront 
+and landmarks.  Your tutor, BIPP Photographer of the Year 2016 Bryn Davies will guide you through finding the best angles 
+and perspectives. Meeting at the dot-art Gallery, located within the cities historical business district, we will 
+visit several key sites including the Town Hall, the Three Graces and Albert Dock before finishing up with a visit 
+to the new exhibition, Experiments in Photography, at dot-art.</p> 
 
 
 <h2 class="artist">dot-art at Hope Street Ltd<br>3rd Floor, 76 Lord Street, Liverpool, L1 1TL</h2>
 
-
+ <!--
 <h3 class="artist">liverpool atelier of contemporary realism</h3>
 
 <ul class="artist">
@@ -73,14 +90,14 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 The Liverpool Atelier of Contemporary Realism (LACR) offers a concentrated educational experience that encourages artistic 
 study and the practice of drawing and painting from life to ensure a deep understanding of form, design, practise and discipline. 
 Attendees learn directly from the teaching artist while experiencing a professional studio dynamic.</p>
+ -->
 
 
-
-<h3 class="artist">oil painting (intermediate)</h3>
+<h3 class="artist">intermediate painting (oils)</h3>
 
 <ul class="artist">
-<li class="artist">Monday evenings, 6.45-9pm. Winter 10 week course starts 1st February 2016. Cost: £160<br>
-<a href="https://oilpaintingwinter16.eventbrite.com" target="_blank"  ><img border="0"  
+<li class="artist">Monday evenings, 6.45-9pm. Spring 10 week course starts 2nd May 2016. Cost: £160<br>
+<a href="http://intermediatepainting16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Oil Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -90,31 +107,14 @@ focusing on working with oils to complete your own personal project. Suitable fo
 
 
 
-<h3 class="artist">jewellery making in metal</h3>
-
-<ul class="artist">
-
-<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £170<br>
-<a href="http://jewellerywinter16.eventbrite.com/" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
-</ul>
-
-<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of 
-jewellery each week! Includes how to use a jeweller’s piercing saw, drilling, filing and polishing metal correctly and 
-how to create colour, texture and patinas on metal. All materials provided, suitable for all levels, including beginners.</p>
-
-
-
-
 <h2 class="artist">dot-art at the Bluecoat<br>School Lane, Liverpool, L1 3BX</h2>
 
 
-<h3 class="artist">acrylic painting</h3>
+<h3 class="artist">beginners painting (acrylic)</h3>
 
 <ul class="artist">
-<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £160<br>
-<a href="https://paintingwinter16.eventbrite.com " target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 3rd May 2016. Cost: £160<br>
+<a href="http://beginnerpainting16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Painting, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
@@ -127,8 +127,8 @@ Suitable for all levels, including beginners.</p>
 
 <ul class="artist">
 
-<li class="artist">Tuesday evenings, 6.45-9pm. Winter 10 week course starts 2nd February 2016. Cost: £160<br>
-<a href="https://lifedrawingwinter16.eventbrite.com " target="_blank"  ><img border="0"  
+<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 3rd May 2016. Cost: £160<br>
+<a href="http://lifedrawing16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Life Drawing, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>
 
@@ -136,6 +136,72 @@ style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=19773
 
 <p class="artist">Tutor: <b>Roy Munday</b>. Develop your life drawing skills using various media. Suitable for all levels, 
 including beginners.</p>
+
+
+
+<h3 class="artist">jewellery making in metal</h3>
+
+<ul class="artist">
+
+<li class="artist">Tuesday evenings, 6.45-9pm. Spring 10 week course starts 3rd May 2016. Cost: £170<br>
+<a href="http://jewellerymakingmetal16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making in Metal, Evening Course - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Learn the basic techniques of jewellery making in metal and make a piece of 
+jewellery each week! Includes how to use a jeweller’s piercing saw, drilling, filing and polishing metal correctly and 
+how to create colour, texture and patinas on metal. All materials provided, suitable for all levels, including beginners.</p>
+
+
+
+
+<h3 class="artist">jewellery making (soldering)</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 22nd May 2016. Cost: £70<br>
+<a href="http://soldering16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making (Soldering)) - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Spend the day improving on your basic knowledge of jewellery making 
+in metal with this workshop learning how to solder using both copper and silver; producing a sterling silver ring and 
+copper and silver pendant.</p> 
+
+
+<h3 class="artist">beginners digital photography</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 29th May 2016. Cost: £40<br>
+<a href="http://beginnerphotography16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Develop your photography skills in this introductory one day course, 
+covering the basics of digital cameras and an overview of Exposure and Composition with a practical workshop of 
+People and Place. </p> 
+
+
+
+<h3 class="artist">photography masterclass - exposure</h3>
+
+<ul class="artist">  
+
+<li class="artist">Sunday 11am-5pm. 12th June 2016. Cost: £40<br>
+<a href="http://exposuremasterclass16.eventbrite.com" target="_blank"  ><img border="0"  
+style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
+</li>
+</ul>
+
+<p class="artist">Tutor: <b>Bryn Davies</b>. Advance your photography skills in this masterclass one day course, combining the 
+detailed theory of composition with a practical workshop of object and environment.</p> 
+
+
+<!--
 
 
 
@@ -155,38 +221,6 @@ using simple hand tool and requires only a normal oven to bake it hard. No previ
 
 
 
-<h3 class="artist">jewellery making (soldering)</h3>
-
-<ul class="artist">  
-
-<li class="artist">Sunday 11am-5pm. 28th February 2016. Cost: £70<br>
-<li class="artist">Sunday 11am-5pm. 17th April 2016. Cost: £70<br>
-<a href="https://jewellerysoldering.eventbrite.com" target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Jewellery Making (Soldering)) - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
-</ul>
-
-<p class="artist">Tutor: <b>Helen Leigh Dolan</b>. Spend the day improving on your basic knowledge of jewellery making 
-in metal with this workshop learning how to solder using both copper and silver; producing a sterling silver ring and 
-copper and silver pendant.</p> 
-
-
-<h3 class="artist">photography masterclass - composition</h3>
-
-<ul class="artist">  
-
-<li class="artist">Sunday 11am-5pm. 10th April 2015. Cost: £40<br>
-<a href="http://photographycomposition.eventbrite.com " target="_blank"  ><img border="0"  
-style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Photography Masterclass Day - dot-art at the Bluecoat in Liverpool, United Kingdom  on Eventbrite"/></a>
-</li>
-</ul>
-
-<p class="artist">Tutor: <b>Bryn Davies</b>. Advance your photography skills in this masterclass one day course, combining the 
-detailed theory of composition with a practical workshop of object and environment.</p> 
-
-
-<!--
-
 <h3 class="artist">introduction to photography</h3>
 
 <ul class="artist">  
@@ -202,9 +236,6 @@ alt="Register for Introduction to Photography Day - dot-art at the Bluecoat in L
 Suitable for beginners and those wanting a refresher!</p> 
 
 
-
-
-
  --> 
 
 
@@ -212,16 +243,16 @@ Suitable for beginners and those wanting a refresher!</p>
 
 <h2 class="artist">dot-art at Sefton Park Palm House<br>Sefton Park, Liverpool, L17 1AP </h3>
 
-<h3 class="artist">drawing evening course</h3>
+<h3 class="artist">drawing in the palm house</h3>
 
 <ul class="artist">
-<li class="artist">Wednesday evenings, 6-8pm. Winter 10 week course starts 3rd February 2016. Cost: £160<br>
-<a href="https://drawingwinter16.eventbrite.com" target="_blank"><img border="0"  
+<li class="artist">Wednesday evenings, 6-8pm. Spring 6 week course starts 4th May 2016. Cost: £120<br>
+<a href="http://drawing16.eventbrite.com" target="_blank"><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Drawing in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
 
-<p class="artist">Tutor: <b>Josie Jenkins</b>. This 10 week drawing course will give you the opportunity to improve 
+<p class="artist">Tutor: <b>Josie Jenkins</b>. This 6 week drawing course will give you the opportunity to improve 
 your observational drawing skills and try new ways of working, guided with exercises designed for all abilities, in 
 the inspiring surroundings of the Sefton Park Palm House. Suitable for all levels, including beginners.</p>
 
@@ -229,9 +260,11 @@ the inspiring surroundings of the Sefton Park Palm House. Suitable for all level
 <h3 class="artist">sketching in the palm house</h3>
 
 <ul class="artist">
-<li class="artist">Sunday 31st January 2016, 10am-1pm. Cost: £25<br>
-<li class="artist">Sunday 20th March 2016, 10am-1pm. Cost: £25<br>
-<a href="http://sketchinginthepalmhouse16.eventbrite.com" target="_blank"  ><img border="0"  
+<li class="artist">Wednesday 11th May 2016, 10am-1pm. Cost: £25<br>
+<li class="artist">Sunday 19th June 2016, 10am-1pm. Cost: £25<br>
+<li class="artist">Sunday 10th July 2016, 10am-1pm. Cost: £25<br>
+<li class="artist">Wednesday 17th August 2016, 10am-1pm. Cost: £25<br>
+<a href="http://sketching16.eventbrite.com" target="_blank"  ><img border="0"  
 style="margin-top: 5px;" src="http://www.eventbrite.com/registerbutton?eid=1977393437" alt="Register for Sketching in the Palm House in Liverpool, United Kingdom  on Eventbrite"/></a>
 </li>  
 </ul>
