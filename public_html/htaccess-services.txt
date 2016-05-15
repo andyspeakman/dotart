@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^index.php$ http://dot-art.co.uk/artist [R=301,L]
+RewriteRule ^printing.php$ http://dot-art.co.uk/artist/printing [R=301,L]
+RewriteRule ^creative-compass.php$ http://dot-art.co.uk/artist [R=301,L]
+RewriteRule ^artist-studios.php$ http://dot-art.co.uk/artist/artists-studios [R=301,L]
+RewriteRule ^artist-websites.php$ http://dot-art.co.uk/artist [R=301,L]
+RewriteRule ^artist_testamonials.php$ http://dot-art.co.uk/artist [R=301,L]
+RewriteRule ^training$ http://dot-art.co.uk/artist [R=301,L]
+RewriteRule ^about.php$ http://dot-art.co.uk/about [R=301,L]
+RewriteRule ^faqs.php$ http://dot-art.co.uk/about/faqs [R=301,L]
+RewriteRule ^$ http://dot-art.co.uk/artist [R=301,L]
