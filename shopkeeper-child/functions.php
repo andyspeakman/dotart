@@ -35,6 +35,4 @@ function dotart_google_analytics() { ?>
 <?php }
 add_action( 'wp_head', 'dotart_google_analytics', 10 );
 
-//WC()->query->layered_nav_product_ids =array();
-
 ?>
